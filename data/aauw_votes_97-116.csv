@@ -1,0 +1,327 @@
+congress_or_senate,cong_number,bill_title,aauw_yes_or_no,bill_id,Vote no.,Voteview Vote no.,legislation related to women's issues (0 or 1),other_info,vote_date,yea_votes,nay_votes,legislation purpose (bold = directly relating to women's issues)
+senate,97,National Endowment for the Arts/Humanities Appropriations (FY82),yes,H.R.4035,Record Vote No: 337,,0,,,,,endowment for NEA and NEH
+senate,97,FY82 Budget Reconciliation,no,H.R.3982,Record Vote No: 247,,0,,,,,additional cuts in entitlement programs
+senate,97,Social Security (Minimum Benefit),yes,H.R. 4331,Record Vote No: 486,,0,,,,,restore minimum social security benefit (76% of recipients were women)
+senate,97,MX (Defense Appropriations FY82),yes,S.Up.Amdt.736 to H.R.4995,Record Vote No: 445,,0,,,,,delete $354 million from DOD appropriations (money was earmarked for MX missile)
+senate,97,Food Stamps (Leahy Amendment),yes,S.Up.Amdt.147 to S.1007,Record Vote No: 145,,0,,,,,adjust the ceiling on federal food stamp spending with unemployment & inflation in food prices (69% of Food Stamp recipients were women)
+senate,97,Child Nutrition,yes,S.Up.Amdt.128 to H.R.3512,Record Vote No: 133,,0,,,,,"additional funding for Women, Infant and Children food program"
+senate,97,Foreign Assistance Appropriations (FY82),yes,S.1802,Record Vote No: 383,,0,,,,,foreign assistance appropriations (included funding for UN Decade for Women Voluntary Fund)
+senate,97,Student Loans,yes,S.Up.Amdt.678 to H.J.Res.357,Record Vote No: 412,,0,,,,,financial aid for students
+senate,97,Legal Services Coorperation,no,S.Up.Amdt.72 to S.Con.Res.19,Record Vote No: 91,,0,,,,,remove funding for Legal Services Corperation (67% of LSC clients are women)
+congress,97,National Endowment for the Arts/Humanities (Department of Interior Appropriations FY82),yes,H.R.4035,Record Vote No: 153,144,0,,07/22/1981,358,46,endowment for NEA and NEH
+congress,97,FY82 Budget Reconciliation,no,H.R. 3982,Record Vote No: 111,102,0,,06/26/1981,217,211,additional cuts in entitlement programs
+congress,97,Social Security (Minimum Benefit),yes,H.R. 4331,Record Vote No: 189,178,0,,7/31/1981,404,20,restore minimum social security benefit (76% of recipients were women)
+congress,97,MX (Defense Department Authorization FY82),yes,H.Amdt.85 to H.R.3519,Record Vote No: 117,108,0,,07/09/1981,201,207,prohibit expenditure of funds on MX missile program
+congress,97,Food Stamps,no,H.Amdt.351 to H.R.3603,Record Vote No: 274,260,0,,10/22/1981,147,251,require food stamp recipients to pay for a portion of their stamps (69% of food stamps recipients are women)
+congress,97,Foreign Assistance Appropriations (FY82),yes,H.R.4559,Record Vote No: 356,338,0,,12/11/1981,199,166,"high military spending, low economic programs spending, ommitted funding for the UN Decade for Women Voluntary Fund"
+congress,97,Voting Rights Act,yes,H.R.3112,Record Vote No: 242,228,0,,10/05/1981,389,24,continuation of provisions of the Voting Rights Act
+senate,98,"Nuclear Freeze (Dept Limit Increase, FY 84)",no,motion to table S.Amdt.2476 to H.J.Res.308,Record Vote No: 327,,0,,,,,table an amendment that called for a freeze on (and reduction in) nuclear weapons
+senate,98,Tuition Tax Credits,yes,motion to table S.Amdt.2617 to H.J.Res.290,Record Vote No: 365,,0,,,,,table an amendment that provided a tuition tax credit of 50% to private elementary and secondary schools
+senate,98,"Clinch River Breeder Reactor (Supplemental Appropriations, FY 84)",yes,motion to table Committee amendment to H.R.3959,Record Vote No: 316,,0,,,,,table an amendment that gave an extra $1.5 to completing the Clinch River Breeder Reactor
+senate,98,U.N. Funding (State Department Authorizations),no,S.Amdt.2201 to S.1342,Record Vote No: 266,,0,,,,,cut US contributions to UN and related orgs.
+senate,98,"MX Missile (Defense Authorizations, FY 84)",yes,S.Amdt.2087 to S.675,Record Vote No: 218,,0,,,,,bar use of funds on MX Missile
+senate,98,"Higher Military Spending (First Budget Resolution, FY 84)",no,S.Amdt.1242 to S.Con.Res.27,Record Vote No: 80,,0,,,,,real increase of 6.5% to defense spending
+senate,98,"Emergency Jobs (Supplemental Appropriations, FY 84)",yes,H.R.1718,Record Vote No: 30,,0,,,,,emergency jobs and recession relief program
+senate,98,"Education Spending (First Budget Resolution, FY 84",no,motion to table SP1237 to S.Con.Res.27,Record Vote No: 75,,0,,,,,table an amendment calling for an increase in education spending
+senate,98,Social Security Act Amendment,yes,S.Amdt.520 to H.R.1900,Record Vote No: 35,,0,,,,,new disability retirement benefit
+congress,98,Title IX (Guidelines for Equal Opportunity in Education),yes,H.Res.190,Record Vote No: 513,478,0,,11/16/1983,414,8,suspend rules to pass joint resolution on education equity
+congress,98,"First Concurrent Budget Resolution, FY 84",yes,H.Con.Res.91,Record Vote No: 46,42,0,,03/23/1983,229,196,increase domestic spending and decrease military budget
+congress,98,"Civil Rights Commission (State, Justice, Commerce Appropriations, FY 84)",no,H.R.3222,*date mislabelled on AAUW,447,0,,11/08/1983,170,235,would have made US Civil Rights Comission no longer independent from the administration
+congress,98,"Emergency Jobs (Emergency Supplemental Appropriations, FY 83)",yes,H.R. 1718,Record Vote No: 20,15,0,,03/03/1983,300,103,funding human needs programs
+congress,98,"MX Missile (Defense Department Authorizations, FY 84)",yes,H.Amdt.491 to H.R.4185,Record Vote No: 439,409,0,,11/01/1983,208,217,MX Missile funding
+congress,98,Clinch River Breeder Reactor (Department of Energy Civilian Research and Development Programs),yes,H.Amdt.119 to H.R.2587,Record Vote No: 112,104,0,,05/12/1983,388,1,rescind funding for Clinch River Breeder Reactor
+congress,98,Social Security Act Amendment,no,H.Amdt.23 to H.R.1900,Record Vote No: 22,20,0,,03/09/1983,228,202,increase Social Security retirement age
+congress,98,Nuclear Freeze,yes,H.Amdt.99 to H.J.Res.13,Record Vote No: 84,78,0,,05/04/1983,210,214,verifiable nuclear weapons freeze
+senate,99,"Budget Resolution, FY86",no,S.Con.Res.32,Record Vote No: 72,,0,,,,,"high defense spending, low economic programs spending"
+senate,99,School Prayer/Court-stripping (S 47),yes,Motion to table S.47,Record Vote No: 172,,0,,,,,allow organized prayer in public schools
+senate,99,"Restoration of Education Funding (Budget Resolution, FY86)",yes,S.Amdt.81 to S.Con.Res.32,Record Vote No: 58,,0,,,,,restore money to Head Start programs
+senate,99,"Labor, Health and Human Services, and Education Appropriations, FY86",no,S.Amdt.835 to H.R.3424,Record Vote No: 237,,0,,,,,
+senate,99,Gramm-Rudman-Hollings Conference Report,no,H.J.Res.372,Record Vote No: 371,,0,,,,,bill cut health and social services that help women and minorities
+senate,99,Line-item Veto (S 43),no,cloture motion to S.43,Record Vote No: 156,,0,for reference: https://www.congress.gov/bill/99th-congress/senate-bill/43/all-actions-without-amendments?q=%7B%22search%22%3A%5B%22s43%22%5D%7D&s=1&r=1,,,,
+senate,99,MX Missile Funding (Senate Joint Resolution 71),no,S.J.Res.71,Record Vote No: 19,,0,,,,,
+senate,99,"Chemical Weapons (Defense Authorization, FY86)",yes,S.Amdt.193 to S.1160,Record Vote No: 90,,0,,,,,
+senate,99,"Superfund Reauthorization, FY86-90 (Victim Assistance Demonstration Program)",no,S.Amdt.674 to S.51,Record Vote No: 193,,0,,,,,
+congress,99,MX Missile Funding (Senate Joint Resolution 71),no,S.J.Res.71,Record Vote No: 37,34,0,,03/26/1985,219,213,
+congress,99,"Chemical Weapons (Defense Authorization, FY86)",no,H.Amdt.115 to H.R.1872,Record Vote No: 173,157,0,,06/19/1985,223,196,
+congress,99,Tax Reform (HR 3838),yes,H.R. 3838,N/A (https://www.congress.gov/bill/99th-congress/house-bill/3838/all-actions),425,0,,12/17/1985,258,168,
+congress,99,"Superfund Reauthorization, FY86-90 (Right to Know Amendment)",yes,H.Amdt.690 to H.R.2817,Record Vote No: 434,408,0,,12/10/1985,212,211,
+congress,99,"Labor, Health and Human Services, and Education Appropriations, FY86 (HR 3424)",yes,H.R. 3424,Record Vote No: 331,299,0,,10/02/1985,322,107,women and children are beneficiaries of the funded programs
+congress,99,"Arts and Humanities Endowments Authorization, FY86-90 (HR 3248)",yes,H.R. 3248,Record Vote No: 355,321,0,,10/10/1985,349,57,
+congress,99,The Higher Education Act (HEA) Amendments of 1985 (HR 3700),yes,H.R. 3700,Record Vote No: 429,391,0,,12/04/1985,350,67,
+congress,99,Gramm-Rudman-Hollings Conference Report,no,H.J.Res.372,Record Vote No: 454,415,0,,12/11/1985,271,154,
+senate,100,"Education and Human Services Funding: Fiscal Year 1988 Appropriations Bill for the Departments of Labor, Health and Human Services (HHS), Education and Related Agencies",yes,H.R. 3058,Record Vote No: 326,,0,,,,,"bill contained amendment that would restrict abortion funding, but wasn't part of final bill"
+senate,100,Bork Nomination,no,PN487,No. 348 Ex,,0,,,,,
+senate,100,Civil Rights Restoration Act (CRRA) Vote #1: Religious Tenets Amendment,no,S.Amdt.1386 to S.557,Record Vote No: 7,,0,,,,,
+senate,100,CRRA Vote #3: Veto Over-Ride,yes,S.557,Record Vote No: 67 (veto override),,0,,,,,
+senate,100,Ratification of The Intermediate-Range Nuclear Forces (INF) Treaty,yes,Treaty Document 100-11,Record Vote Number: 166,,0,https://www.congress.gov/treaty-document/100th-congress/11/more-info?q=%7B%22search%22%3A%5B%22inf+treaty%22%5D%7D&r=1&s=8,,,,
+congress,100,"Education and Human Services Funding: Penny Amendment to Cut the Appropriations Bill for Departments of Labor, Health and Human Services and Education",no,H.Amdt.375 to H.R.3058,Record Vote No: 305,290,0,,08/05/1987,181,245,
+congress,100,"Education and Human Services Funding: FY 1988 Appropriations Bill for the Departments of Labor, Health and Human Services, Education and Related Agencies",yes,H.R.3058,Record Vote No: 307,292,0,,08/05/1987,336,89,
+congress,100,"United Nations Funding: Swindall Amendment to Fiscall Year 1989 Commerce, Justice, State and Judiciary Appropriations Bill (HR 4782)",no,H.Amdt.751 to H.R.4782,Record Vote No: 187,668,0,,06/15/1988,180 (voteview lists 179),222 (voteview lists 223),
+senate,101,Fair Labor Standards Amendments: Minimum Wage Increase (S 2),yes,H.R.2 (senate bill was originally S.2),Record Vote No: 39,,0,see also: https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=101&session=1&vote=00039,,,,minimum wage increase (women 2x more likely to hold these jobs)
+senate,101,Reauthorization of Vocational Education. Carl D. Perkins Vocational Education Amendments of 1990 (HR 7),yes,H.R. 7,Record Vote No: 57,,0,,,,,
+congress,101,Fair Labor Standards Amendments: Minimum Wage Increase (HR 2),yes,H.R. 2,Roll No. 16,14,0,https://www.congress.gov/bill/101st-congress/house-bill/2/all-actions?overview=closed&q=%7B%22roll-call-vote%22%3A%22all%22%7D,03/23/1989,248,171,
+congress,101,Reauthorization of Vocational Education. Carl D. Perkins Applied Technology Education Amendments of 1990 (HR 7),yes,H.R. 7,Roll no. 48,44,0,https://www.congress.gov/bill/101st-congress/house-bill/7/all-actions?q=%7B%22roll-call-vote%22%3A%22all%22%7D,05/09/1989,402,3,
+congress,101,Child Care/Religious Programs. Edwards Amendment to the Early Childhood Education and Development Act of 1990 (HR 3),yes,H.Amdt.403 to H.Amdt.401 (which amends H.Amdt.400) to HR 3,Roll no. 56,419,0,,03/29/1990,125,297,
+congress,101,Family and Medical Leave Act (HR 770). Job Security for Workers with Severe Family and Medical Emergencies and Needs.,yes,H.R. 770,Roll no. 107,466,0,,05/10/1990,237,187,*allows for time off work for family medical emergencies
+senate,102,Bond Substitute Amendment to the Family and Medical Leave Act (S 5),yes,S.Amdt.1245 to S.5,Record Vote No: 215,,0,,,,,*allows for time off work for family medical emergencies or for both parents for birth/adoption of a child
+senate,102,Confirmation of Judge Clarence Thomas to the US Supreme Court,no,PN456,Record Vote No: 220,,0,,,,,
+senate,102,Hatch Amendment on Private School Vouchers/Neighborhood Schools Improvement Act (S 2),no,S.Amdt.1476 to S.2,Record Vote No: 5,,0,,,,,
+congress,102,Family and Medical Leave Act (HR 2),yes,H.R. 2,Roll no. 393,,0,,11/13/1991,253,177,*allows for time off work for family medical emergencies or for both parents for birth/adoption of a child
+senate,103,Family and Medical Leave Act,yes,S5,Record Vote No: 11,,0,,,,,
+senate,103,Coats Private School Choice Amendment to Goals 2000: Educate America Act (S 1150),no,S.Amdt.1386 to S.1150,Record Vote No: 25,,0,,,,,
+senate,103,The School-to-Work Opportunities Act (HR 2884),yes,H.R. 2884,Record Vote No: 32,,0,,,,,
+congress,103,Family and Medical Leave Act,yes,H.R. 1,Roll no. 22,,0,,,,,*allows for time off work for family medical emergencies or for both parents for birth/adoption of a child
+congress,103,Sex Education/Unsoeld Amendment/ESEA,yes,H.Amdt.488 to H.Amdt.487 to H.R.6,Roll no. 76,,0,,,,,
+congress,103,The Elementary and Secondary Education Act (HR 6),yes,H.R.6,Roll no. 95,,0,,,,,
+senate,104,Affirmative Action. Gramm Anti-Affirmative Action Amendment. (HR 1854),no,S.Amdt.1825 to H.R.1854,Record Vote No: 317,,0,,,,,
+senate,104,Education Funding. FY96 Funding Continuing Resolution (HR 2880),yes,S.Amdt.3119 to H.R.2880,Record Vote No: 1,,0,,,,,
+senate,104,Private and Religious School Vouchers. Motion to Cut Off Debate. (HR 2546),no,H.R.2546 (consideration: CR S1339),Record Vote No: 20,,0,,,,,
+senate,104,Equity in Vocational Education. Displaced Homemaker Amendment (S 143),yes,S.Amdt.2889 to S.Amdt.2885 to S.143,Record Vote No: 484,,0,,,,,
+congress,104,Welfare Reform. The Personal Responsibility Act Final Passage. (HR 4),no,H.R. 4,Roll no. 269,,0,,,,,
+congress,104,"Family Planning. Labor, Health and Human Services and Education Appropriations Bill (HR 2127)",yes,H.Amdt.717 to H.R.2127,Roll no 615,,0,,,,,
+congress,104,Education Funding. FY96 Funding Continuing Resolution (HR 2880),yes,H.R. 2880 (consideration: CR H899),Roll no. 18,,0,,,,,
+congress,104,Private and Religious School Vouchers. District of Columbia Appropriations. (HR. 2546),yes,H.R. 2546 (consideration: CR H1076),Roll no. 22,,0,,,,,
+senate,105,Affirmative Action for Small Business (Chafee motion),yes,motion to table S.Amdt.1708 to S.Amdt.1676 to S.1173,Record Vote No: 23,,0,,,,,
+senate,105,Gorton Amendment to the Education Savings Act for Public and Private Schools (HR 2646),no,S.Amdt.2293 to H.R.2646,Record Vote No: 91,,0,,,,,
+senate,105,Education Savings Act for Public and Private Schools (HR 2646),no,H.R. 2646,Record Vote No: 102,,0,,,,,
+senate,105,Levin Welfare Reform Amendment to the 1998 Reconciliation Bill (S 947),yes,S.Amdt.482 to S.947,Record Vote No: 119,,0,,,,,
+congress,105,Education Savings Act for Public and Private Schools (HR 2646),no,H.R. 2646,Roll no. 524,,0,,,,,
+congress,105,Helping to Empower Low-Income Parents (HELP) Scholarship Act (HR 2746),no,H.R.2746,Roll no. 569,,0,,,,,
+congress,105,Roukema Amendment to the Intermodal Surface Transportation Efficiency Act (HR 2400),no,H.Amdt.548 to H.R.2400,Roll no. 93,,0,,,,,
+congress,105,Riggs Amendment to the Higher Education Amendments of 1998 (HR 6),no,H.Amdt.612 to H.R.6,Roll no. 133,,0,,,,,
+senate,106,Jeffords Motion to Table the Bingaman Dropout Prevention Amendment to the Education Flexibility Partnership Bill (S 280),no,motion to table S.Amdt.65 to S.Amdt.31,Record Vote No: 44,,0,,,,,
+senate,106,Affordable Education Act (S 1134),no,S.1134,Record Vote No: 33,,0,,,,,
+senate,106,"Nickles' motion to table the Kennedy Amendment to the FY00 Labor, Health and Human Services, and Education Appropriations Bill (S 1650)",no,motion to table S.Amdt.2268 to S.1650,Record Vote No: 316,,0,,,,,
+senate,106,Smith/Kennedy Amendment to the Department of Defense Authorization BIll (S 2549),yes,S.Amdt.3473 to S.2549,Record Vote No: 136,,0,,,,,
+senate,106,Berzon Confirmation,yes,PN33,Record Vote No: 38,,0,,,,,
+senate,106,Nickles Motion to table Daschle Amendment to the Department of Defense Authorization Bill (S 2549),no,motion to table S.Amdt.3273 to S.2549,Record Vote No: 121,,0,,,,,
+senate,106,Harkin Amendment to the Death Tax Elimination Act of 2000 (HR 8),yes,S.Amdt.3840 to H.R.8,Record Vote No: 192,,0,,,,,
+congress,106,Armey Amendment to the Student Results Act (HR 2),no,H.Amdt.536 to H.R.2,Roll no. 521,,0,,,,,
+congress,106,"Academic Achievement for All Act (""Straight A's"") (HR 2300)",no,H.R.2300,Roll no. 532,,0,,,,,
+congress,106,Goss/Coburn/Shadegg Amendment to the Bipartisan Consensus Managed Care Improvement Act (HR 2723),no,H.Amdt.514 to H.R.2723,Roll no. 488,,0,,,,,
+congress,106,Dingell Motion to Instruct the House Managed Care Reform Conferees,yes,H.R.2990 (consideration: CR H11390),Roll no. 558,,0,,,,,
+senate,107,Gregg School Voucher Amendment to the Better Education for Students and Teachers Act (BEST-S1),no,S.Amdt.536 to S.Amdt.358 ,First Session Roll Call #179,,0,,,,,
+senate,107,Harkin Amendment to the FY02 Budget Resolution,yes,S.Amdt.185 to S.Amdt.170,First Session Roll Call #69,,0,,,,,
+senate,107,"$1.35 Trillion Tax Cut in the FY02 Budget
+Resolution (H Con Res 83)",no,H Con Res 83,First Session Roll Call #98,,0,,,,,
+senate,107,Cloture Vote on the Local Law Enforcement Enhancement Act of 2001,yes,S 625,Second Session Roll Call #147,,0,,,,,
+senate,107,Helms Amendment to the Better Education for Students and Teachers Act,no,S.Amdt.648 to S.Amdt.574,First Session Roll Call #189,,0,,,,,
+senate,107,Confirmation of John Ashcroft as U.S. Attorney General,no,PN107,First Session Roll Call #8,,0,,,,,
+senate,107,Bipartisan Patient Protection Act (S 1052),yes,S 1052,First Session Roll Call Vote #220,,0,,,,,
+congress,107,Armey School Voucher Amendment to the No Child Left Behind Act (HR 1),no,H.Amdt.57 to HR 1,First Session Roll Call #135,,0,,,,,
+congress,107,Armey Pilot School Voucher Program Amendment to the No Child Left Behind Act (HR 1),no,H.Amdt.58 to HR 1,First Session Roll Call #136,,0,,,,,
+congress,107,"Personal Responsibility, Work, and Family Promotion Act of 2002",no,HR 4737,Second Session Roll Call #170,,0,,,,,
+congress,107,Tax Cut in the FY02 Budget Resolution,no,H Con Res 83,First Session Roll Call #104,,0,,,,,
+congress,107,Economic Security and Recovery Act of 2001,no,HR 3090,First Session Roll Call Vote #404,,0,,,,,
+congress,107,Community Solutions Act of 2001,no,HR 7,First Session Roll Call #254,,0,,,,,
+congress,107,Bipartisan Patient Protection Act,no,HR 2563,First Session Roll Call #332,,0,,,,,
+senate,108,Motion to End Debate on the Federal Judicial Nomination of Alabama Attorney General William Pryor,no,PN200,First Session Roll Call #316,,0,,,,,
+senate,108,Confirmation of Judicial Nomination of J. Leon Holmes,no,PN279,Second Session Roll Call # 153,,0,,,,,
+senate,108,"Tax Relief, Simplification, and Equity Act of 2003",yes,HR 1308,First Session Roll Call # 210,,0,,,,,
+senate,108,Joint Resolution Declaring Congressional Disapproval of the Relaxation of Media Ownership Rules,yes,Resolution Declaring Disapproval of S.J.R. 17,First Session Roll Call #348,,0,,,,,
+senate,108,Smith/Kennedy Amendment to Department of Defense Authorization,yes,S.Amdt.3183 to S.2400,Second Session Roll Call #114,,0,,,,,
+congress,108,Motion to Instruct Conferees to Consider Senate Version of Child Tax Credit Proposal,yes,motion to instruct conferees to consider a senate proposal,First Session Roll Call #275,,0,,,,,
+congress,108,"Personal Responsibility, Work, and Family Promotion Act",no,HR 4,First Session Roll Call # 30,,0,,,,,
+congress,108,Woolsey Amendment to the School Readiness Act,yes,H.Amdt.321 to H.R. 2210,First Session Roll Call # 441,,0,,,,,
+congress,108,Norton Amendment to the FY04 District of Columbia Appropriations Bill,yes,H.Amdt.367 to H.R.2765,First Session Roll Call #479,,0,,,,,
+congress,108,Motion to Instruct Conferees on Department of Defense Authorization Bil,yes,motion to instruct conferees on H.R. 4200,Second Session Roll Call #473,,0,,,,,
+senate,109,Pell Grant Amendment,yes,S. Amdt. 2213 to H.R. 3010,First Session Roll Call #268,,0,,,,,increase the maximum Pell Grant award
+senate,109,Carl D. Perkins Career and Technical Education Improvement Act of 2005,yes,S. 250,First Session Roll Call #43,,0,,,,,education improvement -- maintains a commitment to women and girls in vocational education programs.
+senate,109,Student Aid and Job Training Budget Amendment,yes,S. Amdt. 3028 to S. Con. Res. 83,Second Session Roll Call #39,,0,,,,,the amendment was designed to increase investment in student aid programs and restore cuts slated for job training programs by closing corporate tax loopholes worth $6.3 billion
+senate,109,Budget Reconciliation Conference Report to the Deficit Reduction Act of 2005,no,S. 1932,First Session Roll Call #363,,0,,,,,to approve the conference report on the Deficit Reduction Act
+senate,109,Confirmation of Thomas Griffith to the U.S. Court of Appeals,no,PN202,First Session Roll Call #136,,0,,,,,confirmation of Thomas Griffith
+senate,109,Confirmation of John Roberts to the U.S. Supreme Court,no,PN801,First Session Roll Call #245,,0,,,,,confirmation of John Roberts
+senate,109,Confirmation of Samuel A. Alito Jr. to the U.S. Supreme Court,no,PN1059,Second Session Roll Call #2,,0,,,,,confirmation of Samuel A. Alito Jr.
+senate,109,Federal Marriage Amendment,no,S.J. Res. 1,Second Session Roll Call #163,,0,,,,,"define marriage as a union of man and woman, effectively banning same-sex marriage"
+senate,109,Minimum Wage/Estate Tax,no,H.R. 5970,Second Session Roll Call #229,,0,,,,,combined a measure to raise the federal minimum wage to $7.25 during the next three years with a tax cut for estates worth more than $5 million
+congress,109,Pell Grant Hurricane and Disaster Relief Act,yes,H.R. 3169,First Session Roll Call #457,,0,,,,,allows the waiver of certain requirements for repayment of federal Pell Grants by students affected by a natural disaster
+congress,109,Vocational and Technical Education for the Future Act,yes,H.R. 366,First Session Roll Call #154,,0,,,,,takes critical steps to ensure that girls and women have access to valuable education and training in nontraditional fields
+congress,109,Reauthorization of the Higher Education Act,no,H.R. 609,Second Session Roll Call #81,,0,,,,,HEA authorizes programs that affect student financial aid and support services to help students succeed in postsecondary education
+congress,109,Budget Reconciliation—Conference Report to the Deficit Reduction Act of 2005,no,S.1932,First Session Roll Call #670,,0,,,,,Conference Report to the Deficit Reduction Act
+congress,109,Religious Discrimination Amendment to the School Readiness Act of 2005,no,H. Amdt. 574 to H.R. 2123,First Session Roll Call #492,,0,,,,,allow Head Start programs to judge job applicants by their religion
+congress,109,Local Law Enforcement Hate Crimes Prevention Act of 2005,yes,H. Amdt. 544 to H.R. 3132,First Session Roll Call #469,,0,,,,,"strengthens and broadens federal hate crimes to cover violent crimes motivated by gender, sexual orientation, or disability"
+congress,109,Voting Rights Act Reauthorization,yes,H.R. 9,Second Session Roll Call #374,,0,,,,,reauthorized three key VRA provisions that were set to expire in August 2007
+congress,109,Federal Marriage Amendment,no,H.J. Res. 88,Second Session Roll Call #378,,0,,,,,"define marriage as a union of man and woman, effectively banning same-sex marriage"
+congress,109,Minimum Wage/Estate Tax,no,H.R. 5970,Second Session Roll Call #425,,0,,,,,combination of a measure to raise the federal minimum wage to $7.25 during the next three years and an estate-tax cut for heirs of Americans who have more than $5 million in assets
+senate,110,"The College Cost Reduction and Access Act of 2007
+(H.R. 2669) Conference Report",yes,H.R. 2669,First Session Roll Call #326,,0,,,,,
+senate,110,America COMPETES Act (S. 761),yes,S. 761,First Session Roll Call #146,,0,,,,,
+senate,110,Domestic Priorities Amendment to the Supplemental Appropriations Act of 2008,yes,H.R. 2642,Second Session Roll Call #162,,0,,,,,
+senate,110,Higher Education Opportunity Act (H.R. 4137) Conference Report,yes,H.R. 4137,Second Session Roll Call #194,,0,,,,,
+senate,110,Cloture Motion on the DREAM Act of 2007,yes,S. 2205,First Session Roll Call #394,,0,,,,,
+senate,110,Cloture Motion on the Matthew Shepard Local Law Enforcement Hate Crimes Prevention Act of 2007,yes,S.Amdt.1105 to H.R. 1585,First Session Roll Call #350,,0,,,,,
+senate,110,Concurrent Budget Resolution Conference Report for FY2009,yes,S. Con. Res. 70,Second Session Roll Call #142,,0,,,,,
+congress,110,The College Cost Reduction and Access Act (H.R. 2669) of 2007 Conference Report,yes,H.R. 2669,First Session Roll Call #864,,0,,,,,
+congress,110,America COMPETES Act (H.R. 2272) Conference Report,yes,H.R. 2272,First Session Roll Call #802,,0,,,,,
+congress,110,Domestic Priorities Amendment to the Supplemental Appropriations Act of 2008,yes,H.R. 2642,Second Session Roll Call #432,,0,,,,,
+congress,110,College Opportunity and Affordability Act of 2008,yes,H.R. 4137,Second Session Roll Call #40,,0,,,,,
+congress,110,The Fair Minimum Wage Act of 2007 (H.R. 2),yes,H.R. 2,First Session Roll Call #18,,0,,,,,
+congress,110,The Federal Employees Paid Parental Leave Act of 2008,yes,H.R. 5781,Second Session Roll Call #428,,0,,,,,
+congress,110,Local Law Enforcement Hate Crimes Prevention Act of 2007,yes,H.R. 1592,First Session Roll Call #299,,0,,,,,
+senate,111,American Recovery and Reinvestment Act of 2009 (H.R. 1) Conference Report,yes,HR 1,First Session Roll Call #64,,0,,,,,
+senate,111,Mikulski Amendment (S. Amdt. 2791 to H.R. 3590),yes,S. Amdt. 2791 to H.R. 3590,First Session Roll Call #355,,0,,,,,
+senate,111,Healthy Families Act (S. 1152) Co-sponsorship,yes,S. 1152,cosponsorship,,0,,,,,
+senate,111,Lieberman Amendment (S. Amdt. 3456 to H.R. 1586),no,S. Amdt. 3456 to H.R. 1586,Second Session Roll Call #53,,0,,,,,
+senate,111,"Cloture Motion on the Matthew Shepard and James Byrd, Jr. Hate Crimes Prevention Act (S. 909)",yes,S. 909,First Session Roll Call #233,,0,,,,,
+senate,111,Confirmation of Sonia Sotomayor to the U.S. Supreme Court,yes,PN506,First Session Roll Call #262,,0,,,,,
+congress,111,American Recovery and Reinvestment Act of 2009 (H.R. 1) Conference Report,yes,H.R. 1,First Session Roll Call #70,,0,,,,,
+congress,111,Healthy Families Act (H.R. 2460) Co-sponsorship,yes,H.R. 2460,cosponsorship,,0,,,,,
+congress,111,Federal Employees Paid Parental Leave Act (H.R. 626),yes,H.R. 626,First Session Roll Call #310,,0,,,,,
+congress,111,Student Aid and Fiscal Responsibility Act of 2009,yes,H.R. 3221,First Session Roll Call #719,,0,,,,,
+congress,111,America COMPETES Reauthorization Act of 2010 (H.R. 5116),yes,H.R. 5116,Second Session Roll Call #332,,0,,,,,
+congress,111,Pathways Advancing Career Training Act (H.R. 2074) Co-sponsorship,yes,H.R. 2074,cosponsorship,,0,,,,,
+congress,111,Local Law Enforcement Hate Crimes Prevention Act of 2009 (H.R. 1913),yes,H.R. 1913,First Session Roll Call #223,,0,,,,,
+congress,111,Murphy Amendment (H. Amdt. 672 to H.R. 5136),yes,H. Amdt. 672 to H.R. 5136,Second Session Roll Call #317,,0,,,,,
+senate,112,Stop the Student Loan Interest Rate Hike Act (S. 2343),yes,S. 2343,Second Session Roll Call #89,,0,,,,,
+senate,112,Teachers and First Responders Back to Work Act of 2011 (S. 1723),yes,S. 1723,First Session Roll Call #177,,0,,,,,
+senate,112,"motion to table Cut, Cap, and Balance Act of 2011 (H.R. 2560)",yes,H.R. 2560,First Session Roll Call #116,,0,,,,,
+senate,112,Paying a Fair Share Act of 2012 (S. 2230),yes,S. 2230,Second Session Roll Call #65,,0,,,,,
+senate,112,Full-Year Continuing Appropriations Act of 2011 (H.R. 1),no,H.R. 1,First Session Roll Call #36,,0,,,,,
+congress,112,Scholarships for Opportunity and Results (SOAR) Act (H.R. 471),no,H.R. 471,First Session Roll Call #204,,0,,,,,
+congress,112,"Cut, Cap, and Balance Act of 2011 (H.R. 2560)",no,H.R. 2560,First Session Roll Call #606,,0,,,,,
+congress,112,procedural motion to decline to consider the Paying a Fair Share Act of 2012 (H.R. 3903),no,procedural motion to decline to consider H.R. 3903,Second Session Roll Call #172,,0,,,,,
+congress,112,Full-Year Continuing Appropriations Act of 2011 (H.R. 1),no,H.R. 1,First Session Roll Call #147,,0,,,,,
+senate,113,"Continuing Appropriations Act, 2014 (H.R. 2775)",yes,H.R. 2775,First Session Roll Call #219,,0,,,,,
+senate,113,Concurrent Budget Resolution (S. Con. Res. 8),yes,S. Con. Res. 8,First Session Roll Call #92,,0,,,,,
+senate,113,Workforce Innovation and Opportunity Act (H.R. 803),yes,H.R. 803,Second Session Roll Call #214,,0,,,,,
+senate,113,Minimum Wage Fairness Act (S. 2223),yes,S. 2223,Second Session Roll Call #117,,0,,,,,
+senate,113,Employment Non-Discrimination Act of 2013 (S. 815),yes,S. 815,First Session Roll Call #232,,0,,,,,
+senate,113,Alexander School Voucher Amendment (S. Amdt. 515 to S. Con. Res. 8),no,S. Amdt. 515 to S. Con. Res. 8,First Session Roll Call #63,,0,,,,,
+congress,113,"Continuing Appropriations Act, 2014 (H.R. 2775)",yes,H.R. 2775,First Session Roll Call #550,,0,,,,,
+congress,113,Concurrent Budget Resolution (H. Con. Res. 25),no,H. Con. Res. 25,First Session Roll Call #88,,0,,,,,
+congress,113,Workforce Innovation and Opportunity Act (H.R. 803),yes,H.R. 803,Second Session Roll Call #378,,0,,,,,
+congress,113,Working Families Flexibility Act (H.R. 1406),no,H.R. 1406,First Session Roll Call #137,,0,,,,,
+congress,113,Student Success Act (H.R. 5),no,H.R. 5,First Session Roll Call #374,,0,,,,,
+congress,113,Commission to Study the Potential Creation of a National Women's History Museum Act (H.R. 863),yes,H.R. 863,Second Session Roll Call #201,,0,,,,,
+senate,114,Resolution of Disapproval on the Fiduciary Rule (H.J. Res. 88),no,H.J. Res. 88,Second Session Roll Call #84,,0,,,,,
+senate,114,Murphy Accountability Amendment (S. Amdt. 2241 to S. 1177),yes,S. Amdt. 2241 to S. 1177,First Session Roll Call #241,,0,,,,,
+senate,114,Justice for Victims of Human Trafficking Act (S. 178),yes,S. 178,First Session Roll Call #163,,0,,,,,
+senate,114,Women Airforce Service Pilot Arlington Inurnment Restoration Act (H.R. 4336),yes,H.R. 4336,unanimous consent,,0,,,,,
+senate,114,Democracy for All (S.J. Res. 5),yes,S.J. Res. 5,cosponsorship,,0,,,,,
+congress,114,Resolution of Disapproval on the Fiduciary Rule (H.J. Res. 88),no,H.J. Res. 88,Second Session Roll Call #176,,0,,,,,
+congress,114,Student Success Act (H.R. 5),no,H.R. 5,First Session Roll Call #423,,0,,,,,
+congress,114,Scholarships for Opportunity and Results Reauthorization Act (H.R. 4901),no,H.R. 4901,Second Session Roll Call #179,,0,,,,,
+congress,114,Justice for Victims of Human Trafficking Act (S. 178),yes,S. 178,First Session Roll Call #244,,0,,,,,
+congress,114,Women Airforce Service Pilot Arlington Inurnment Restoration Act (H.R. 4336),yes,H.R. 4336,Second Session Roll Call #135,,0,,,,,
+congress,114,Democracy for All (H.J. Res. 22),yes,H.J. Res. 22,cosponsorship,,0,,,,,
+congress,115,American Health Care Act of 2017 (H.R. 1628),no,H.R. 1628,First Session Roll Call #256,,0,,,,,
+congress,115,Tax Cuts and Jobs Act (H.R. 1),no,H.R. 1,First Session Roll Call #699,,0,,,,,
+congress,115,DREAM Act of 2017 (H.R. 3440) (Cosponsorship),yes,H.R. 3440,cosponsorship,,0,,,,,
+congress,116,BE HEARD in the Workplace Act (H.R. 2148),yes,H.R. 2148,Co-sponsorship,,0,,,,,
+congress,116,FAMILY Act (H.R. 1185),yes,H.R. 1185,Co-sponsorship,,0,,,,,
+congress,116,Raise the Wage Act (H.R. 582),yes,H.R. 582,First Session Roll Call #496,,0,,,,,
+congress,116,Equality Act (H.R. 5),yes,H.R. 5,First Session Roll Call #217,,0,,,,,
+congress,116,John R. Lewis Voting Rights Advancement Act (H.R. 4),yes,H.R. 4,First Session Roll Call #654,,0,,,,,
+congress,116,FUTURE Act (H.R. 5363),yes,H.R. 5363,First Session Roll Call #659,,0,,,,,
+senate,97,FY82 Budget Targets (First Budget Resolution),no,H.Con.Res.115,Record Vote No: 112,,1,,,,,large cuts for social programs affecting women
+senate,97,Abortion Funding,no,motion to table S.Amdt.55 to H.R.3512,Record Vote No: 132,,1,,,,,restore prohibition on Medicaid funding of abortions
+congress,97,FY82 Budget Targets (First Budget Resolution),no,H.Con.Res.115,Record Vote No: 37,31,1,,05/07/1981,270,154,large cuts for social programs affecting women
+congress,97,Abortion Funding,no,H.Amdt.21 to H.R.3512,N/A (https://www.congress.gov/amendment/97th-congress/house-amendment/21/actions?r=21&s=a),37,1,,05/13/1981,242,155,prohibit government employee health insurance program from paying for abortions
+senate,98,Human Life Federalism Amendment ,no,S.J.Res.3,Record Vote No: 173,,1,,,,,overturn Roe v Wade
+senate,98,"First Budget Resolution, FY 84",no,S.Amdt.1289 to S.Con.Res.27,Record Vote No: 106,,1,,,,,reduce spending on social programs relied on by women and minorities
+congress,98,Emergency Mathematics and Science Education Act of 1984,yes,H.R.1310,Record Vote No: 14,12,1,,03/02/1983,348,54,language that promotes females and minorities in STEM
+congress,98,Equal Rights Amendment,yes,H.J.Res.1,Record Vote No: 504,469,1,,11/15/1983,147,278,Equal RIghts Amendment (AAUW's highest priority at the time)
+congress,98,"Abortion (Labor, Health and Human Services, Education Appropriations, FY 84)",no,H.Amdt.389 to H.R.3913,Record Vote No: 352,334,1,,09/22/1983,231,184,"prevent use of federal funds on abortions, regardless of the mother's health"
+senate,99,"Abortion Funding (District of Columbia Appropriations, FY86)",yes,motion to table S.Amdt.988 to H.R.3067,Record Vote No: 291,,1,,,,,
+senate,99,"International Family Planning Funding (State Department Authorization, FY86)",yes,motion to table S.Amdt.290 to S.1003,Record Vote No: 121,,1,,,,,
+congress,99,Pay Equity Study of Federal Work Force (HR 3008),yes,H.R. 3008,Record Vote No: 352,318,1,,10/09/1985,259,162,"to determine if differences in pay result from gender, race, etc"
+congress,99,"Abortion Funding (District of Columbia Appropriations, FY86)",no,H.Amdt.392 to H.R.3067,Record Vote No: 273,247,1,,07/30/1985,221,199,
+congress,99,Title X Family Planning Program (HR 2369),yes,H.R. 2369 (motion to suspend rules failed to receive 2/3 of vote),Record Vote No: 162,147,1,,06/18/1985,197,214,
+congress,99,"International Family Planning Funding (State Department Authorization, FY86)",no,H.Amdt.261 to H.R.1555,Record Vote No: 216,197,1,,07/10/1985,234,189,
+senate,100,CRRA Vote #2: Danforth Amendment,no,S.Amdt.1392 to S.557,Record Vote No: 9,,1,,,,,
+congress,100,Civil Rights Restoration Act (S 557): Veto Override,yes,S.557,Record Vote No: 41 (veto override),527,1,,03/22/1988,292,133,insurance covers medical issues stemming from abortion
+senate,101,Labor/HHS/Education Appropriations (HR 2990) Conference Report. Expanding Medicaid Funding for Abortion to Cover Cases of Rape and Incest,yes,H.R.2990,Record Vote No: 252,,1,,,,,
+senate,101,International Family Planning. Smith Amendment of Fiscal 1990 Foreign Operations Appropriation Bill/UN Population Fund (HR 2939),yes,senate disagreement with house amendment to senate amendment no. 17 to HR 2939,Record Vote No: 300,,1,,,,,"funding for UNFPA only with Pres. approval, UNFPA funding used for abortions"
+congress,101,Labor/HHS/Education Appropriations. Expanding Medicaid Funding for Abortion to Cover Cases of Rape and Incest (HR 2990),yes,H.R. 2990,Roll No. 277,267,1,,10/11/1989,216,206,
+congress,101,DC Appropriations Bill (HR 3610) Public Funding for Abortions. Use of Local Tax Revenue Dollars to Fund Abortion for Low-Income Women in the District of Columbia,yes,H.R. 3610,Roll no. 355,345,1,,11/15/1989,229,191,
+congress,101,International Family Planning. Lehman Motion on Fiscal 1990 Foreign Operations Appropriation Bill/UN Population Fund (HR 2939),yes,H.R. 2939,Roll no. 361,350,1,,11/16/1989,207,200,funding for UNFPA
+senate,102,"Durenberger Amendment to Title X, Pregnancy Counseling Act of 1991 (S 323)",no,S.Amdt.754 to S.Amdt.753 to S.323,Record Vote No: 128,,1,,,,,
+senate,102,"Coats Parental Notification Amendment to Title X, Pregnancy Counseling Act of 1991 (S 323)",no,S.Amdt.756 to S.Amdt.753. to S.323,Record Vote No: 131,,1,,,,,
+congress,102,Civil Rights and Women's Equity in Employment Act of 1991 (HR 1),yes,H.R. 1,Roll no. 131,,1,,06/05/1991,273,158,
+congress,102,International Family Planning. Kostmayer Amendment to the Fiscal 1992-93 Foreign Aid Authorization Bill/United Nations Fund for Population Assistance (HR 2508),yes,H.Amdt.121 to H.Amdt.123 to H.R.2508,Roll no. 148,,1,,06/12/1991,234,188,
+congress,102,International Family Planning. Berman Amendment to the Fiscal 1992-93 Foreign Aid Authorization Bill/Mexico City Policy (HR 2508),yes,H.Amdt.124 to H.Amdt.123 to H.R.2508,Roll no. 149,,1,,06/12/1991,222,200,
+congress,102,Passage of the Family Planning Amendments Act of 1991 (HR 3090),yes,H.R. 3090,Roll no. 95,,1,,04/30/1992,268,150,
+congress,102,Access to Safe and Legal Abortions/AuCoin Amendment to the Department of Defense (DOD) Authorization Bill (HR 5006),yes,H.Amdt.585 to H.R.5006,Roll no. 163,,1,,06/04/1992,216,193,
+senate,103,"Abortion Coverage in Federal Employees' Health Benefits Plans. Treasury, Postal, and General Government Appropriations Bill (HR 2403)",no,S.Amdt.749 to H.R.2403,Record Vote No: 235,,1,,,,,
+senate,103,Elders Confirmation,yes,PN452,Record Vote No: 248,,1,,,,,
+senate,103,"Funding of Abortions for Poor Women. Hyde Amendment to the Fiscal 1994 Labor, HHS, Education Appropriations Bill (HR 2518)",yes,amendment to remove H.Amdt.185 to H.R.2518,Record Vote No: 290,,1,,,,,
+senate,103,Freedom of Access to Clinic Entrances Act (S 636),yes,S.636 (consideration: CR S5628),Record Vote No: 112,,1,,,,,
+congress,103,The Family Planning Amendments Act of 1993 (HR 670),yes,H.R. 670,Roll no. 107,,1,,,,,
+congress,103,"Funding of Abortions for Poor Women. Hyde Amendment to the Fiscal 1994 Labor, HHS, Education Appropriations Bill (HR 2518)",no,H.Amdt.185 to HR 2518,Roll no. 307,,1,,,,,
+congress,103,Freedom of Access to Clinic Entrances Act (HR 796),yes,H.R.796 (consideration: CR H3123-3135),Roll no. 159,,1,,,,,
+senate,104,International Family Planning. Foreign Operations Appropriations. (HR 1868),yes,H.R.1868 (consideration: CR S17067),Record Vote No: 575,,1,,,,,
+senate,104,Health Exception to the Late-Term Abortion Ban (HR 1833),yes,S.Amdt.3083 to S.Amdt.3082 to H.R.1833,Record Vote No: 593,,1,,,,,
+senate,104,Welfare Reform. Education and Job Training for Women (HR 4),yes,S.Amdt.2466 to S.Amdt.2280 to HR 4,Record Vote No: 403,,1,,,,,
+senate,104,Access to Safe and Legal Abortion. The Department of Defense Authorization Bill (S 1745),no,S.Amdt.4059 to S.1745,Record Vote No: 163,,1,,,,,
+congress,104,Restrictions on Medical Abortions. Fiscal 1996 Omnibus Appropriations (HR 3019),yes,H.Amdt.946 to H.R.3019,Roll no. 51,,1,,,,,
+congress,104,Access to Safe and Legal Abortion. Late-Term Ban (HR 1833),no,H.R. 1833 (consideration: CR H2929),Roll no. 94,,1,,,,,
+congress,104,"Education Funding/Access to Safe and Legal Abortion. Labor, Health. and Human Services Appropriations Bill. Final Passage. (HR 2127)",no,H.R. 2127,Roll no. 626,,1,,,,,
+congress,104,Access to Safe and Legal Abortion. Amendment to the Department of Defense (DOD) Authorization Bill. (HR 1530).,yes,H.Amdt.436 to H.R.1530,Roll no. 382,,1,,,,,
+senate,105,Abortion Procedure Ban (HR 1122),no,H.R.1122 (consideration: CR S10564),Record Vote No: 277,,1,,,,,
+senate,105,Snowe/Murray. Amendment to the Department of Defense (DOD) Authorization Bill (S 2057),yes,S.Amdt.2794 to S.2057,Record Vote No: 176,,1,,,,,
+congress,105,Mink/Morella Displaced Homemaker and Gender Equity Amendment ,yes,H.Amdt.256 to H.R.1853,Roll no. 286,,1,,,,,
+congress,105,Smith Mexico City Policy Amendment to the Foreign Operations Appropriations Bill (HR 2159),no,H.Amdt.318 to H.R.2159,Roll no. 363,,1,,,,,
+congress,105,Abortion Procedure Ban (HR 1122),no,H.R.1122 (consideration: CR H6212-6213),Roll no. 325,,1,,,,,
+congress,105,Ban FDA from approving abortion drug RU486 -- Agriculture Appropriations Bill (HR 4101\\\\,no,H.Amdt.705 to H.R.4101,Roll no. 260,,1,,,,,
+senate,106,Partial Birth Abortion Ban Act (S 1692),no,S.1692,Record Vote No: 340,,1,,,,,
+senate,106,Hutchinson motion to table Murray/Snowe Amendment to the Department of Defense Authorization Bill (S 2549),no,motion to table S.Amdt.3252 to S.2549,Record Vote No: 134,,1,,,,,
+senate,106,Robb Amendment to the Patients' Bill of Rights Plus Act (S 1344),yes,S.Amdt.1237 to S.Amdt.1236 to S.1344,Record Vote No: 198,,1,,,,,
+congress,106,Mink/Woosley/Sanchez/Morella Amendment to the Student Results Act (HR 2),yes,H.Amdt.535 to H.R.2,Roll no. 519,,1,,,,,
+congress,106,Greenwood Motion on the FY01 Foreign Operations Appropriations Bill (HR 4811) to Strike the Global Gag Rule,yes,H.Amdt.997 to H.R.4811,Roll no. 396,,1,,,,,
+congress,106,Partial Birth Abortion Ban Act (HR 3660),no,H.R.3660,Roll no. 104,,1,,,,,
+congress,106,Sanchez Amendment to the Department of Defense Authorization Bill (HR 4205),yes,H.Amdt.722 to H.R.4205,Roll no. 203,,1,,,,,
+senate,107,Murray/Snowe Amendment to the FY03 Defense Authorization Bill,yes,S.Amdt.3927 to S.2514,Second Session Roll Call #160,,1,,,,,
+congress,107,Hyde Amendment to the Foreign Relations Authorization Act,no,H.Amdt.34 to HR 1646,First Session Roll Call #115,,1,,,,,
+congress,107,Sanchez Amendment to the FY03 National Defense Authorization Act,yes,H.Amdt.478 to HR 4546,Second Session Roll Call #153,,1,,,,,
+congress,107,Child Custody Protection Act,no,HR 476,Second Session Roll Call #97,,1,,,,,
+congress,107,”Partial-Birth” Abortion Ban Act,no,HR 4965,Second Session Roll Call #343,,1,,,,,
+senate,108,Resolution Reaffirming Roe v. Wade,yes,during debate of S. 3/H.R. 760,First Session Roll Call #48,,1,,,,,
+senate,108,Lugar Amendment to Table Boxer Amendment No. 1141,no,would have tabled Boxer Amendment No. 1141 to the annual state department appropriations bill,First Session Roll Call # 267,,1,,,,,
+senate,108,Murray Amendment to the Unborn Victims of Violence Act,yes,S. Amdt. 2859 to H.R. 1997,Second Session Roll Call #62,,1,,,,,
+congress,108,Smith Amendment to the Foreign Relations Authorization Act,no,Smith Amendment to H.R.1950,First Session Roll Call #362,,1,,,,,
+congress,108,Lofgren Substitute Amendment to the Unborn Victims of Violence Act (UVVA),no,H.Amdt.465 to H.R.1997,Second Session Roll Call #30,,1,,,,,
+congress,108,Davis Amendment to the FY05 National Defense Authorization Act,yes,H.Amdt.533 to H.R.4200,Second Session Roll Call #197,,1,,,,,
+senate,109,Clinic Violence Amendment,yes,S. Amdt. 47 to S. 256,First Session Roll Call #28,,1,,,,,make clinic violence-related debts nondischargeable under bankruptcy proceedings
+congress,109,Servicewomen’s Health Amendment,yes,H. Amdt. 209 to H.R. 1815,First Session Roll Call #216,,1,,,,,allow military personnel and their dependents overseas to use personal funds to obtain abortion services in overseas military hospitals
+senate,110,Cloture Motion on the Lilly Ledbetter Fair Pay Act of 2007,yes,H.R. 2831,Second Session Roll Call #110,,1,,,,,
+senate,110,Cloture Motion on the Fair Minimum Wage Act of 2007,yes,H.R. 2,First Session Roll Call #23,,1,,,,,
+senate,110,Boxer Amendment,yes,S. Amdt. 2719 to H.R. 2764,First Session Roll Call #319,,1,,,,,
+congress,110,The Lilly Ledbetter Fair Pay Act of 2007 (H.R. 2831),yes,H.R. 2831,First Session Roll Call #768,,1,,,,,
+congress,110,The Paycheck Fairness Act (H.R. 1338),yes,H.R. 1338,Second Session Roll Call #556,,1,,,,,
+congress,110,Pence Amendment (H. Amdt. 594 to H.R. 3043),no,H. Amdt. 594 to H.R. 3043,First Session Roll Call #684,,1,,,,,
+senate,111,Lilly Ledbetter Fair Pay Act of 2009 (S. 181),yes,S. 181,First Session Roll Call #14,,1,,,,,
+senate,111,Paycheck Fairness Act S. 182,yes,S. 182,cosponsorship,,1,,,,,
+senate,111,Nelson Amendment (S. Amdt. 2962 to H.R. 3590),no,S. Amdt. 2962 to H.R. 3590,First Session Roll Call #369,,1,,,,,
+senate,111,Wicker Amendment,no,S. Amdt. 607 to H.R. 1105,First Session Roll Call #81,,1,,,,,
+congress,111,Lilly Ledbetter Fair Pay Act of 2009 (H.R. 11),yes,H.R. 11,First Session Roll Call #9,,1,,,,,
+congress,111,Paycheck Fairness Act (H.R. 12),yes,H.R. 12,First Session Roll Call #8,,1,,,,,
+congress,111,Stupak Amendment (H. Amdt. 509 to H.R. 3962),no,H. Amdt. 509 to H.R. 3962,First Session Roll Call #884,,1,,,,,
+senate,112,High School Data Transparency Act of 2011 (S. 1269) Co-Sponsorship,yes,S. 1269,cosponsorship,,1,,,,,
+senate,112,Paycheck Fairness Act (S. 3220) ,yes,S. 3220,Second Session Roll Call #115,,1,,,,,
+senate,112,Violence Against Women Reauthorization Act of 2011 (S. 1925),yes,S. 1925,Second Session Roll Call #87,,1,,,,,
+senate,112,Planned Parenthood Funding (H. Con. Res. 36),no,H. Con. Res. 36,First Session Roll Call #60,,1,,,,,
+senate,112,motion to table Contraception Coverage Ban (S. Amdt. 1520 to S. 1813),no,motion to table S. Amdt. 1520 to S. 1813,Second Session Roll Call #24,,1,,,,,
+congress,112,High School Athletics Accountability Act of 2011 (H.R. 458) Co-Sponsorship,yes,H.R. 458,cosponsorship,,1,,,,,
+congress,112,Campus Sexual Violence Elimination (SaVE) Act (H.R. 2016) Co-sponsorship,yes,H.R. 2016,cosponsorship,,1,,,,,
+congress,112,Paycheck Fairness Act (H.R. 1519),no,procedural motion to decline to consider H.R. 1519,Second Session Roll Call #297,,1,,,,,
+congress,112,Violence Against Women Reauthorization Act of 2012 (H.R. 4970),no,H.R. 4970,Second Session Roll Call #258,,1,,,,,
+congress,112,Pence Amendment (H. Amdt. 95 to H.R. 1),no,H. Amdt. 95 to H.R. 1,First Session Roll Call #93,,1,,,,,
+congress,112,Respect for Rights of Conscience Act (H.R. 1179) Co-sponsorship,no,H.R. 1179,cosponsorship,,1,,,,,
+senate,113,Paycheck Fairness Act (S. 84),yes,S. 84,Second Session Roll Call #103,,1,,,,,
+senate,113,Violence Against Women Reauthorization Act of 2013 (S. 47),yes,S. 47,First Session Roll Call #19,,1,,,,,
+senate,113,Protect Women's Health from Corporate Interference Act of 2014 (S. 2578),yes,S. 2578,Second Session Roll Call #228,,1,,,,,
+senate,113,High School Data Transparency Act (S. 217) Co-sponsorship,yes,S. 217,cosponsorship,,1,,,,,
+congress,113,procedural motion to decline to consider the Paycheck Fairness Act (H.R. 377),no,procedural motion to decline to consider H.R. 377,First Session Roll Call #97,,1,,,,,
+congress,113,Violence Against Women Reauthorization Act (S. 47),yes,S. 47,First Session Roll Call #55,,1,,,,,
+congress,113,High School Data Transparency Act (H.R. 455) Co-sponsorship,yes,H.R. 455,cosponsorship,,1,,,,,
+senate,114,Paycheck Fairness Act (S. 862),yes,S. 862,cosponsorship,,1,,,,,
+senate,114,Survivor Outreach and Support (SOS) Campus Act (S. 706),yes,S. 706,cosponsorship,,1,,,,,
+senate,114,Bill to Prohibit Federal Funding of Planned Parenthood (S. 1881),no,S. 1881,First Session Roll Call #262,,1,,,,,
+congress,114,Paycheck Fairness Act (H.R. 1619),yes,H.R. 1619,cosponsorship,,1,,,,,
+congress,114,Hold Accountable and Lend Transparency on Campus Sexual Violence Act (H.R. 2680),yes,H.R. 2680,cosponsorship,,1,,,,,
+congress,114,Defund Planned Parenthood Act of 2015 (H.R. 3134),no,H.R. 3134,First Session Roll Call. #505,,1,,,,,
+congress,115,Paycheck Fairness Act (H.R. 1869) (Cosponsorship),yes,H.R. 1869,cosponsorship,,1,,,,,
+congress,115,"DeLauro/Frankel/Scott Amendment to the FY18 Commerce, Justice, Science Appropriations Bill (EEO-1) (H.Amdt. 383 to H.R. 3354)",yes,H.Amdt. 383 to H.R. 3354,First Session Roll Call #495,,1,,,,,
+congress,115,Resolution on Compliance with Title X Family Planning Requirements (H.J. Res. 43),no,H.J. Res. 43,First Session Roll Call #99,,1,,,,,
+congress,116,Paycheck Fairness Act (H.R. 7),yes,H.R. 7,First Session Roll Call #134,,1,,,,,
+senate,105,Affirmative Action for Small Business (McConnell Amendment),no,S.Amdt.1708 to S.Amdt.1676 to S.1173,N/A (see row above),,,,,,,

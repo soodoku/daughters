@@ -1,0 +1,869 @@
+﻿state,office,name,party,rating,congress
+AK,U.S. Senate - Sr,Lisa Murkowski,Republican,14%,116
+AK,U.S. Senate - Jr,Dan Sullivan,Republican,14%,116
+AK,U.S. House - At-Large,Donald Young,Republican,17%,116
+AL,U.S. Senate - Sr,Richard Shelby,Republican,0%,116
+AL,U.S. House - 3,Mike Rogers,Republican,14%,116
+AL,U.S. House - 4,Robert Aderholt,Republican,0%,116
+AL,U.S. House - 5,Mo Brooks,Republican,0%,116
+AL,U.S. House - 6,Gary Palmer,Republican,0%,116
+AL,U.S. House - 7,Terri Sewell,Democratic,86%,116
+AR,U.S. Senate - Sr,John Boozman,Republican,0%,116
+AR,U.S. Senate - Jr,Tom Cotton,Republican,0%,116
+AR,U.S. House - 1,Rick Crawford,Republican,0%,116
+AR,U.S. House - 2,French Hill,Republican,14%,116
+AR,U.S. House - 3,Steve Womack,Republican,14%,116
+AR,U.S. House - 4,Bruce Westerman,Republican,17%,116
+AS,U.S. House - Delegate,Aumua Amata Radewagen,Republican,0%,116
+AZ,U.S. Senate - Sr,Kyrsten Sinema,Democratic,57%,116
+AZ,U.S. House - 1,Tom O'Halleran,Democratic,71%,116
+AZ,U.S. House - 2,Ann Kirkpatrick,Democratic,100%,116
+AZ,U.S. House - 3,Raul Grijalva,Democratic,100%,116
+AZ,U.S. House - 4,Paul Gosar,Republican,0%,116
+AZ,U.S. House - 5,Andy Biggs,Republican,0%,116
+AZ,U.S. House - 6,David Schweikert,Republican,0%,116
+AZ,U.S. House - 7,Ruben Gallego,Democratic,100%,116
+AZ,U.S. House - 8,Debbie Lesko,Republican,0%,116
+AZ,U.S. House - 9,Greg Stanton,Democratic,86%,116
+CA,U.S. Senate - Sr,Dianne Feinstein,Democratic,71%,116
+CA,U.S. House - 1,Doug LaMalfa,Republican,0%,116
+CA,U.S. House - 2,Jared Huffman,Democratic,100%,116
+CA,U.S. House - 3,John Garamendi,Democratic,86%,116
+CA,U.S. House - 4,Tom McClintock,Republican,0%,116
+CA,U.S. House - 5,Mike Thompson,Democratic,86%,116
+CA,U.S. House - 6,Doris Matsui,Democratic,100%,116
+CA,U.S. House - 7,Ami Bera,Democratic,86%,116
+CA,U.S. House - 9,Jerry McNerney,Democratic,86%,116
+CA,U.S. House - 10,Josh Harder,Democratic,100%,116
+CA,U.S. House - 11,Mark DeSaulnier,Democratic,100%,116
+CA,U.S. House - 12,Nancy Pelosi,Democratic,67%,116
+CA,U.S. House - 13,Barbara Lee,Democratic,100%,116
+CA,U.S. House - 14,Jackie Speier,Democratic,100%,116
+CA,U.S. House - 15,Eric Swalwell,Democratic,83%,116
+CA,U.S. House - 16,Jim Costa,Democratic,71%,116
+CA,U.S. House - 17,Ro Khanna,Democratic,100%,116
+CA,U.S. House - 18,Anna Eshoo,Democratic,100%,116
+CA,U.S. House - 19,Zoe Lofgren,Democratic,100%,116
+CA,U.S. House - 20,Jimmy Panetta,Democratic,86%,116
+CA,U.S. House - 22,Devin Nunes,Republican,0%,116
+CA,U.S. House - 23,Kevin McCarthy,Republican,14%,116
+CA,U.S. House - 24,Salud Carbajal,Democratic,100%,116
+CA,U.S. House - 25,Mike Garcia,Republican,0%,116
+CA,U.S. House - 26,Julia Brownley,Democratic,100%,116
+CA,U.S. House - 27,Judy Chu,Democratic,100%,116
+CA,U.S. House - 28,Adam Schiff,Democratic,86%,116
+CA,U.S. House - 29,Tony Cárdenas,Democratic,100%,116
+CA,U.S. House - 30,Brad Sherman,Democratic,86%,116
+CA,U.S. House - 31,Pete Aguilar,Democratic,86%,116
+CA,U.S. House - 32,Grace Napolitano,Democratic,100%,116
+CA,U.S. House - 33,Ted Lieu,Democratic,100%,116
+CA,U.S. House - 34,Jimmy Gomez,Democratic,86%,116
+CA,U.S. House - 35,Norma Torres,Democratic,86%,116
+CA,U.S. House - 36,Raul Ruiz,Democratic,86%,116
+CA,U.S. House - 37,Karen Bass,Democratic,100%,116
+CA,U.S. House - 38,Linda Sánchez,Democratic,100%,116
+CA,U.S. House - 40,Lucille Roybal-Allard,Democratic,100%,116
+CA,U.S. House - 41,Mark Takano,Democratic,100%,116
+CA,U.S. House - 42,Ken Calvert,Republican,14%,116
+CA,U.S. House - 43,Maxine Waters,Democratic,100%,116
+CA,U.S. House - 44,Nanette Barragán,Democratic,100%,116
+CA,U.S. House - 45,Katie Porter,Democratic,100%,116
+CA,U.S. House - 46,Lou Correa,Democratic,86%,116
+CA,U.S. House - 47,Alan Lowenthal,Democratic,100%,116
+CA,U.S. House - 49,Mike Levin,Democratic,100%,116
+CA,U.S. House - 51,Juan Vargas,Democratic,100%,116
+CA,U.S. House - 52,Scott Peters,Democratic,86%,116
+CA,Supervisor - 1,Paul Cook,,14%,116
+CO,U.S. Senate - Sr,Michael Bennet,Democratic,71%,116
+CO,U.S. House - 1,Diana DeGette,Democratic,86%,116
+CO,U.S. House - 2,Joe Neguse,Democratic,100%,116
+CO,U.S. House - 4,Ken Buck,Republican,0%,116
+CO,U.S. House - 5,Doug Lamborn,Republican,0%,116
+CO,U.S. House - 6,Jason Crow,Democratic,100%,116
+CO,U.S. House - 7,Ed Perlmutter,Democratic,100%,116
+CT,U.S. Senate - Sr,Richard Blumenthal,Democratic,86%,116
+CT,U.S. Senate - Jr,Chris Murphy,Democratic,86%,116
+CT,U.S. House - 1,John Larson,Democratic,100%,116
+CT,U.S. House - 2,Joe Courtney,Democratic,100%,116
+CT,U.S. House - 3,Rosa DeLauro,Democratic,100%,116
+CT,U.S. House - 4,Jim Himes,Democratic,100%,116
+CT,U.S. House - 5,Jahana Hayes,Democratic,100%,116
+DC,U.S. House - Delegate,Eleanor Norton,Democratic,100%,116
+DE,U.S. Senate - Sr,Tom Carper,Democratic,57%,116
+DE,U.S. Senate - Jr,Chris Coons,Democratic,43%,116
+DE,U.S. House - At-Large,Lisa Blunt Rochester,Democratic,100%,116
+FL,U.S. Senate - Sr,Marco Rubio,Republican,0%,116
+FL,U.S. Senate - Jr,Rick Scott,Republican,0%,116
+FL,U.S. House - 1,Matt Gaetz,Republican,0%,116
+FL,U.S. House - 2,Neal Dunn,Republican,14%,116
+FL,U.S. House - 4,John Rutherford,Republican,0%,116
+FL,U.S. House - 5,"Al Lawson, Jr.",Democratic,100%,116
+FL,U.S. House - 6,Michael Waltz,Republican,14%,116
+FL,U.S. House - 7,Stephanie Murphy,Democratic,86%,116
+FL,U.S. House - 8,Bill Posey,Republican,0%,116
+FL,U.S. House - 9,Darren Soto,Democratic,100%,116
+FL,U.S. House - 10,Val Demings,Democratic,86%,116
+FL,U.S. House - 11,Daniel Webster,Republican,0%,116
+FL,U.S. House - 12,Gus Bilirakis,Republican,14%,116
+FL,U.S. House - 13,"Charlie Crist, Jr.",Democratic,86%,116
+FL,U.S. House - 14,Kathy Castor,Democratic,100%,116
+FL,U.S. House - 16,Vern Buchanan,Republican,14%,116
+FL,U.S. House - 17,Greg Steube,Republican,0%,116
+FL,U.S. House - 18,Brian Mast,Republican,0%,116
+FL,U.S. House - 21,Lois Frankel,Democratic,100%,116
+FL,U.S. House - 22,Ted Deutch,Democratic,100%,116
+FL,U.S. House - 23,Debbie Wasserman Schultz,Democratic,100%,116
+FL,U.S. House - 24,Frederica Wilson,Democratic,100%,116
+FL,U.S. House - 25,Mario Diaz-Balart,Republican,43%,116
+GA,U.S. House - 1,Buddy Carter,Republican,0%,116
+GA,U.S. House - 2,"Sanford Bishop, Jr.",Democratic,86%,116
+GA,U.S. House - 3,Drew Ferguson,Republican,0%,116
+GA,U.S. House - 4,"Hank Johnson, Jr.",Democratic,86%,116
+GA,U.S. House - 6,Lucy McBath,Democratic,100%,116
+GA,U.S. House - 8,Austin Scott,Republican,14%,116
+GA,U.S. House - 10,Jody Hice,Republican,0%,116
+GA,U.S. House - 11,Barry Loudermilk,Republican,0%,116
+GA,U.S. House - 12,Rick Allen,Republican,14%,116
+GA,U.S. House - 13,David Scott,Democratic,100%,116
+GU,U.S. House - Delegate,Michael San Nicolas,Democratic,0%,116
+HI,U.S. Senate - Sr,Brian Schatz,Democratic,71%,116
+HI,U.S. Senate - Jr,Mazie Hirono,Democratic,71%,116
+HI,U.S. House - 1,Edward Case,Democratic,71%,116
+IA,U.S. Senate - Sr,Chuck Grassley,Republican,14%,116
+IA,U.S. Senate - Jr,Joni Ernst,Republican,14%,116
+IA,U.S. House - 3,Cindy Axne,Democratic,71%,116
+ID,U.S. Senate - Sr,Mike Crapo,Republican,0%,116
+ID,U.S. Senate - Jr,James Risch,Republican,0%,116
+ID,U.S. House - 1,Russ Fulcher,Republican,0%,116
+ID,U.S. House - 2,Mike Simpson,Republican,17%,116
+IL,U.S. Senate - Sr,Dick Durbin,Democratic,86%,116
+IL,U.S. Senate - Jr,Tammy Duckworth,Democratic,100%,116
+IL,U.S. House - 1,Bobby Rush,Democratic,100%,116
+IL,U.S. House - 2,Robin Kelly,Democratic,100%,116
+IL,U.S. House - 4,Jesus Garcia,Democratic,100%,116
+IL,U.S. House - 5,Mike Quigley,Democratic,100%,116
+IL,U.S. House - 6,Sean Casten,Democratic,100%,116
+IL,U.S. House - 7,Danny Davis,Democratic,100%,116
+IL,U.S. House - 8,Raja Krishnamoorthi,Democratic,100%,116
+IL,U.S. House - 9,Jan Schakowsky,Democratic,100%,116
+IL,U.S. House - 10,Brad Schneider,Democratic,86%,116
+IL,U.S. House - 11,Bill Foster,Democratic,86%,116
+IL,U.S. House - 12,Mike Bost,Republican,14%,116
+IL,U.S. House - 13,Rodney Davis,Republican,29%,116
+IL,U.S. House - 14,Lauren Underwood,Democratic,86%,116
+IL,U.S. House - 16,Adam Kinzinger,Republican,17%,116
+IL,U.S. House - 17,Cheri Bustos,Democratic,86%,116
+IL,U.S. House - 18,Darin LaHood,Republican,0%,116
+IN,U.S. Senate - Sr,Todd Young,Republican,0%,116
+IN,U.S. Senate - Jr,Mike Braun,Republican,0%,116
+IN,U.S. House - 2,Jackie Walorski,Republican,0%,116
+IN,U.S. House - 3,Jim Banks,Republican,0%,116
+IN,U.S. House - 4,Jim Baird,Republican,0%,116
+IN,U.S. House - 6,Greg Pence,Republican,14%,116
+IN,U.S. House - 7,André Carson,Democratic,100%,116
+IN,U.S. House - 8,Larry Bucshon,Republican,17%,116
+IN,U.S. House - 9,Trey Hollingsworth III,Republican,14%,116
+KS,U.S. Senate - Sr,Jerry Moran,Republican,0%,116
+KS,U.S. Senate - Jr,Roger Marshall,Republican,0%,116
+KS,U.S. House - 3,Sharice Davids,Democratic,71%,116
+KS,U.S. House - 4,Ron Estes,Republican,0%,116
+KY,U.S. Senate - Sr,"Mitch McConnell, Jr.",Republican,0%,116
+KY,U.S. Senate - Jr,Rand Paul,Republican,0%,116
+KY,U.S. House - 1,"James Comer, Jr.",Republican,14%,116
+KY,U.S. House - 2,Brett Guthrie,Republican,14%,116
+KY,U.S. House - 3,John Yarmuth,Democratic,86%,116
+KY,U.S. House - 4,Thomas Massie,Republican,0%,116
+KY,U.S. House - 5,Hal Rogers,Republican,14%,116
+KY,U.S. House - 6,Andy Barr,Republican,17%,116
+LA,U.S. Senate - Sr,Bill Cassidy,Republican,14%,116
+LA,U.S. Senate - Jr,John Kennedy,Republican,0%,116
+LA,U.S. House - 1,Steve Scalise,Republican,14%,116
+LA,U.S. House - 3,Clay Higgins,Republican,0%,116
+LA,U.S. House - 4,Mike Johnson,Republican,17%,116
+LA,U.S. House - 6,Garret Graves,Republican,14%,116
+MA,U.S. Senate - Sr,Elizabeth Warren,Democratic,100%,116
+MA,U.S. Senate - Jr,Ed Markey,Democratic,86%,116
+MA,U.S. House - 1,Richard Neal,Democratic,100%,116
+MA,U.S. House - 2,Jim McGovern,Democratic,100%,116
+MA,U.S. House - 3,Lori Trahan,Democratic,100%,116
+MA,U.S. House - 5,Katherine Clark,Democratic,100%,116
+MA,U.S. House - 6,Seth Moulton,Democratic,100%,116
+MA,U.S. House - 7,Ayanna Pressley,Democratic,100%,116
+MA,U.S. House - 8,Stephen Lynch,Democratic,100%,116
+MA,U.S. House - 9,Bill Keating,Democratic,100%,116
+MD,U.S. Senate - Sr,Ben Cardin,Democratic,86%,116
+MD,U.S. Senate - Jr,"Chris Van Hollen, Jr.",Democratic,86%,116
+MD,U.S. House - 1,Andy Harris,Republican,0%,116
+MD,U.S. House - 2,Dutch Ruppersberger,Democratic,86%,116
+MD,U.S. House - 3,John Sarbanes,Democratic,100%,116
+MD,U.S. House - 4,Anthony Brown,Democratic,83%,116
+MD,U.S. House - 5,Steny Hoyer,Democratic,86%,116
+MD,U.S. House - 6,David Trone,Democratic,100%,116
+MD,U.S. House - 7,Kweisi Mfume,Democratic,0%,116
+MD,U.S. House - 8,Jamie Raskin,Democratic,100%,116
+ME,U.S. Senate - Sr,Susan Collins,Republican,29%,116
+ME,U.S. Senate - Jr,"Angus King, Jr.",Independent,43%,116
+ME,U.S. House - 1,Chellie Pingree,Democratic,100%,116
+ME,U.S. House - 2,Jared Golden,Democratic,86%,116
+MI,U.S. Senate - Sr,Debbie Stabenow,Democratic,71%,116
+MI,U.S. Senate - Jr,Gary Peters,Democratic,57%,116
+MI,U.S. House - 1,Jack Bergman,Republican,14%,116
+MI,U.S. House - 2,Bill Huizenga,Republican,14%,116
+MI,U.S. House - 4,John Moolenaar,Republican,14%,116
+MI,U.S. House - 5,Dan Kildee,Democratic,100%,116
+MI,U.S. House - 6,Fred Upton,Republican,14%,116
+MI,U.S. House - 7,Tim Walberg,Republican,14%,116
+MI,U.S. House - 8,Elissa Slotkin,Democratic,100%,116
+MI,U.S. House - 9,Andy Levin,Democratic,100%,116
+MI,U.S. House - 11,Haley Stevens,Democratic,86%,116
+MI,U.S. House - 12,Debbie Dingell,Democratic,100%,116
+MI,U.S. House - 13,Rashida Tlaib,Democratic,100%,116
+MI,U.S. House - 14,Brenda Lawrence,Democratic,100%,116
+MN,U.S. Senate - Sr,Amy Klobuchar,Democratic,100%,116
+MN,U.S. Senate - Jr,Tina Smith,Democratic,86%,116
+MN,U.S. House - 1,Jim Hagedorn,Republican,0%,116
+MN,U.S. House - 2,Angie Craig,Democratic/Farmer/Labor,86%,116
+MN,U.S. House - 3,Dean Phillips,Democratic/Farmer/Labor,86%,116
+MN,U.S. House - 4,Betty McCollum,Democratic,100%,116
+MN,U.S. House - 5,Ilhan Omar,Democratic/Farmer/Labor,100%,116
+MN,U.S. House - 6,Tom Emmer,Republican,0%,116
+MN,U.S. House - 8,Peter Stauber,Republican,14%,116
+MO,U.S. Senate - Sr,Roy Blunt,Republican,0%,116
+MO,U.S. Senate - Jr,Joshua Hawley,Republican,14%,116
+MO,U.S. House - 2,Ann Wagner,Republican,14%,116
+MO,U.S. House - 3,Blaine Luetkemeyer,Republican,14%,116
+MO,U.S. House - 4,Vicky Hartzler,Republican,14%,116
+MO,U.S. House - 5,Emanuel Cleaver II,Democratic,86%,116
+MO,U.S. House - 6,Sam Graves,Republican,0%,116
+MO,U.S. House - 7,Billy Long,Republican,0%,116
+MO,U.S. House - 8,Jason Smith,Republican,0%,116
+MP,U.S. House - Delegate,Kilili Sablan,Democratic,100%,116
+MS,U.S. Senate - Sr,Roger Wicker,Republican,0%,116
+MS,U.S. Senate - Jr,Cindy Hyde-Smith,Republican,14%,116
+MS,U.S. House - 1,Trent Kelly,Republican,14%,116
+MS,U.S. House - 2,Bennie Thompson,Democratic,100%,116
+MS,U.S. House - 3,Michael Guest,Republican,14%,116
+MS,U.S. House - 4,Steven Palazzo,Republican,0%,116
+MT,U.S. Senate - Sr,Jon Tester,Democratic,43%,116
+MT,U.S. Senate - Jr,Steve Daines,Republican,0%,116
+MT,Governor,Greg Gianforte,Republican,0%,116
+NA,Vice President,Kamala Harris,Democratic,100%,116
+NA,U.S. Secretary of Housing and Urban Development,Marcia Fudge,,86%,116
+NA,U.S. Secretary of the Interior,Deb Haaland,,100%,116
+NC,U.S. Senate - Sr,Richard Burr,Republican,0%,116
+NC,U.S. Senate - Jr,Thom Tillis,Republican,14%,116
+NC,U.S. House - 1,"G.K. Butterfield, Jr.",Democratic,86%,116
+NC,U.S. House - 3,Greg Murphy,Republican,25%,116
+NC,U.S. House - 4,David Price,Democratic,86%,116
+NC,U.S. House - 5,Virginia Foxx,Republican,14%,116
+NC,U.S. House - 7,David Rouzer,Republican,0%,116
+NC,U.S. House - 8,"Richard Hudson, Jr.",Republican,14%,116
+NC,U.S. House - 9,Dan Bishop,Republican,0%,116
+NC,U.S. House - 10,Patrick McHenry,Republican,17%,116
+NC,U.S. House - 12,Alma Adams,Democratic,100%,116
+NC,U.S. House - 13,Ted Budd,Republican,0%,116
+ND,U.S. Senate - Sr,John Hoeven,Republican,0%,116
+ND,U.S. Senate - Jr,Kevin Cramer,Republican,14%,116
+ND,U.S. House - At-Large,Kelly Armstrong,Republican,14%,116
+NE,U.S. Senate - Sr,Deb Fischer,Republican,0%,116
+NE,U.S. Senate - Jr,Ben Sasse,Republican,0%,116
+NE,U.S. House - 1,Jeff Fortenberry,Republican,17%,116
+NE,U.S. House - 2,Donald Bacon,Republican,0%,116
+NE,U.S. House - 3,Adrian Smith,Republican,0%,116
+NH,U.S. Senate - Sr,Jeanne Shaheen,Democratic,57%,116
+NH,U.S. Senate - Jr,Maggie Hassan,Democratic,71%,116
+NH,U.S. House - 1,Chris Pappas,Democratic,86%,116
+NH,U.S. House - 2,Ann Kuster,Democratic,100%,116
+NJ,U.S. Senate - Sr,Bob Menendez,Democratic,57%,116
+NJ,U.S. Senate - Jr,Cory Booker,Democratic,100%,116
+NJ,U.S. House - 1,Donald Norcross,Democratic,100%,116
+NJ,U.S. House - 2,Jeff Van Drew,Republican,86%,116
+NJ,U.S. House - 3,Andy Kim,Democratic,86%,116
+NJ,U.S. House - 4,Chris Smith,Republican,57%,116
+NJ,U.S. House - 5,Joshua Gottheimer,Democratic,86%,116
+NJ,U.S. House - 6,"Frank Pallone, Jr.",Democratic,86%,116
+NJ,U.S. House - 7,Tom Malinowski,Democratic,86%,116
+NJ,U.S. House - 8,Albio Sires,Democratic,100%,116
+NJ,U.S. House - 9,"Bill Pascrell, Jr.",Democratic,86%,116
+NJ,U.S. House - 10,"Don Payne, Jr.",Democratic,100%,116
+NJ,U.S. House - 11,Mikie Sherrill,Democratic,86%,116
+NJ,U.S. House - 12,Bonnie Watson Coleman,Democratic,100%,116
+NM,U.S. Senate - Sr,"Ben Lujan, Jr.",Democratic,100%,116
+NM,U.S. Senate - Jr,Martin Heinrich,Democratic,57%,116
+NV,U.S. Senate - Sr,Catherine Cortez Masto,Democratic,43%,116
+NV,U.S. Senate - Jr,Jacky Rosen,Democratic,100%,116
+NV,U.S. House - 1,Dina Titus,Democratic,100%,116
+NV,U.S. House - 2,Mark Amodei,Republican,14%,116
+NV,U.S. House - 3,Susie Lee,Democratic,71%,116
+NV,U.S. House - 4,Steven Horsford,Democratic,86%,116
+NY,U.S. Senate - Sr,Chuck Schumer,Democratic,86%,116
+NY,U.S. Senate - Jr,Kirsten Gillibrand,Democratic,86%,116
+NY,U.S. House - 1,Lee Zeldin,Republican,14%,116
+NY,U.S. House - 3,Thomas Suozzi,Democratic,100%,116
+NY,U.S. House - 4,Kathleen Rice,Democratic,100%,116
+NY,U.S. House - 5,Gregory Meeks,Democratic,100%,116
+NY,U.S. House - 6,Grace Meng,Democratic,100%,116
+NY,U.S. House - 7,Nydia Velázquez,Democratic,100%,116
+NY,U.S. House - 8,Hakeem Jeffries,Democratic,100%,116
+NY,U.S. House - 9,Yvette Clarke,Democratic,100%,116
+NY,U.S. House - 10,Jerry Nadler,Democratic,100%,116
+NY,U.S. House - 12,Carolyn Maloney,Democratic,100%,116
+NY,U.S. House - 13,Adriano Espaillat,Democratic,100%,116
+NY,U.S. House - 14,Alexandria Ocasio-Cortez,Democratic,100%,116
+NY,U.S. House - 18,Sean Maloney,Democratic,100%,116
+NY,U.S. House - 19,Antonio Delgado,Democratic,86%,116
+NY,U.S. House - 20,Paul Tonko,Democratic,100%,116
+NY,U.S. House - 21,Elise Stefanik,Republican,29%,116
+NY,U.S. House - 23,Tom Reed II,Republican,43%,116
+NY,U.S. House - 24,John Katko,Republican,29%,116
+NY,U.S. House - 25,Joe Morelle,Democratic,86%,116
+NY,U.S. House - 26,Brian Higgins,Democratic,86%,116
+NY,U.S. House - 27,Chris Jacobs,Republican,0%,116
+OH,U.S. Senate - Sr,Sherrod Brown,Democratic,100%,116
+OH,U.S. Senate - Jr,Rob Portman,Republican,0%,116
+OH,U.S. House - 1,Steve Chabot,Republican,14%,116
+OH,U.S. House - 2,Brad Wenstrup,Republican,0%,116
+OH,U.S. House - 3,Joyce Beatty,Democratic,100%,116
+OH,U.S. House - 4,Jim Jordan,Republican,0%,116
+OH,U.S. House - 5,Bob Latta,Republican,14%,116
+OH,U.S. House - 6,Bill Johnson,Republican,0%,116
+OH,U.S. House - 7,Bob Gibbs,Republican,0%,116
+OH,U.S. House - 8,Warren Davidson,Republican,0%,116
+OH,U.S. House - 9,Marcia Kaptur,Democratic,100%,116
+OH,U.S. House - 10,Mike Turner,Republican,17%,116
+OH,U.S. House - 12,Troy Balderson,Republican,14%,116
+OH,U.S. House - 13,Tim Ryan,Democratic,100%,116
+OH,U.S. House - 14,Dave Joyce,Republican,14%,116
+OH,U.S. House - 16,Anthony Gonzalez,Republican,14%,116
+OK,U.S. Senate - Sr,Jim Inhofe,Republican,0%,116
+OK,U.S. Senate - Jr,James Lankford,Republican,0%,116
+OK,U.S. House - 1,Kevin Hern,Republican,0%,116
+OK,U.S. House - 2,Markwayne Mullin,Republican,0%,116
+OK,U.S. House - 3,Frank Lucas,Republican,14%,116
+OK,U.S. House - 4,Tom Cole,Republican,14%,116
+OR,U.S. Senate - Sr,Ron Wyden,Democratic,86%,116
+OR,U.S. Senate - Jr,Jeff Merkley,Democratic,86%,116
+OR,U.S. House - 1,Suzanne Bonamici,Democratic,100%,116
+OR,U.S. House - 3,Earl Blumenauer,Democratic,100%,116
+OR,U.S. House - 4,Peter DeFazio,Democratic,100%,116
+OR,U.S. House - 5,Kurt Schrader,Democratic,57%,116
+PA,U.S. Senate - Sr,"Bob Casey, Jr.",Democratic,100%,116
+PA,U.S. Senate - Jr,Pat Toomey,Republican,14%,116
+PA,U.S. House - 1,Brian Fitzpatrick,Republican,71%,116
+PA,U.S. House - 2,Brendan Boyle,Democratic,100%,116
+PA,U.S. House - 3,Dwight Evans,Democratic,100%,116
+PA,U.S. House - 4,Madeleine Dean,Democratic,100%,116
+PA,U.S. House - 5,Mary Scanlon,Democratic,100%,116
+PA,U.S. House - 6,Chrissy Houlahan,Democratic,86%,116
+PA,U.S. House - 7,Susan Wild,Democratic,86%,116
+PA,U.S. House - 8,Matt Cartwright,Democratic,100%,116
+PA,U.S. House - 9,Dan Meuser,Republican,0%,116
+PA,U.S. House - 10,Scott Perry,Republican,14%,116
+PA,U.S. House - 11,Lloyd Smucker,Republican,17%,116
+PA,U.S. House - 12,Fred Keller,Republican,20%,116
+PA,U.S. House - 13,John Joyce,Republican,0%,116
+PA,U.S. House - 14,Guy Reschenthaler,Republican,14%,116
+PA,U.S. House - 15,"GT Thompson, Jr.",Republican,14%,116
+PA,U.S. House - 16,"Mike Kelly, Jr.",Republican,14%,116
+PA,U.S. House - 17,Conor Lamb,Democratic,86%,116
+PA,U.S. House - 18,"Mike Doyle, Jr.",Democratic,86%,116
+PR,U.S. House,Jenniffer González-Colón,New Progressive Party,0%,116
+RI,U.S. Senate - Sr,Jack Reed,Democratic,71%,116
+RI,U.S. Senate - Jr,Sheldon Whitehouse,Democratic,86%,116
+RI,U.S. House - 1,David Cicilline,Democratic,100%,116
+RI,U.S. House - 2,Jim Langevin,Democratic,100%,116
+SC,U.S. Senate - Sr,Lindsey Graham,Republican,14%,116
+SC,U.S. Senate - Jr,Tim Scott,Republican,14%,116
+SC,U.S. House - 2,"Joe Wilson, Sr.",Republican,20%,116
+SC,U.S. House - 3,Jeff Duncan,Republican,0%,116
+SC,U.S. House - 4,William Timmons,Republican,0%,116
+SC,U.S. House - 5,"Ralph Norman, Jr.",Republican,0%,116
+SC,U.S. House - 6,Jim Clyburn,Democratic,83%,116
+SC,U.S. House - 7,Tom Rice,Republican,0%,116
+SD,U.S. Senate - Sr,John Thune,Republican,0%,116
+SD,U.S. Senate - Jr,Mike Rounds,Republican,0%,116
+SD,U.S. House - At-Large,Dusty Johnson,Republican,14%,116
+TN,U.S. Senate - Sr,Marsha Blackburn,Republican,0%,116
+TN,U.S. House - 2,Tim Burchett,Republican,0%,116
+TN,U.S. House - 3,Chuck Fleischmann,Republican,0%,116
+TN,U.S. House - 4,Scott DesJarlais,Republican,0%,116
+TN,U.S. House - 5,Jim Cooper,Democratic,71%,116
+TN,U.S. House - 6,John Rose,Republican,0%,116
+TN,U.S. House - 7,Mark Green,Republican,0%,116
+TN,U.S. House - 8,David Kustoff,Republican,14%,116
+TN,U.S. House - 9,Steve Cohen,Democratic,100%,116
+TX,U.S. Senate - Sr,John Cornyn,Republican,14%,116
+TX,U.S. Senate - Jr,Ted Cruz,Republican,0%,116
+TX,U.S. House - 1,Louie Gohmert,Republican,0%,116
+TX,U.S. House - 2,Dan Crenshaw,Republican,0%,116
+TX,U.S. House - 3,Van Taylor,Republican,0%,116
+TX,U.S. House - 5,Lance Gooden,Republican,0%,116
+TX,U.S. House - 7,Lizzie Fletcher,Democratic,71%,116
+TX,U.S. House - 8,Kevin Brady,Republican,0%,116
+TX,U.S. House - 9,Al Green,Democratic,86%,116
+TX,U.S. House - 10,Michael McCaul,Republican,14%,116
+TX,U.S. House - 12,Kay Granger,Republican,17%,116
+TX,U.S. House - 14,"Randy Weber, Sr.",Republican,0%,116
+TX,U.S. House - 15,Vicente Gonzalez,Democratic,86%,116
+TX,U.S. House - 16,Veronica Escobar,Democratic,100%,116
+TX,U.S. House - 18,Sheila Jackson Lee,Democratic,100%,116
+TX,U.S. House - 19,Jodey Arrington,Republican,0%,116
+TX,U.S. House - 20,Joaquin Castro,Democratic,86%,116
+TX,U.S. House - 21,Chip Roy,Republican,0%,116
+TX,U.S. House - 25,Roger Williams,Republican,0%,116
+TX,U.S. House - 26,Michael Burgess,Republican,0%,116
+TX,U.S. House - 27,Michael Cloud,Republican,0%,116
+TX,U.S. House - 28,Henry Cuellar,Democratic,71%,116
+TX,U.S. House - 29,Sylvia Garcia,Democratic,100%,116
+TX,U.S. House - 30,Eddie Johnson,Democratic,86%,116
+TX,U.S. House - 31,John Carter,Republican,14%,116
+TX,U.S. House - 32,Colin Allred,Democratic,71%,116
+TX,U.S. House - 33,Marc Veasey,Democratic,86%,116
+TX,U.S. House - 34,"Filemon Vela, Jr.",Democratic,100%,116
+TX,U.S. House - 35,Lloyd Doggett II,Democratic,100%,116
+TX,U.S. House - 36,Brian Babin,Republican,0%,116
+UT,U.S. Senate - Sr,Mike Lee,Republican,0%,116
+UT,U.S. Senate - Jr,Mitt Romney,Republican,14%,116
+UT,U.S. House - 2,Chris Stewart,Republican,0%,116
+UT,U.S. House - 3,John Curtis,Republican,0%,116
+VA,U.S. Senate - Sr,Mark Warner,Democratic,57%,116
+VA,U.S. Senate - Jr,Tim Kaine,Democratic,71%,116
+VA,U.S. House - 1,Rob Wittman,Republican,14%,116
+VA,U.S. House - 2,Elaine Luria,Democratic,100%,116
+VA,U.S. House - 3,Bobby Scott,Democratic,86%,116
+VA,U.S. House - 4,Donald McEachin,Democratic,100%,116
+VA,U.S. House - 6,Ben Cline,Republican,14%,116
+VA,U.S. House - 7,Abigail Spanberger,Democratic,100%,116
+VA,U.S. House - 8,"Don Beyer, Jr.",Democratic,86%,116
+VA,U.S. House - 9,Morgan Griffith,Republican,0%,116
+VA,U.S. House - 10,Jennifer Wexton,Democratic,100%,116
+VA,U.S. House - 11,Gerry Connolly,Democratic,100%,116
+VI,U.S. House - Delegate,Stacey Plaskett,Democratic,100%,116
+VT,U.S. Senate - Sr,Patrick Leahy,Democratic,71%,116
+VT,U.S. Senate - Jr,Bernie Sanders,Independent,86%,116
+VT,U.S. House - At-Large,Peter Welch,Democratic,100%,116
+WA,U.S. Senate - Sr,Patty Murray,Democratic,86%,116
+WA,U.S. Senate - Jr,Maria Cantwell,Democratic,57%,116
+WA,U.S. House - 1,Suzan DelBene,Democratic,100%,116
+WA,U.S. House - 2,Rick Larsen,Democratic,100%,116
+WA,U.S. House - 3,Jaime Herrera Beutler,Republican,14%,116
+WA,U.S. House - 4,Dan Newhouse,Republican,0%,116
+WA,U.S. House - 5,Cathy McMorris Rodgers,Republican,14%,116
+WA,U.S. House - 6,Derek Kilmer,Democratic,100%,116
+WA,U.S. House - 7,Pramila Jayapal,Democratic,100%,116
+WA,U.S. House - 8,Kim Schrier,Democratic,86%,116
+WA,U.S. House - 9,Adam Smith,Democratic,100%,116
+WA,Lieutenant Governor,Denny Heck,Democratic,100%,116
+WI,U.S. Senate - Sr,Ron Johnson,Republican,0%,116
+WI,U.S. Senate - Jr,Tammy Baldwin,Democratic,100%,116
+WI,U.S. House - 1,Bryan Steil,Republican,14%,116
+WI,U.S. House - 2,Mark Pocan,Democratic,100%,116
+WI,U.S. House - 3,Ron Kind,Democratic,86%,116
+WI,U.S. House - 4,Gwen Moore,Democratic,100%,116
+WI,U.S. House - 6,Glenn Grothman,Republican,0%,116
+WI,U.S. House - 7,Tom Tiffany,Republican,0%,116
+WI,U.S. House - 8,Mike Gallagher,Republican,14%,116
+WV,U.S. Senate - Sr,Joe Manchin III,Democratic,43%,116
+WV,U.S. Senate - Jr,Shelley Capito,Republican,0%,116
+WV,U.S. House - 1,David McKinley,Republican,14%,116
+WV,U.S. House - 2,Alex Mooney,Republican,0%,116
+WV,U.S. House - 3,Carol Miller,Republican,0%,116
+WY,U.S. Senate - Sr,John Barrasso,Republican,0%,116
+WY,U.S. House - At-Large,Liz Cheney,Republican,0%,116
+AK,U.S. Senate - Sr,Lisa Murkowski,Republican,43%,115
+AK,U.S. Senate - Jr,Dan Sullivan,Republican,0%,115
+AK,U.S. House - At-Large,Donald Young,Republican,0%,115
+AL,U.S. Senate - Sr,Richard Shelby,Republican,0%,115
+AL,U.S. House - 3,Mike Rogers,Republican,0%,115
+AL,U.S. House - 4,Robert Aderholt,Republican,0%,115
+AL,U.S. House - 5,Mo Brooks,Republican,0%,115
+AL,U.S. House - 6,Gary Palmer,Republican,0%,115
+AL,U.S. House - 7,Terri Sewell,Democratic,100%,115
+AR,U.S. Senate - Sr,John Boozman,Republican,0%,115
+AR,U.S. Senate - Jr,Tom Cotton,Republican,0%,115
+AR,U.S. House - 1,Rick Crawford,Republican,0%,115
+AR,U.S. House - 2,French Hill,Republican,0%,115
+AR,U.S. House - 3,Steve Womack,Republican,0%,115
+AR,U.S. House - 4,Bruce Westerman,Republican,0%,115
+AS,U.S. House - Delegate,Aumua Amata Radewagen,Republican,0%,115
+AZ,U.S. Senate - Sr,Kyrsten Sinema,Democratic,100%,115
+AZ,U.S. House - 1,Tom O'Halleran,Democratic,100%,115
+AZ,U.S. House - 3,Raul Grijalva,Democratic,100%,115
+AZ,U.S. House - 4,Paul Gosar,Republican,0%,115
+AZ,U.S. House - 5,Andy Biggs,Republican,17%,115
+AZ,U.S. House - 6,David Schweikert,Republican,0%,115
+AZ,U.S. House - 7,Ruben Gallego,Democratic,100%,115
+AZ,U.S. House - 8,Debbie Lesko,Republican,0%,115
+CA,U.S. Senate - Sr,Dianne Feinstein,Democratic,100%,115
+CA,U.S. House - 1,Doug LaMalfa,Republican,0%,115
+CA,U.S. House - 2,Jared Huffman,Democratic,100%,115
+CA,U.S. House - 3,John Garamendi,Democratic,100%,115
+CA,U.S. House - 4,Tom McClintock,Republican,0%,115
+CA,U.S. House - 5,Mike Thompson,Democratic,100%,115
+CA,U.S. House - 6,Doris Matsui,Democratic,100%,115
+CA,U.S. House - 7,Ami Bera,Democratic,100%,115
+CA,U.S. House - 9,Jerry McNerney,Democratic,100%,115
+CA,U.S. House - 11,Mark DeSaulnier,Democratic,100%,115
+CA,U.S. House - 12,Nancy Pelosi,Democratic,100%,115
+CA,U.S. House - 13,Barbara Lee,Democratic,100%,115
+CA,U.S. House - 14,Jackie Speier,Democratic,100%,115
+CA,U.S. House - 15,Eric Swalwell,Democratic,100%,115
+CA,U.S. House - 16,Jim Costa,Democratic,100%,115
+CA,U.S. House - 17,Ro Khanna,Democratic,100%,115
+CA,U.S. House - 18,Anna Eshoo,Democratic,100%,115
+CA,U.S. House - 19,Zoe Lofgren,Democratic,100%,115
+CA,U.S. House - 20,Jimmy Panetta,Democratic,100%,115
+CA,U.S. House - 21,David Valadao,Republican,17%,115
+CA,U.S. House - 22,Devin Nunes,Republican,0%,115
+CA,U.S. House - 23,Kevin McCarthy,Republican,0%,115
+CA,U.S. House - 24,Salud Carbajal,Democratic,100%,115
+CA,U.S. House - 26,Julia Brownley,Democratic,100%,115
+CA,U.S. House - 27,Judy Chu,Democratic,100%,115
+CA,U.S. House - 28,Adam Schiff,Democratic,100%,115
+CA,U.S. House - 29,Tony Cárdenas,Democratic,100%,115
+CA,U.S. House - 30,Brad Sherman,Democratic,100%,115
+CA,U.S. House - 31,Pete Aguilar,Democratic,100%,115
+CA,U.S. House - 32,Grace Napolitano,Democratic,100%,115
+CA,U.S. House - 33,Ted Lieu,Democratic,100%,115
+CA,U.S. House - 34,Jimmy Gomez,Democratic,100%,115
+CA,U.S. House - 35,Norma Torres,Democratic,100%,115
+CA,U.S. House - 36,Raul Ruiz,Democratic,100%,115
+CA,U.S. House - 37,Karen Bass,Democratic,100%,115
+CA,U.S. House - 38,Linda Sánchez,Democratic,100%,115
+CA,U.S. House - 40,Lucille Roybal-Allard,Democratic,100%,115
+CA,U.S. House - 41,Mark Takano,Democratic,100%,115
+CA,U.S. House - 42,Ken Calvert,Republican,0%,115
+CA,U.S. House - 43,Maxine Waters,Democratic,100%,115
+CA,U.S. House - 44,Nanette Barragán,Democratic,100%,115
+CA,U.S. House - 46,Lou Correa,Democratic,100%,115
+CA,U.S. House - 47,Alan Lowenthal,Democratic,100%,115
+CA,U.S. House - 50,Darrell Issa,Republican,17%,115
+CA,U.S. House - 51,Juan Vargas,Democratic,100%,115
+CA,U.S. House - 52,Scott Peters,Democratic,100%,115
+CA,Supervisor - 1,Paul Cook,,0%,115
+CO,U.S. Senate - Sr,Michael Bennet,Democratic,100%,115
+CO,U.S. House - 1,Diana DeGette,Democratic,100%,115
+CO,U.S. House - 4,Ken Buck,Republican,0%,115
+CO,U.S. House - 5,Doug Lamborn,Republican,0%,115
+CO,U.S. House - 7,Ed Perlmutter,Democratic,100%,115
+CO,Governor,Jared Polis,Democratic,100%,115
+CO,Mayor - At-Large,Michael Coffman,Republican,33%,115
+CT,U.S. Senate - Sr,Richard Blumenthal,Democratic,100%,115
+CT,U.S. Senate - Jr,Chris Murphy,Democratic,100%,115
+CT,U.S. House - 1,John Larson,Democratic,100%,115
+CT,U.S. House - 2,Joe Courtney,Democratic,100%,115
+CT,U.S. House - 3,Rosa DeLauro,Democratic,100%,115
+CT,U.S. House - 4,Jim Himes,Democratic,100%,115
+DC,U.S. House - Delegate,Eleanor Norton,Democratic,100%,115
+DE,U.S. Senate - Sr,Tom Carper,Democratic,100%,115
+DE,U.S. Senate - Jr,Chris Coons,Democratic,100%,115
+DE,U.S. House - At-Large,Lisa Blunt Rochester,Democratic,100%,115
+FL,U.S. Senate - Sr,Marco Rubio,Republican,0%,115
+FL,U.S. House - 1,Matt Gaetz,Republican,0%,115
+FL,U.S. House - 2,Neal Dunn,Republican,0%,115
+FL,U.S. House - 4,John Rutherford,Republican,0%,115
+FL,U.S. House - 5,"Al Lawson, Jr.",Democratic,100%,115
+FL,U.S. House - 7,Stephanie Murphy,Democratic,100%,115
+FL,U.S. House - 8,Bill Posey,Republican,0%,115
+FL,U.S. House - 9,Darren Soto,Democratic,100%,115
+FL,U.S. House - 10,Val Demings,Democratic,100%,115
+FL,U.S. House - 11,Daniel Webster,Republican,0%,115
+FL,U.S. House - 12,Gus Bilirakis,Republican,0%,115
+FL,U.S. House - 13,"Charlie Crist, Jr.",Democratic,100%,115
+FL,U.S. House - 14,Kathy Castor,Democratic,100%,115
+FL,U.S. House - 16,Vern Buchanan,Republican,0%,115
+FL,U.S. House - 18,Brian Mast,Republican,0%,115
+FL,U.S. House - 21,Lois Frankel,Democratic,100%,115
+FL,U.S. House - 22,Ted Deutch,Democratic,100%,115
+FL,U.S. House - 23,Debbie Wasserman Schultz,Democratic,100%,115
+FL,U.S. House - 24,Frederica Wilson,Democratic,100%,115
+FL,U.S. House - 25,Mario Diaz-Balart,Republican,0%,115
+FL,Governor,Ron DeSantis,Republican,0%,115
+GA,U.S. House - 1,Buddy Carter,Republican,0%,115
+GA,U.S. House - 2,"Sanford Bishop, Jr.",Democratic,100%,115
+GA,U.S. House - 3,Drew Ferguson,Republican,0%,115
+GA,U.S. House - 4,"Hank Johnson, Jr.",Democratic,100%,115
+GA,U.S. House - 8,Austin Scott,Republican,0%,115
+GA,U.S. House - 10,Jody Hice,Republican,0%,115
+GA,U.S. House - 11,Barry Loudermilk,Republican,0%,115
+GA,U.S. House - 12,Rick Allen,Republican,0%,115
+GA,U.S. House - 13,David Scott,Democratic,100%,115
+HI,U.S. Senate - Sr,Brian Schatz,Democratic,100%,115
+HI,U.S. Senate - Jr,Mazie Hirono,Democratic,100%,115
+IA,U.S. Senate - Sr,Chuck Grassley,Republican,0%,115
+IA,U.S. Senate - Jr,Joni Ernst,Republican,0%,115
+ID,U.S. Senate - Sr,Mike Crapo,Republican,0%,115
+ID,U.S. Senate - Jr,James Risch,Republican,0%,115
+ID,U.S. House - 2,Mike Simpson,Republican,0%,115
+IL,U.S. Senate - Sr,Dick Durbin,Democratic,100%,115
+IL,U.S. Senate - Jr,Tammy Duckworth,Democratic,100%,115
+IL,U.S. House - 1,Bobby Rush,Democratic,100%,115
+IL,U.S. House - 2,Robin Kelly,Democratic,100%,115
+IL,U.S. House - 5,Mike Quigley,Democratic,100%,115
+IL,U.S. House - 7,Danny Davis,Democratic,100%,115
+IL,U.S. House - 8,Raja Krishnamoorthi,Democratic,100%,115
+IL,U.S. House - 9,Jan Schakowsky,Democratic,100%,115
+IL,U.S. House - 10,Brad Schneider,Democratic,100%,115
+IL,U.S. House - 11,Bill Foster,Democratic,100%,115
+IL,U.S. House - 12,Mike Bost,Republican,17%,115
+IL,U.S. House - 13,Rodney Davis,Republican,0%,115
+IL,U.S. House - 16,Adam Kinzinger,Republican,0%,115
+IL,U.S. House - 17,Cheri Bustos,Democratic,100%,115
+IL,U.S. House - 18,Darin LaHood,Republican,0%,115
+IN,U.S. Senate - Sr,Todd Young,Republican,0%,115
+IN,U.S. House - 2,Jackie Walorski,Republican,0%,115
+IN,U.S. House - 3,Jim Banks,Republican,0%,115
+IN,U.S. House - 7,André Carson,Democratic,100%,115
+IN,U.S. House - 8,Larry Bucshon,Republican,0%,115
+IN,U.S. House - 9,Trey Hollingsworth III,Republican,0%,115
+IN,Attorney General,Todd Rokita,Republican,0%,115
+KS,U.S. Senate - Sr,Jerry Moran,Republican,0%,115
+KS,U.S. Senate - Jr,Roger Marshall,Republican,0%,115
+KS,U.S. House - 4,Ron Estes,Republican,0%,115
+KY,U.S. Senate - Sr,"Mitch McConnell, Jr.",Republican,0%,115
+KY,U.S. Senate - Jr,Rand Paul,Republican,0%,115
+KY,U.S. House - 1,"James Comer, Jr.",Republican,0%,115
+KY,U.S. House - 2,Brett Guthrie,Republican,0%,115
+KY,U.S. House - 3,John Yarmuth,Democratic,100%,115
+KY,U.S. House - 4,Thomas Massie,Republican,17%,115
+KY,U.S. House - 5,Hal Rogers,Republican,0%,115
+KY,U.S. House - 6,Andy Barr,Republican,0%,115
+LA,U.S. Senate - Sr,Bill Cassidy,Republican,0%,115
+LA,U.S. Senate - Jr,John Kennedy,Republican,0%,115
+LA,U.S. House - 1,Steve Scalise,Republican,0%,115
+LA,U.S. House - 3,Clay Higgins,Republican,0%,115
+LA,U.S. House - 4,Mike Johnson,Republican,0%,115
+LA,U.S. House - 6,Garret Graves,Republican,0%,115
+MA,U.S. Senate - Sr,Elizabeth Warren,Democratic,100%,115
+MA,U.S. Senate - Jr,Ed Markey,Democratic,100%,115
+MA,U.S. House - 1,Richard Neal,Democratic,100%,115
+MA,U.S. House - 2,Jim McGovern,Democratic,100%,115
+MA,U.S. House - 5,Katherine Clark,Democratic,100%,115
+MA,U.S. House - 6,Seth Moulton,Democratic,100%,115
+MA,U.S. House - 8,Stephen Lynch,Democratic,100%,115
+MA,U.S. House - 9,Bill Keating,Democratic,100%,115
+MD,U.S. Senate - Sr,Ben Cardin,Democratic,100%,115
+MD,U.S. Senate - Jr,"Chris Van Hollen, Jr.",Democratic,100%,115
+MD,U.S. House - 1,Andy Harris,Republican,0%,115
+MD,U.S. House - 2,Dutch Ruppersberger,Democratic,100%,115
+MD,U.S. House - 3,John Sarbanes,Democratic,100%,115
+MD,U.S. House - 4,Anthony Brown,Democratic,100%,115
+MD,U.S. House - 5,Steny Hoyer,Democratic,100%,115
+MD,U.S. House - 8,Jamie Raskin,Democratic,100%,115
+ME,U.S. Senate - Sr,Susan Collins,Republican,43%,115
+ME,U.S. Senate - Jr,"Angus King, Jr.",Independent,86%,115
+ME,U.S. House - 1,Chellie Pingree,Democratic,100%,115
+MI,U.S. Senate - Sr,Debbie Stabenow,Democratic,100%,115
+MI,U.S. Senate - Jr,Gary Peters,Democratic,100%,115
+MI,U.S. House - 1,Jack Bergman,Republican,0%,115
+MI,U.S. House - 2,Bill Huizenga,Republican,0%,115
+MI,U.S. House - 4,John Moolenaar,Republican,0%,115
+MI,U.S. House - 5,Dan Kildee,Democratic,100%,115
+MI,U.S. House - 6,Fred Upton,Republican,0%,115
+MI,U.S. House - 7,Tim Walberg,Republican,0%,115
+MI,U.S. House - 12,Debbie Dingell,Democratic,100%,115
+MI,U.S. House - 14,Brenda Lawrence,Democratic,100%,115
+MN,U.S. Senate - Sr,Amy Klobuchar,Democratic,100%,115
+MN,U.S. Senate - Jr,Tina Smith,Democratic,100%,115
+MN,U.S. House - 4,Betty McCollum,Democratic,100%,115
+MN,U.S. House - 6,Tom Emmer,Republican,0%,115
+MN,Governor,Tim Walz,Democratic/Farmer/Labor,100%,115
+MN,Attorney General,Keith Ellison,Democratic/Farmer/Labor,100%,115
+MO,U.S. Senate - Sr,Roy Blunt,Republican,0%,115
+MO,U.S. House - 2,Ann Wagner,Republican,0%,115
+MO,U.S. House - 3,Blaine Luetkemeyer,Republican,0%,115
+MO,U.S. House - 4,Vicky Hartzler,Republican,0%,115
+MO,U.S. House - 5,Emanuel Cleaver II,Democratic,100%,115
+MO,U.S. House - 6,Sam Graves,Republican,0%,115
+MO,U.S. House - 7,Billy Long,Republican,0%,115
+MO,U.S. House - 8,Jason Smith,Republican,0%,115
+MP,U.S. House - Delegate,Kilili Sablan,Democratic,100%,115
+MS,U.S. Senate - Sr,Roger Wicker,Republican,0%,115
+MS,U.S. Senate - Jr,Cindy Hyde-Smith,Republican,0%,115
+MS,U.S. House - 1,Trent Kelly,Republican,0%,115
+MS,U.S. House - 2,Bennie Thompson,Democratic,100%,115
+MS,U.S. House - 4,Steven Palazzo,Republican,0%,115
+MT,U.S. Senate - Sr,Jon Tester,Democratic,100%,115
+MT,U.S. Senate - Jr,Steve Daines,Republican,0%,115
+MT,Governor,Greg Gianforte,Republican,0%,115
+NA,Vice President,Kamala Harris,Democratic,100%,115
+NA,U.S. Secretary of Housing and Urban Development,Marcia Fudge,,100%,115
+NC,U.S. Senate - Sr,Richard Burr,Republican,0%,115
+NC,U.S. Senate - Jr,Thom Tillis,Republican,0%,115
+NC,U.S. House - 1,"G.K. Butterfield, Jr.",Democratic,100%,115
+NC,U.S. House - 4,David Price,Democratic,100%,115
+NC,U.S. House - 5,Virginia Foxx,Republican,0%,115
+NC,U.S. House - 7,David Rouzer,Republican,0%,115
+NC,U.S. House - 8,"Richard Hudson, Jr.",Republican,0%,115
+NC,U.S. House - 10,Patrick McHenry,Republican,0%,115
+NC,U.S. House - 12,Alma Adams,Democratic,100%,115
+NC,U.S. House - 13,Ted Budd,Republican,0%,115
+ND,U.S. Senate - Sr,John Hoeven,Republican,0%,115
+ND,U.S. Senate - Jr,Kevin Cramer,Republican,0%,115
+NE,U.S. Senate - Sr,Deb Fischer,Republican,0%,115
+NE,U.S. Senate - Jr,Ben Sasse,Republican,0%,115
+NE,U.S. House - 1,Jeff Fortenberry,Republican,0%,115
+NE,U.S. House - 2,Donald Bacon,Republican,0%,115
+NE,U.S. House - 3,Adrian Smith,Republican,0%,115
+NH,U.S. Senate - Sr,Jeanne Shaheen,Democratic,100%,115
+NH,U.S. Senate - Jr,Maggie Hassan,Democratic,100%,115
+NH,U.S. House - 2,Ann Kuster,Democratic,100%,115
+NJ,U.S. Senate - Sr,Bob Menendez,Democratic,100%,115
+NJ,U.S. Senate - Jr,Cory Booker,Democratic,100%,115
+NJ,U.S. House - 1,Donald Norcross,Democratic,100%,115
+NJ,U.S. House - 4,Chris Smith,Republican,50%,115
+NJ,U.S. House - 5,Joshua Gottheimer,Democratic,100%,115
+NJ,U.S. House - 6,"Frank Pallone, Jr.",Democratic,100%,115
+NJ,U.S. House - 8,Albio Sires,Democratic,100%,115
+NJ,U.S. House - 9,"Bill Pascrell, Jr.",Democratic,100%,115
+NJ,U.S. House - 10,"Don Payne, Jr.",Democratic,100%,115
+NJ,U.S. House - 12,Bonnie Watson Coleman,Democratic,100%,115
+NM,U.S. Senate - Sr,"Ben Lujan, Jr.",Democratic,100%,115
+NM,U.S. Senate - Jr,Martin Heinrich,Democratic,100%,115
+NM,Governor,Michelle Lujan Grisham,Democratic,100%,115
+NV,U.S. Senate - Sr,Catherine Cortez Masto,Democratic,100%,115
+NV,U.S. Senate - Jr,Jacky Rosen,Democratic,100%,115
+NV,U.S. House - 1,Dina Titus,Democratic,100%,115
+NV,U.S. House - 2,Mark Amodei,Republican,0%,115
+NY,U.S. Senate - Sr,Chuck Schumer,Democratic,100%,115
+NY,U.S. Senate - Jr,Kirsten Gillibrand,Democratic,100%,115
+NY,U.S. House - 1,Lee Zeldin,Republican,17%,115
+NY,U.S. House - 3,Thomas Suozzi,Democratic,100%,115
+NY,U.S. House - 4,Kathleen Rice,Democratic,100%,115
+NY,U.S. House - 5,Gregory Meeks,Democratic,100%,115
+NY,U.S. House - 6,Grace Meng,Democratic,100%,115
+NY,U.S. House - 7,Nydia Velázquez,Democratic,100%,115
+NY,U.S. House - 8,Hakeem Jeffries,Democratic,100%,115
+NY,U.S. House - 9,Yvette Clarke,Democratic,100%,115
+NY,U.S. House - 10,Jerry Nadler,Democratic,100%,115
+NY,U.S. House - 12,Carolyn Maloney,Democratic,100%,115
+NY,U.S. House - 13,Adriano Espaillat,Democratic,100%,115
+NY,U.S. House - 18,Sean Maloney,Democratic,100%,115
+NY,U.S. House - 20,Paul Tonko,Democratic,100%,115
+NY,U.S. House - 21,Elise Stefanik,Republican,17%,115
+NY,U.S. House - 22,Claudia Tenney,Republican,0%,115
+NY,U.S. House - 23,Tom Reed II,Republican,0%,115
+NY,U.S. House - 24,John Katko,Republican,17%,115
+NY,U.S. House - 26,Brian Higgins,Democratic,100%,115
+OH,U.S. Senate - Sr,Sherrod Brown,Democratic,100%,115
+OH,U.S. Senate - Jr,Rob Portman,Republican,0%,115
+OH,U.S. House - 1,Steve Chabot,Republican,0%,115
+OH,U.S. House - 2,Brad Wenstrup,Republican,0%,115
+OH,U.S. House - 3,Joyce Beatty,Democratic,100%,115
+OH,U.S. House - 4,Jim Jordan,Republican,0%,115
+OH,U.S. House - 5,Bob Latta,Republican,0%,115
+OH,U.S. House - 6,Bill Johnson,Republican,0%,115
+OH,U.S. House - 7,Bob Gibbs,Republican,0%,115
+OH,U.S. House - 8,Warren Davidson,Republican,0%,115
+OH,U.S. House - 9,Marcia Kaptur,Democratic,100%,115
+OH,U.S. House - 10,Mike Turner,Republican,33%,115
+OH,U.S. House - 12,Troy Balderson,Republican,0%,115
+OH,U.S. House - 13,Tim Ryan,Democratic,100%,115
+OH,U.S. House - 14,Dave Joyce,Republican,17%,115
+OK,U.S. Senate - Sr,Jim Inhofe,Republican,0%,115
+OK,U.S. Senate - Jr,James Lankford,Republican,0%,115
+OK,U.S. House - 2,Markwayne Mullin,Republican,0%,115
+OK,U.S. House - 3,Frank Lucas,Republican,0%,115
+OK,U.S. House - 4,Tom Cole,Republican,0%,115
+OR,U.S. Senate - Sr,Ron Wyden,Democratic,100%,115
+OR,U.S. Senate - Jr,Jeff Merkley,Democratic,100%,115
+OR,U.S. House - 1,Suzanne Bonamici,Democratic,100%,115
+OR,U.S. House - 3,Earl Blumenauer,Democratic,100%,115
+OR,U.S. House - 4,Peter DeFazio,Democratic,100%,115
+OR,U.S. House - 5,Kurt Schrader,Democratic,100%,115
+PA,U.S. Senate - Sr,"Bob Casey, Jr.",Democratic,100%,115
+PA,U.S. Senate - Jr,Pat Toomey,Republican,0%,115
+PA,U.S. House - 1,Brian Fitzpatrick,Republican,33%,115
+PA,U.S. House - 2,Brendan Boyle,Democratic,100%,115
+PA,U.S. House - 3,Dwight Evans,Democratic,100%,115
+PA,U.S. House - 8,Matt Cartwright,Democratic,100%,115
+PA,U.S. House - 10,Scott Perry,Republican,0%,115
+PA,U.S. House - 11,Lloyd Smucker,Republican,0%,115
+PA,U.S. House - 15,"GT Thompson, Jr.",Republican,0%,115
+PA,U.S. House - 16,"Mike Kelly, Jr.",Republican,0%,115
+PA,U.S. House - 17,Conor Lamb,Democratic,50%,115
+PA,U.S. House - 18,"Mike Doyle, Jr.",Democratic,100%,115
+PR,U.S. House,Jenniffer González-Colón,New Progressive Party,0%,115
+RI,U.S. Senate - Sr,Jack Reed,Democratic,100%,115
+RI,U.S. Senate - Jr,Sheldon Whitehouse,Democratic,100%,115
+RI,U.S. House - 1,David Cicilline,Democratic,100%,115
+RI,U.S. House - 2,Jim Langevin,Democratic,100%,115
+SC,U.S. Senate - Sr,Lindsey Graham,Republican,0%,115
+SC,U.S. Senate - Jr,Tim Scott,Republican,0%,115
+SC,U.S. House - 2,"Joe Wilson, Sr.",Republican,0%,115
+SC,U.S. House - 3,Jeff Duncan,Republican,0%,115
+SC,U.S. House - 5,"Ralph Norman, Jr.",Republican,0%,115
+SC,U.S. House - 6,Jim Clyburn,Democratic,100%,115
+SC,U.S. House - 7,Tom Rice,Republican,0%,115
+SD,U.S. Senate - Sr,John Thune,Republican,0%,115
+SD,U.S. Senate - Jr,Mike Rounds,Republican,0%,115
+SD,Governor,Kristi Noem,Republican,0%,115
+TN,U.S. Senate - Sr,Marsha Blackburn,Republican,0%,115
+TN,U.S. House - 3,Chuck Fleischmann,Republican,0%,115
+TN,U.S. House - 4,Scott DesJarlais,Republican,0%,115
+TN,U.S. House - 5,Jim Cooper,Democratic,100%,115
+TN,U.S. House - 8,David Kustoff,Republican,0%,115
+TN,U.S. House - 9,Steve Cohen,Democratic,100%,115
+TX,U.S. Senate - Sr,John Cornyn,Republican,0%,115
+TX,U.S. Senate - Jr,Ted Cruz,Republican,0%,115
+TX,U.S. House - 1,Louie Gohmert,Republican,0%,115
+TX,U.S. House - 8,Kevin Brady,Republican,0%,115
+TX,U.S. House - 9,Al Green,Democratic,100%,115
+TX,U.S. House - 10,Michael McCaul,Republican,0%,115
+TX,U.S. House - 12,Kay Granger,Republican,0%,115
+TX,U.S. House - 14,"Randy Weber, Sr.",Republican,0%,115
+TX,U.S. House - 15,Vicente Gonzalez,Democratic,100%,115
+TX,U.S. House - 17,Pete Sessions,Republican,0%,115
+TX,U.S. House - 18,Sheila Jackson Lee,Democratic,100%,115
+TX,U.S. House - 19,Jodey Arrington,Republican,0%,115
+TX,U.S. House - 20,Joaquin Castro,Democratic,100%,115
+TX,U.S. House - 25,Roger Williams,Republican,0%,115
+TX,U.S. House - 26,Michael Burgess,Republican,0%,115
+TX,U.S. House - 27,Michael Cloud,Republican,0%,115
+TX,U.S. House - 28,Henry Cuellar,Democratic,100%,115
+TX,U.S. House - 30,Eddie Johnson,Democratic,100%,115
+TX,U.S. House - 31,John Carter,Republican,0%,115
+TX,U.S. House - 33,Marc Veasey,Democratic,100%,115
+TX,U.S. House - 34,"Filemon Vela, Jr.",Democratic,100%,115
+TX,U.S. House - 35,Lloyd Doggett II,Democratic,100%,115
+TX,U.S. House - 36,Brian Babin,Republican,0%,115
+UT,U.S. Senate - Sr,Mike Lee,Republican,0%,115
+UT,U.S. House - 2,Chris Stewart,Republican,0%,115
+UT,U.S. House - 3,John Curtis,Republican,0%,115
+VA,U.S. Senate - Sr,Mark Warner,Democratic,100%,115
+VA,U.S. Senate - Jr,Tim Kaine,Democratic,100%,115
+VA,U.S. House - 1,Rob Wittman,Republican,0%,115
+VA,U.S. House - 3,Bobby Scott,Democratic,100%,115
+VA,U.S. House - 4,Donald McEachin,Democratic,100%,115
+VA,U.S. House - 8,"Don Beyer, Jr.",Democratic,100%,115
+VA,U.S. House - 9,Morgan Griffith,Republican,0%,115
+VA,U.S. House - 11,Gerry Connolly,Democratic,100%,115
+VI,U.S. House - Delegate,Stacey Plaskett,Democratic,100%,115
+VT,U.S. Senate - Sr,Patrick Leahy,Democratic,100%,115
+VT,U.S. Senate - Jr,Bernie Sanders,Independent,100%,115
+VT,U.S. House - At-Large,Peter Welch,Democratic,100%,115
+WA,U.S. Senate - Sr,Patty Murray,Democratic,100%,115
+WA,U.S. Senate - Jr,Maria Cantwell,Democratic,100%,115
+WA,U.S. House - 1,Suzan DelBene,Democratic,100%,115
+WA,U.S. House - 2,Rick Larsen,Democratic,100%,115
+WA,U.S. House - 3,Jaime Herrera Beutler,Republican,17%,115
+WA,U.S. House - 4,Dan Newhouse,Republican,0%,115
+WA,U.S. House - 5,Cathy McMorris Rodgers,Republican,0%,115
+WA,U.S. House - 6,Derek Kilmer,Democratic,100%,115
+WA,U.S. House - 7,Pramila Jayapal,Democratic,100%,115
+WA,U.S. House - 9,Adam Smith,Democratic,100%,115
+WA,Lieutenant Governor,Denny Heck,Democratic,100%,115
+WI,U.S. Senate - Sr,Ron Johnson,Republican,0%,115
+WI,U.S. Senate - Jr,Tammy Baldwin,Democratic,100%,115
+WI,U.S. House - 2,Mark Pocan,Democratic,100%,115
+WI,U.S. House - 3,Ron Kind,Democratic,100%,115
+WI,U.S. House - 4,Gwen Moore,Democratic,100%,115
+WI,U.S. House - 6,Glenn Grothman,Republican,0%,115
+WI,U.S. House - 8,Mike Gallagher,Republican,0%,115
+WV,U.S. Senate - Sr,Joe Manchin III,Democratic,86%,115
+WV,U.S. Senate - Jr,Shelley Capito,Republican,0%,115
+WV,U.S. House - 1,David McKinley,Republican,0%,115
+WV,U.S. House - 2,Alex Mooney,Republican,0%,115
+WV,Chief Justice of the Supreme Court,Evan Jenkins,No Party Affiliation,0%,115
+WY,U.S. Senate - Sr,John Barrasso,Republican,0%,115
+WY,U.S. House - At-Large,Liz Cheney,Republican,0%,115

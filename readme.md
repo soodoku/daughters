@@ -14,8 +14,8 @@ An intriguing natural experiment arises from the fact that legislators are rando
 3. [Washington (2008) Replication Archive](data/washington)
 4. [Congressional Member ID Data](data/member_id/)
 5. [Voteview Data](data/voteview_congress_members.csv)
-6. [Female Members of Congress](data/female members of congress.csv)
-7. [Data on Children of MCs](data/data/Child Info Master List Dotters.csv)
+6. [Female Members of Congress](data/female members%20of%20congress.csv)
+7. [Data on Children of MCs](data/Child%20Info%20Master%20List%20Dotters.csv)
 8. [US Census Bureau Regions and Divisions](data/us_census_bureau_regions_and_divisions.csv)
 	via https://raw.githubusercontent.com/cphalpert/census-regions/master/us%20census%20bureau%20regions%20and%20divisions.csv
 9. [Literature Review](data/dotters_lit.csv)

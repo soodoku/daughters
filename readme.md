@@ -28,23 +28,23 @@ An intriguing natural experiment arises from the fact that legislators are rando
 
 3. [Final Data Creation](scripts/final_dataset_wrangle.R) takes the data from #1, merges with data on children of mcs, female members of congress data, output from #2, etc. to produce the [final data](data/final_data_2022_01_05.csv) we use for analysis.
 
-4. [Replicating Costa et al. (2019)](tabs/06_costa_et_al_rep.R)
+4. [Balance Checks](scripts/balance_checks.R)
+	* Produces results in SI 4 including [Table SI 4.1: Proportion of Female Children by Number of Children](tabs/append_prop_female_by_nchild.tex)
+
+5. [Replicating Costa et al. (2019)](tabs/06_costa_et_al_rep.R)
 	* First Six Columns of Table SI 3.2: Costa et al. (2019) Replication
 
-5. [Replicating Washington (2008)](tabs/07_washington_rep.R)
+6. [Replicating Washington (2008)](tabs/07_washington_rep.R)
 	* First Five Columns of Table SI 3.1: Washington (2008) Replication
 
-6. [](scripts/08_daughters_paper_outputs.R)
+7. [Main Text Table and Figure](scripts/08_daughters_paper_outputs.R)
 	* [Figure 1: Effect of Daughters Over Time By Cohort Analyzed by Washington (2008) and All Others](figs/fig_1_ebonya_cohort.pdf)
 	* [Table 1: Effect of Daughters on AAUW by Congress](tabs/table_1_ngirls_aauw_by_cong.tex)
 
-3. [Balance Checks](scripts/balance_checks.R)
-	* Produces results in SI 4 including [Table SI 4.1: Proportion of Female Children by Number of Children](tabs/append_prop_female_by_nchild.tex)
-
-4. [09_daughters_fulldata_analysis.R](scripts/09_daughters_fulldata_analysis.R)
+8. [09_daughters_fulldata_analysis.R](scripts/09_daughters_fulldata_analysis.R)
 	* Produces [Figure SI 7.1: AAUW Scores by Party Over Time](figs/si_aauw_over_time.pdf)
 
-5. [Compiling Literature Review Into a Latex Table](scripts/lit_review.R)
+9. [Compiling Literature Review Into a Latex Table](scripts/lit_review.R)
 	* Produces [Table SI 1.1: Literature Review](tabs/appendix_lit_review.tex)
 
 ### Authors

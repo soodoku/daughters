@@ -16,15 +16,14 @@ An intriguing natural experiment arises from the fact that legislators are rando
 5. [Voteview Data](data/voteview_congress_members.csv)
 6. [Female Members of Congress](data/female%20members%20of%20congress.csv)
 7. [Data on Children of MCs](data/Child%20Info%20Master%20List%20Dotters.csv)
-8. [US Census Bureau Regions and Divisions](data/us_census_bureau_regions_and_divisions.csv)
-	via https://raw.githubusercontent.com/cphalpert/census-regions/master/us%20census%20bureau%20regions%20and%20divisions.csv
+8. [US Census Bureau Regions and Divisions](data/us_census_bureau_regions_and_divisions.csv) via [Chris](https://raw.githubusercontent.com/cphalpert/census-regions/master/us%20census%20bureau%20regions%20and%20divisions.csv)
 9. [Literature Review](data/dotters_lit.csv)
 
 ### Scripts
 
-1. [Official Congress List](scripts/official_cong_list.R) takes Congressional Member ID data and the Voteview data to produce [Official Congressinal List Data](data/official_cong_list.csv)
+1. [Official Congress List](scripts/official_cong_list.R) takes Congressional Member ID data and the Voteview data to produce [Official Congressional List Data](data/official_cong_list.csv)
 
-2. [AAUW Vote Data](scripts/aauw_full.R) takes the data from #1 and AAUW vote data to produce two intermediate files [aauw vote data](data/aauw_scores_long.csv) and [aauw women's only votes data](data/aauw_womens.csv)
+2. [AAUW Vote Data](scripts/aauw_full.R) takes the data from #1 and AAUW vote data to produce two intermediate files [AAUW vote data](data/aauw_scores_long.csv) and [AAUW women's only votes data](data/aauw_womens.csv)
 
 3. [Final Data Creation](scripts/final_dataset_wrangle.R) takes the data from #1, merges with data on children of mcs, female members of congress data, output from #2, etc. to produce the [final data](data/final_data_2022_01_05.csv) we use for analysis.
 
@@ -41,7 +40,7 @@ An intriguing natural experiment arises from the fact that legislators are rando
 	* [Figure 1: Effect of Daughters Over Time By Cohort Analyzed by Washington (2008) and All Others](figs/fig_1_ebonya_cohort.pdf)
 	* [Table 1: Effect of Daughters on AAUW by Congress](tabs/table_1_ngirls_aauw_by_cong.tex)
 
-8. [09_daughters_fulldata_analysis.R](scripts/09_daughters_fulldata_analysis.R)
+8. [SI Tables and Figures](scripts/09_daughters_fulldata_analysis.R)
 	* Produces [Figure SI 7.1: AAUW Scores by Party Over Time](figs/si_aauw_over_time.pdf)
 
 9. [Compiling Literature Review Into a Latex Table](scripts/lit_review.R)

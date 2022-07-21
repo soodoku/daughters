@@ -36,11 +36,11 @@ An intriguing natural experiment arises from the fact that legislators are rando
 6. [Replicating Washington (2008)](scripts/washington_rep.R)
 	* First Five Columns of Table SI 3.1: Washington (2008) Replication
 
-7. [Main Text Table and Figure](scripts/08_daughters_paper_outputs_1.R)
+7. [Main Text Table and Figure](scripts/daughters_paper_outputs_1.R)
 	* [Figure 1: Effect of Daughters Over Time By Cohort Analyzed by Washington (2008) and All Others](figs/fig_1_ebonya_cohort.pdf)
 	* [Table 1: Effect of Daughters on AAUW by Congress](tabs/table_1_ngirls_aauw_by_cong.tex)
 
-8. [SI Tables and Figures](scripts/08_daughters_paper_outputs_1.R)
+8. [SI Tables and Figures](scripts/daughters_paper_outputs_2.R)
 	* Produces [Figure SI 7.1: AAUW Scores by Party Over Time](figs/si_aauw_over_time.pdf) and SI 8 Tables
 
 9. [Compiling Literature Review Into a Latex Table](scripts/lit_review.R)

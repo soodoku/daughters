@@ -30,10 +30,10 @@ An intriguing natural experiment arises from the fact that legislators are rando
 4. [Balance Checks](scripts/balance_checks.R)
 	* Produces results in SI 4 including [Table SI 4.1: Proportion of Female Children by Number of Children](tabs/append_prop_female_by_nchild.tex)
 
-5. [Replicating Costa et al. (2019)](tabs/06_costa_et_al_rep.R)
+5. [Replicating Costa et al. (2019)](tabs/costa_et_al_rep.R)
 	* First Six Columns of Table SI 3.2: Costa et al. (2019) Replication
 
-6. [Replicating Washington (2008)](tabs/07_washington_rep.R)
+6. [Replicating Washington (2008)](tabs/washington_rep.R)
 	* First Five Columns of Table SI 3.1: Washington (2008) Replication
 
 7. [Main Text Table and Figure](scripts/08_daughters_paper_outputs_1.R)

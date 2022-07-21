@@ -106,14 +106,14 @@ d <- bio %>%
   mutate(anygirls = ifelse(ngirls > 1, 1, 0)) %>%
   filter(nchildren > 0)
 
+# Data Robustness Checks And Making Sure Changing Things Don't Change the Results (Turns out all of this doesn't matter --- to do = write this up)
 # Filter out MCs that didn't finish their term
-inactive_mcs = read_csv("data/rep_inactive - Sheet1.csv")
-inactive_mcs$last_name <- sapply(strsplit(inactive_mcs$name, ","), "[", 1)
+#inactive_mcs = read_csv("data/rep_inactive - Sheet1.csv")
+#inactive_mcs$last_name <- sapply(strsplit(inactive_mcs$name, ","), "[", 1)
 
 # Join or die
-d$key <- tolower(paste0(d$last_name, "-", d$congress, "-", d$state))
-inactive_mcs$key <- tolower(paste0(inactive_mcs$last_name, "-", inactive_mcs$congress, "-", inactive_mcs$state))
+#d$key <- tolower(paste0(d$last_name, "-", d$congress, "-", d$state))
+#inactive_mcs$key <- tolower(paste0(inactive_mcs$last_name, "-", inactive_mcs$congress, "-", inactive_mcs$state))
+#filter_d <- d[!(d$key %in% inactive_mcs$key), ]
 
-filter_d <- d[!(d$key %in% inactive_mcs$key), ]
-
-write_csv(filter_d, "data/final_data_2022_01_05.csv")
+write_csv(d, "data/final_data_2022_01_05.csv")

@@ -5,3 +5,6 @@ data/aauw/raw_aauw_pdfs
 data/aauw/raw_aauw_pdfs.7z
 data/aauw/past
 other/
+.Rproj.user
+.Rapp.history
+Stargazer/

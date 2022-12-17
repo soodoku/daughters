@@ -4,14 +4,14 @@
 ## Does the effect among the rest of the data (minus Washington) overlap the CI of the "original"
 
 ### Set working dir
-setwd(githubdir)
-setwd("daughters/")
+setwd("~/Documents/Github/daughters/")
 
 ### Load libs
 library(stargazer)
 library(tidyverse)
 library(fwildclusterboot)
 library(knitr)
+library(lme4)
 
 # Set seed
 set.seed(1234567)
@@ -68,6 +68,18 @@ stargazer(fitted_ngirls_all$aauw_model,
 ### Pooled Reg
 
 aauw_ngirls <- lm(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female, d)
+
+aauw_ngirls_hier <- lmer(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female + (1|id), d)
+
+stargazer(aauw_ngirls_hier,
+          covariate.labels = "N. Daughters",
+          dep.var.labels = "AAUW",
+          omit = c("nchildren", "female", "congress", "Constant"),
+          header = FALSE,
+          type = "latex",
+          omit.stat=c("LL","ser","f", "rsq"), 
+          out = "tabs/table_1a_ngirls_aauw_pooled_hier.tex",
+          caption = "Estimated Average Treatment Effect Among All MCs Using a Random Effects Hierarchical Model")
 
 boot_aauw_ngirls <- boottest(aauw_ngirls, clustid = "id", param = "ngirls", B = 9999)
 

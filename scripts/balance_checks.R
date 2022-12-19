@@ -64,19 +64,19 @@ post_ebonya_unique <- d %>%
 
 ## __All Unique MCs__ T-Test Proportion Girls
 
-t.test(d_unique$prop_girls, mu = 0.49)
+t.test(d_unique$prop_girls, mu = 0.4878)
 
 ## __Pre-Ebonya__ T-Test Proportion Girls for All Unique MCs
 
-t.test(pre_ebonya_unique$prop_girls, mu = 0.49)
+t.test(pre_ebonya_unique$prop_girls, mu = 0.4878)
 
 ## __During Ebonya__ T-Test Proportion Girls for All Unique MCs
 
-t.test(ebonya_unique$prop_girls, mu = 0.49)
+t.test(ebonya_unique$prop_girls, mu = 0.4878)
 
 ## __Post-Ebonya__ T-Test Proportion Girls for All Unique MCs
 
-t.test(post_ebonya_unique$prop_girls, mu = 0.49)
+t.test(post_ebonya_unique$prop_girls, mu = 0.4878)
 
 # Conditional on Number of Children
 
@@ -87,7 +87,7 @@ t.test(post_ebonya_unique$prop_girls, mu = 0.49)
 t_all <- d_unique %>%
   filter(nchildren != 12) %>% # not enough mc w/ 12 children
   group_by(nchildren) %>%
-  summarise(res = list(tidy(t.test(prop_girls, mu = 0.49)))) %>%
+  summarise(res = list(tidy(t.test(prop_girls, mu = 0.4878)))) %>%
   unnest()
 
 kable(t_all, digits = 3)
@@ -122,7 +122,7 @@ print(
 t_pre_ebonya <- pre_ebonya_unique %>%
   filter(!nchildren %in% c(9, 10)) %>% 
   group_by(nchildren) %>%
-  summarise(res = list(tidy(t.test(prop_girls, mu = 0.49)))) %>%
+  summarise(res = list(tidy(t.test(prop_girls, mu = 0.4878)))) %>%
   unnest()
 
 kable(t_pre_ebonya, digits = 3)
@@ -133,7 +133,7 @@ kable(t_pre_ebonya, digits = 3)
 t_during_ebonya <- ebonya_unique %>%
   filter(!nchildren %in% c(10, 12)) %>%
   group_by(nchildren) %>%
-  summarise(res = list(tidy(t.test(prop_girls, mu = 0.49)))) %>%
+  summarise(res = list(tidy(t.test(prop_girls, mu = 0.4878)))) %>%
   unnest()
 
 kable(t_during_ebonya, digits = 3)
@@ -143,7 +143,7 @@ kable(t_during_ebonya, digits = 3)
 t_post_ebonya <- post_ebonya_unique %>%
   filter(!nchildren %in% c(12)) %>%
   group_by(nchildren) %>%
-  summarise(res = list(tidy(t.test(prop_girls, mu = 0.49)))) %>%
+  summarise(res = list(tidy(t.test(prop_girls, mu = 0.4878)))) %>%
   unnest()
 
 kable(t_post_ebonya, digits = 3)
@@ -175,7 +175,7 @@ d_unique <- d_unique %>%
 t_all_party <- d_unique %>%
   #filter(nchildren != 12) %>% # not enough mc w/ 12 children
   group_by(democrat) %>%
-  summarise(res = list(tidy(t.test(prop_girls, mu = 0.49)))) %>%
+  summarise(res = list(tidy(t.test(prop_girls, mu = 0.4878)))) %>%
   unnest(cols = c(res))
 
 party_ngirls <- glm(democrat ~ ngirls + as.factor(nchildren), d_unique, family = "binomial")

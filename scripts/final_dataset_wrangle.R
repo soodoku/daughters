@@ -1,8 +1,7 @@
 ## Data Analysis
 
 ### Set working dir
-setwd(githubdir)
-setwd("daughters/")
+setwd("~/Documents/Github/daughters/")
 
 ### Load libs
 library(tidyverse)

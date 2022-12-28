@@ -1,11 +1,12 @@
 ## Data Analysis
 
 ### Set working dir
-setwd(githubdir)
-setwd("dotter/replication/")
+setwd("~/Documents/Github/daughters/")
 
 ### Load libs
 library(tidyverse)
+library(ggplot2)
+library(stringi)
 
 # load data ----
 

@@ -1,4 +1,4 @@
-state,district,id,icpsr,last_name,first_name,middle_name,ngirls (total),nboys (total),nchildren (total),ngirls (bio),nboys (bio),nchildren (bio),Notes,cong_served
+state,district,id,icpsr,last_name,first_name,middle_name,ngirls_total,nboys_total,nchildren_total,ngirls_bio,nboys_bio,nchildren_bio,Notes,cong_served
 ,,,,,,,,,,,,,*Child counts remained constant throughout the period of interest (105-108 Congresses) for all MCs with any non-biological children.,
 MI,16,D000355,2605,Dingell,John,David,2,2,4,2,2,4,,"97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107"
 MI,15,D000355,2605,Dingell,John,David,2,2,4,2,2,4,,"108, 109, 110, 111, 112"

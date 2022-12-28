@@ -1,15 +1,14 @@
 ## Data Analysis
 
 ### Set working dir
-setwd(githubdir)
-setwd("daughters/")
+setwd("~/Documents/Github/daughters/")
 
 ### Load libs
 library(stargazer)
 library(foreign)
 library(tidyverse)
-library(plotly)
 library(fwildclusterboot)
+library(plotly)
 library(knitr)
 
 # Set seed
@@ -79,3 +78,5 @@ boot_aauw <- data.frame(rbind(boot_pooled)) %>%
   unnest(cols = c(point_estimate, conf_int, N)) %>%
   cbind(conf_int_lab = rep(c("ci min", "ci max"), 1)) %>%
   pivot_wider(names_from = conf_int_lab, values_from = conf_int)
+
+

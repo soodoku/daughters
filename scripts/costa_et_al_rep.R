@@ -1,13 +1,12 @@
 ## Costa et al. replication
 
 ### Set working dir
-setwd(githubdir)
-setwd("daughters/")
+setwd("~/Documents/Github/daughters/")
+
 
 ### Load libs
 library(stargazer)
 library(tidyverse)
-library(fwildclusterboot)
 library(readr)
 library(plm)
 library(lme4)

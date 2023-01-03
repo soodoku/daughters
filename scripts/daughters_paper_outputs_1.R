@@ -65,6 +65,26 @@ stargazer(fitted_ngirls_all$aauw_model,
           out = "tabs/table_1_ngirls_aauw_by_cong.tex",
           caption = "Estimated Average Treatment Effect Among All MCs")
 
+### Add party
+fitted_ngirls_all_party <- d %>% 
+  group_by(congress) %>% 
+  do(aauw_model = lm(aauw_all ~ ngirls + as.factor(nchildren) + party + female, data = .)) %>%
+  mutate(co_aauw = coef(aauw_model)["ngirls"],
+         se_aauw = coef(summary(aauw_model))["ngirls", "Std. Error"])
+
+stargazer(fitted_ngirls_all_party$aauw_model,
+          column.labels = congress, 
+          covariate.labels = "N. Daughters",
+          dep.var.labels = "AAUW",
+          omit = c("nchildren", "female", "Constant"),
+          header = FALSE,
+          type = "latex",
+          omit.stat=c("LL","ser","f", "rsq"), 
+          float.env = "sidewaystable",
+          font.size = "tiny",
+          out = "tabs/tab_1_pid.tex",
+          caption = "Effect of the Number of Daughters on AAUW Score Controlling  for  Indicator  Variables  for the Number  of Children, MC's gender and party")
+
 ### Pooled Reg
 aauw_ngirls <- lm(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female, d)
 boot_aauw_ngirls <- boottest(aauw_ngirls, clustid = "id", param = "ngirls", B = 9999)

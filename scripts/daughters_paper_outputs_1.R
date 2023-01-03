@@ -96,6 +96,17 @@ boot_aauw <- data.frame(rbind(boot_aauw_ngirls)) %>%
 
 kable(boot_aauw, digits = 3)
 
+### Pooled with Party
+aauw_ngirls_party <- lm(aauw_all ~ ngirls + as.factor(congress) + party + as.factor(nchildren) + female, d)
+boot_aauw_ngirls_party <- boottest(aauw_ngirls_party, clustid = "id", param = "ngirls", B = 9999)
+boot_aauw_party <- data.frame(rbind(boot_aauw_ngirls_party)) %>% 
+  select(point_estimate, conf_int, N) %>%
+  unnest() %>%
+  cbind(conf_int_lab = rep(c("ci min", "ci max"), 1)) %>%
+  pivot_wider(names_from = conf_int_lab, values_from = conf_int)
+
+kable(boot_aauw_party, digits = 3)
+
 ### Hierarchical Model/Pooled
 aauw_ngirls_hier <- lmer(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female + (1|id), d)
 

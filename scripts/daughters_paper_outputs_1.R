@@ -151,6 +151,8 @@ fitted_ngirls %>%
   theme(legend.position = "bottom", legend.box = "vertical")
 
 ggsave("figs/fig_1_ebonya_cohort.pdf")
+ggsave("figs/fig_1_ebonya_cohort.eps")
+
 
 ## __Ebonya__ AAUW Scores on Proportion of Daughters
 

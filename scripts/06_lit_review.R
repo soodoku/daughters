@@ -1,6 +1,4 @@
 # Lit Review Table
-setwd(githubdir)
-setwd("dotter/replication/")
 
 # Load libs 
 library(xtable)

@@ -2,10 +2,6 @@
 ## Get list of MCs from bioguide
 ## Merge with Voteview
 
-### Set working dir
-setwd(githubdir)
-setwd("daughters/")
-
 ### Load libs
 library(tidyverse)
 library(babynames)

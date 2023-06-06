@@ -1,7 +1,4 @@
-## Data Analysis
-
-### Set working dir
-setwd("~/Documents/Github/daughters/")
+## Final Dataset
 
 ### Load libs
 library(tidyverse)

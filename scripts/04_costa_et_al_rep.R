@@ -1,9 +1,5 @@
 ## Costa et al. replication
 
-### Set working dir
-setwd("~/Documents/Github/daughters/")
-
-
 ### Load libs
 library(stargazer)
 library(tidyverse)

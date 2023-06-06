@@ -3,9 +3,6 @@
 ## Figure 1: Effect of ndaughters over time among Washington Cohort/Rest
 ## Does the effect among the rest of the data (minus Washington) overlap the CI of the "original"
 
-### Set working dir
-setwd("~/Documents/Github/daughters/")
-
 ### Load libs
 library(stargazer)
 library(tidyverse)
@@ -88,6 +85,20 @@ stargazer(fitted_ngirls_all_party$aauw_model,
 ### Pooled Reg
 aauw_ngirls <- lm(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female, d)
 boot_aauw_ngirls <- boottest(aauw_ngirls, clustid = "id", param = "ngirls", B = 9999)
+
+library(lme4)
+summary(lmer(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female + (1|id), data = d))
+
+# Cluster bootstrap
+library(fwb)
+library(lmtest)
+coeftest(aauw_ngirls, vcov = vcovFWB, cluster = ~id)
+# Sandwich 
+library(clubSandwich)
+vcovCL(aauw_ngirls, d$id)
+sqrt(diag(vcovCL(aauw_ngirls, d$id)))
+
+# Back of wild
 boot_aauw <- data.frame(rbind(boot_aauw_ngirls)) %>% 
   select(point_estimate, conf_int, N) %>%
   unnest() %>%
@@ -137,17 +148,19 @@ fitted_ngirls %>%
   pivot_longer(cols = c(co_aauw:se_aauw), names_to = c("type", "dep_var"), names_sep = "_") %>%
   pivot_wider(names_from = type) %>%
   ggplot(aes(congress, co)) +
-  geom_rect(aes(xmin=105, xmax=108, ymin=-Inf, ymax=Inf), fill="lightgrey", alpha=0.5) +
-  geom_rect(aes(xmin=110, xmax=114, ymin=-Inf, ymax=Inf), fill="lightgrey", alpha=0.5) +
+  geom_rect(aes(xmin=103, xmax=108, ymin=-Inf, ymax=Inf), fill="#eeeeee") +
+  geom_rect(aes(xmin=110, xmax=114, ymin=-Inf, ymax=Inf), fill="#eeeeee") +
   geom_text(aes(x = 106.5, y = 0.3, label = "Washington")) +
   geom_text(aes(x = 112, y = 0.3, label = "Costa et al.")) +
-  geom_line(aes(color = (ebonya_cohort))) +
-  geom_pointrange(aes(ymin=co-1.96*se, ymax=co + 1.96*se, color = as.factor(ebonya_cohort)), alpha = 0.7, 
+  geom_line(aes(color = (ebonya_cohort), linetype = ebonya_cohort)) +
+  scale_color_manual(values = c("#777777", "black")) + 
+  scale_linetype_manual(values = c("dashed", "solid")) + 
+  geom_pointrange(aes(ymin=co-1.96*se, ymax=co + 1.96*se, color = as.factor(ebonya_cohort)),  
                  position=position_dodge(0.05)) + 
   #geom_point(aes(size = se, color = as.factor(ebonya_cohort)), alpha = 0.7) +
   labs(title = "Estimated Average Treatment Effect of Number of Daughters",
        x = "Congress", y = "AAUW", size = "Standard Error", color = "Cohort") +
-  theme_minimal() +
+  theme_bw() +
   theme(legend.position = "bottom", legend.box = "vertical")
 
 ggsave("figs/fig_1_ebonya_cohort.pdf")

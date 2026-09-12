@@ -99,7 +99,7 @@ d <- bio %>%
   mutate(female = ifelse(id %in% female$`member ID`, 1, 0)) %>%
   left_join(children %>% select(id, ngirls, nboys, nchildren, high_confidence), by = "id") %>%
   left_join(aauw_final, by = c("id", "congress")) %>%
-  mutate(anygirls = ifelse(ngirls > 1, 1, 0)) %>%
+  mutate(anygirls = as.integer(ngirls > 0)) %>%
   filter(nchildren > 0)
 
 # Data Robustness Checks And Making Sure Changing Things Don't Change the Results (Turns out all of this doesn't matter --- to do = write this up)

@@ -13,11 +13,24 @@ output_dir <- if (length(args)) {
 }
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 cat("Audit outputs:", normalizePath(output_dir), "\n")
-frozen <- read_csv("data/final_data_2022_01_05.csv", show_col_types = FALSE) |>
-  mutate(
-    aauw_all = aauw_all / 100, aauw_voting = aauw_voting / 100,
-    aauw_women_all = aauw_women_all / 100, prop_girls = ngirls / nchildren
-  )
+baseline_csv <- system2("git", c(
+  "show", "audit-baseline-2026-09-12:data/final_data_2022_01_05.csv"
+), stdout = TRUE)
+stopifnot(is.null(attr(baseline_csv, "status")))
+datasets <- map(list(
+  historical = I(paste(baseline_csv, collapse = "\n")),
+  current = "data/final_data_2022_01_05.csv"
+), \(input) {
+  read_csv(input, show_col_types = FALSE) |>
+    mutate(
+      aauw_all = aauw_all / 100, aauw_voting = aauw_voting / 100,
+      aauw_women_all = aauw_women_all / 100, prop_girls = ngirls / nchildren
+    )
+})
+frozen <- datasets$historical
+stopifnot(
+  all(datasets$current$anygirls == as.integer(datasets$current$ngirls > 0))
+)
 voteview <- read_csv(
   "data/voteview_congress_members.csv",
   show_col_types = FALSE
@@ -43,7 +56,9 @@ write_csv(
 
 scenarios <- list(
   historical = historical, join_removed = frozen,
-  any_daughter_corrected = mutate(historical, anygirls = as.integer(ngirls > 0))
+  current = left_join(datasets$current, voteview,
+    by = c("id", "congress"), relationship = "many-to-many"
+  )
 )
 results <- list()
 for (scenario in names(scenarios)) {
@@ -72,8 +87,10 @@ for (scenario in names(scenarios)) {
 write_csv(bind_rows(results), file.path(output_dir, "pooled_comparisons.csv"))
 print(bind_rows(results), n = Inf)
 
-by_congress <- historical |>
-  group_by(congress) |>
+by_congress <- bind_rows(
+  historical = historical, current = scenarios$current, .id = "version"
+) |>
+  group_by(version, congress) |>
   group_modify(\(data, key) {
     map_dfr(c("ngirls", "anygirls", "prop_girls"), \(exposure) {
       formula <- reformulate(
@@ -96,7 +113,7 @@ expected_n <- c(
   362, 366, 361, 361, 364, 368, 377, 386, 397, 393,
   392, 392, 390, 400, 392, 400, 401, 396, 395, 377
 )
-main <- filter(by_congress, exposure == "ngirls")
+main <- filter(by_congress, version == "historical", exposure == "ngirls")
 stopifnot(
   identical(round(main$estimate, 3), expected_b), all(main$rows == expected_n)
 )
@@ -252,7 +269,8 @@ votes <- read_csv("data/HSall_votes.zip",
 ) |>
   filter(between(congress, 97, 101))
 member_ids <- read_csv(
-  "data/voteview_congress_members.csv", show_col_types = FALSE
+  "data/voteview_congress_members.csv",
+  show_col_types = FALSE
 ) |>
   filter(chamber == "House") |>
   select(congress, icpsr, id = bioguide_id) |>

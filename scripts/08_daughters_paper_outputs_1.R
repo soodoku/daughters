@@ -127,7 +127,10 @@ stargazer(aauw_ngirls_hier,
 
 ## EB's cohort vs. rest./Figure 1
 
-ebonya_cohort <- unique(d[d$congress %in% c(105:108),]$id)
+ebonya_cohort <- d %>%
+  filter(congress %in% 105:108, chamber == "House") %>%
+  distinct(id) %>%
+  pull(id)
 
 d <- d %>%
   mutate(ebonya_cohort = ifelse(id %in% ebonya_cohort, "Washington", "Non-Washington"))

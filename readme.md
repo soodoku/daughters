@@ -1,5 +1,7 @@
 ### Replication Materials For "Revisiting a Natural Experiment: Do Legislators With Daughters Vote More Liberally on Women's Issues?"
 
+The historical manuscript abstract:
+
 An intriguing natural experiment arises from the fact that legislators are randomly assigned some combination of sons or daughters. The pioneering work of Washington (2008) shows that legislators with daughters cast more liberal roll call votes on women's issues. Costa et al. (2019) find that this pattern subsides in more recent congresses and speculate that increasing party polarization might diminish the ``daughters effect.'' The present paper delves more deeply into patterns of change over time by looking at eight congresses prior to the four studied by Washington (2008) as well as eight subsequent congresses, including three not included in Costa et al. (2019). Contrary to the party polarization hypothesis, we find no daughters effect leading up to the period that Washington studied and no effect thereafter. The cohort of members whom Washington studied exhibit consistently positive effects over time, while other legislators exhibit non-positive effects.The daughters effect appears to be a statistical aberration.
 
 ### Manuscript
@@ -21,32 +23,36 @@ An intriguing natural experiment arises from the fact that legislators are rando
 8. [US Census Bureau Regions and Divisions](data/us_census_bureau_regions_and_divisions.csv) via [Chris](https://raw.githubusercontent.com/cphalpert/census-regions/master/us%20census%20bureau%20regions%20and%20divisions.csv)
 9. [Literature Review](data/dotters_lit.csv)
 
-### Scripts
+### Reproduce
 
-1. [Official Congress List](scripts/official_cong_list.R) takes Congressional Member ID data and the Voteview data to produce [Official Congressional List Data](data/official_cong_list.csv)
+Run from the repository root. This revision was validated with R 4.6.0; `renv.lock` records the package versions, including the GitHub revision of `fwildclusterboot`.
 
-2. [AAUW Vote Data](scripts/aauw_full.R) takes the data from #1 and AAUW vote data to produce two intermediate files [AAUW vote data](data/aauw_scores_long.csv) and [AAUW women's only votes data](data/aauw_womens.csv)
+```r
+install.packages("renv")
+renv::restore(library = "renv/library", prompt = FALSE)
+```
 
-3. [Final Data Creation](scripts/final_dataset_wrangle.R) takes the data from #1, merges with data on children of mcs, female members of congress data, output from #2, etc. to produce the [final data](data/final_data_2022_01_05.csv) we use for analysis.
+```sh
+make reproduce
+make validate
+make lint
+```
 
-4. [Balance Checks](scripts/balance_checks.R)
-	* Produces results in SI 4 including [Table SI 4.1: Proportion of Female Children by Number of Children](tabs/append_prop_female_by_nchild.tex)
+`make reproduce` rebuilds the data, then overwrites the current tables in `tabs/` and figures in `figs/`. `make results` reruns the results using the supplied analytical CSV. `make validate` compares the current results with the historical Git tag and independently reconstructs the early vote scores; its CSVs and package versions go to `/tmp/daughters-comparisons` (override with `COMPARISONS=/your/path`). Keep the Git tags when cloning to run these comparisons.
 
-5. [Replicating Costa et al. (2019)](scripts/costa_et_al_rep.R)
-	* First Six Columns of Table SI 3.2: Costa et al. (2019) Replication
+| Scripts | Purpose |
+|---|---|
+| [01](scripts/01_official_cong_list.R), [02](scripts/02_aauw_full.R), [03](scripts/03_final_dataset_wrangle.R) | Build the member roster, AAUW scores and analytical CSV from the supplied sources. |
+| [04](scripts/04_costa_et_al_rep.R), [05](scripts/05_washington_rep.R) | Reproduce the comparison specifications using Costa and Washington's original data. |
+| [06](scripts/06_lit_review.R) | Build the literature table. |
+| [07](scripts/07_balance_checks.R) | Balance checks and party model. |
+| [08](scripts/08_daughters_paper_outputs_1.R) | Main table and cohort figure, cohort tables, pooled and non-biological-child specifications. |
+| [09](scripts/09_daughters_paper_outputs_2.R) | Supplementary outcomes, any-daughter models and AAUW-by-party figure. |
+| [validate](scripts/validate.R) | Historical reproduction, isolated corrections and optional specification comparisons. |
 
-6. [Replicating Washington (2008)](scripts/washington_rep.R)
-	* First Five Columns of Table SI 3.1: Washington (2008) Replication
+AAUW is stored on a 0–100 scale and analyzed on a 0–1 scale. Annual tables retain the manuscript's OLS standard errors; pooled CSVs and tables use 9,999 wild bootstrap draws clustered by legislator. Both random generators are seeded. The balance party model retains the original seeded selection of one Congress per legislator. Source column names are retained in the supplied data; analysis scripts use names such as `n_daughters`, `n_children` and `has_daughter`.
 
-7. [Main Text Table and Figure](scripts/daughters_paper_outputs_1.R)
-	* [Figure 1: Effect of Daughters Over Time By Cohort Analyzed by Washington (2008) and All Others](figs/fig_1_ebonya_cohort.pdf)
-	* [Table 1: Effect of Daughters on AAUW by Congress](tabs/table_1_ngirls_aauw_by_cong.tex)
-
-8. [Other SI Tables and Figures](scripts/daughters_paper_outputs_2.R)
-	* Produces [Figure SI 7.1: AAUW Scores by Party Over Time](figs/si_aauw_over_time.pdf) and SI 8 Tables
-
-9. [Compiling Literature Review Into a Latex Table](scripts/lit_review.R)
-	* Produces [Table SI 1.1: Literature Review](tabs/appendix_lit_review.tex)
+The PDFs in `ms/` are the historical manuscript and supplement. Editable manuscript source is absent from this checkout, so those PDFs do **not** incorporate the corrections. Current numerical replacements are in `tabs/` and `figs/`; [CHANGES.md](CHANGES.md) explains their consequences. Interpretation changes and time-varying child counts remain for a subsequent revision.
 
 ### Authors
 

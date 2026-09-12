@@ -4,46 +4,60 @@ library(tidyr)
 library(purrr)
 library(broom)
 
-# Audit outputs are comparisons; the historical analytical inputs stay fixed.
+# Compare current results with the historical Git snapshot.
 args <- commandArgs(trailingOnly = TRUE)
 output_dir <- if (length(args)) {
   args[[1]]
 } else {
-  file.path(tempdir(), "daughters-audit")
+  file.path(tempdir(), "daughters-comparisons")
 }
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
-cat("Audit outputs:", normalizePath(output_dir), "\n")
-baseline_csv <- system2("git", c(
-  "show", "audit-baseline-2026-09-12:data/final_data_2022_01_05.csv"
-), stdout = TRUE)
+cat("Comparison outputs:", normalizePath(output_dir), "\n")
+baseline_csv <- system2(
+  "git",
+  c(
+    "show",
+    "audit-baseline-2026-09-12:data/final_data_2022_01_05.csv"
+  ),
+  stdout = TRUE
+)
 stopifnot(is.null(attr(baseline_csv, "status")))
-datasets <- map(list(
-  historical = I(paste(baseline_csv, collapse = "\n")),
-  current = "data/final_data_2022_01_05.csv"
-), \(input) {
-  read_csv(input, show_col_types = FALSE) |>
-    mutate(
-      aauw_all = aauw_all / 100, aauw_voting = aauw_voting / 100,
-      aauw_women_all = aauw_women_all / 100, prop_girls = ngirls / nchildren
-    )
-})
+datasets <- map(
+  list(
+    historical = I(paste(baseline_csv, collapse = "\n")),
+    current = "data/final_data_2022_01_05.csv"
+  ),
+  \(input) {
+    read_csv(input, show_col_types = FALSE) |>
+      mutate(
+        aauw_all = aauw_all / 100,
+        aauw_voting = aauw_voting / 100,
+        aauw_women_all = aauw_women_all / 100,
+        prop_girls = ngirls / nchildren
+      )
+  }
+)
 frozen <- datasets$historical
 stopifnot(
   all(datasets$current$anygirls == as.integer(datasets$current$ngirls > 0))
 )
 voteview <- read_csv(
   "data/voteview_congress_members.csv",
+  col_types = cols(Check = col_character()),
   show_col_types = FALSE
 ) |>
   filter(chamber == "House") |>
   select(id = bioguide_id, congress, nokken_poole_dim1)
-historical <- left_join(frozen, voteview,
+historical <- left_join(
+  frozen,
+  voteview,
   by = c("id", "congress"),
   relationship = "many-to-many"
 )
 stopifnot(
   !anyDuplicated(frozen[c("id", "congress")]),
-  all(frozen$nchildren > 0), nrow(historical) == nrow(frozen) + 14
+  all(frozen$nchildren > 0),
+  nrow(historical) == nrow(frozen) + 14
 )
 write_csv(
   filter(frozen, ngirls + nboys != nchildren),
@@ -55,12 +69,19 @@ write_csv(
 )
 
 scenarios <- list(
-  historical = historical, join_removed = frozen,
+  historical = historical,
+  indicator_only = mutate(historical, anygirls = as.integer(ngirls > 0)),
+  join_removed = frozen,
   current = datasets$current
 )
 results <- list()
 for (scenario in names(scenarios)) {
-  for (exposure in c("ngirls", "anygirls", "prop_girls")) {
+  exposures <- if (scenario == "indicator_only") {
+    "anygirls"
+  } else {
+    c("ngirls", "anygirls", "prop_girls")
+  }
+  for (exposure in exposures) {
     analysis_data <- scenarios[[scenario]] |>
       drop_na(aauw_all, all_of(exposure), nchildren, female, congress, id)
     formula <- reformulate(
@@ -70,15 +91,22 @@ for (scenario in names(scenarios)) {
     model <- lm(formula, data = analysis_data)
     set.seed(1234567)
     dqrng::dqset.seed(1234567)
-    boot <- fwildclusterboot::boottest(model,
-      clustid = "id", param = exposure,
-      B = 9999, nthreads = 1
+    boot <- fwildclusterboot::boottest(
+      model,
+      clustid = "id",
+      param = exposure,
+      B = 9999,
+      nthreads = 1
     )
     results[[paste(scenario, exposure)]] <- tibble(
-      scenario, exposure,
+      scenario,
+      exposure,
       estimate = unname(coef(model)[exposure]),
-      lower = boot$conf_int[1], upper = boot$conf_int[2], p = boot$p_val,
-      rows = nobs(model), legislators = n_distinct(analysis_data$id)
+      lower = boot$conf_int[1],
+      upper = boot$conf_int[2],
+      p = boot$p_val,
+      rows = nobs(model),
+      legislators = n_distinct(analysis_data$id)
     )
   }
 }
@@ -86,7 +114,9 @@ write_csv(bind_rows(results), file.path(output_dir, "pooled_comparisons.csv"))
 print(bind_rows(results), n = Inf)
 
 by_congress <- bind_rows(
-  historical = historical, current = scenarios$current, .id = "version"
+  historical = historical,
+  current = scenarios$current,
+  .id = "version"
 ) |>
   group_by(version, congress) |>
   group_modify(\(data, key) {
@@ -104,16 +134,53 @@ by_congress <- bind_rows(
   ungroup()
 write_csv(by_congress, file.path(output_dir, "congress_reproduction.csv"))
 expected_b <- c(
-  -.006, -.004, -.022, .002, .002, .010, .021, .033, .077, .040,
-  .068, .046, .019, .046, .002, .041, .030, .006, -.004, -.010
+  -.006,
+  -.004,
+  -.022,
+  .002,
+  .002,
+  .010,
+  .021,
+  .033,
+  .077,
+  .040,
+  .068,
+  .046,
+  .019,
+  .046,
+  .002,
+  .041,
+  .030,
+  .006,
+  -.004,
+  -.010
 )
 expected_n <- c(
-  362, 366, 361, 361, 364, 368, 377, 386, 397, 393,
-  392, 392, 390, 400, 392, 400, 401, 396, 395, 377
+  362,
+  366,
+  361,
+  361,
+  364,
+  368,
+  377,
+  386,
+  397,
+  393,
+  392,
+  392,
+  390,
+  400,
+  392,
+  400,
+  401,
+  396,
+  395,
+  377
 )
 main <- filter(by_congress, version == "historical", exposure == "ngirls")
 stopifnot(
-  identical(round(main$estimate, 3), expected_b), all(main$rows == expected_n)
+  identical(round(main$estimate, 3), expected_b),
+  all(main$rows == expected_n)
 )
 
 cohort_ids <- historical |>
@@ -154,7 +221,8 @@ for (period in c("pre", "washington", "post", "costa", "all")) {
     aauw_all ~ ngirls + factor(nchildren) + female + factor(congress),
     data = analysis_data
   )
-  clustered <- lmtest::coeftest(model,
+  clustered <- lmtest::coeftest(
+    model,
     vcov. = sandwich::vcovCL(model, cluster = analysis_data$id, type = "HC1"),
     df = n_distinct(analysis_data$id) - 1
   )
@@ -162,7 +230,8 @@ for (period in c("pre", "washington", "post", "costa", "all")) {
     filter(term == "ngirls") |>
     mutate(
       period,
-      rows = nobs(model), legislators = n_distinct(analysis_data$id)
+      rows = nobs(model),
+      legislators = n_distinct(analysis_data$id)
     )
 }
 write_csv(bind_rows(inference), file.path(output_dir, "period_estimates.csv"))
@@ -177,13 +246,14 @@ analysis_data <- frozen |>
   )
 member_congress <- fixest::feols(
   aauw_all ~ ngirls + factor(nchildren) + female | congress,
-  data = analysis_data, vcov = ~id
+  data = analysis_data,
+  vcov = ~id
 )
 equal_legislator <- fixest::feols(
-  aauw_all ~ ngirls + factor(nchildren) + female |
-    congress,
+  aauw_all ~ ngirls + factor(nchildren) + female | congress,
   data = analysis_data,
-  weights = ~ I(1 / terms_observed), vcov = ~id
+  weights = ~ I(1 / terms_observed),
+  vcov = ~id
 )
 weighting <- bind_rows(
   tidy(member_congress, conf.int = TRUE) |>
@@ -196,11 +266,13 @@ write_csv(weighting, file.path(output_dir, "weighting.csv"))
 
 # Allow period-specific nuisance coefficients in slope comparisons.
 period_model <- fixest::feols(
-  aauw_all ~ ngirls * factor(washington_period + 2 * after_washington) +
+  aauw_all ~ ngirls *
+    factor(washington_period + 2 * after_washington) +
     (factor(nchildren) + female) *
       factor(washington_period + 2 * after_washington) |
     congress,
-  data = analysis_data, vcov = ~id
+  data = analysis_data,
+  vcov = ~id
 )
 write_csv(
   tidy(period_model, conf.int = TRUE),
@@ -209,10 +281,12 @@ write_csv(
 
 support <- analysis_data |> filter(!between(congress, 105, 108))
 cohort_model <- fixest::feols(
-  aauw_all ~ ngirls * washington_cohort +
+  aauw_all ~ ngirls *
+    washington_cohort +
     (factor(nchildren) + female) * washington_cohort |
     congress^washington_cohort,
-  data = support, vcov = ~id
+  data = support,
+  vcov = ~id
 )
 write_csv(
   tidy(cohort_model, conf.int = TRUE),
@@ -220,10 +294,13 @@ write_csv(
 )
 
 # Family size and sex composition are fixed throughout this released panel.
-family_history <- frozen |> summarise(
-  rows = n(), n_girl_values = n_distinct(ngirls),
-  n_child_values = n_distinct(nchildren), .by = id
-)
+family_history <- frozen |>
+  summarise(
+    rows = n(),
+    n_girl_values = n_distinct(ngirls),
+    n_child_values = n_distinct(nchildren),
+    .by = id
+  )
 write_csv(family_history, file.path(output_dir, "family_history.csv"))
 stopifnot(
   all(family_history$n_girl_values == 1),
@@ -255,19 +332,26 @@ cat("Main table: all 20 coefficients and sample counts reproduce.\n")
 bills <- read_csv("data/aauw_votes_97-116.csv", show_col_types = FALSE) |>
   filter(congress_or_senate == "congress", cong_number < 102) |>
   select(
-    congress = cong_number, rollnumber = `Voteview Vote no.`, aauw_yes_or_no
+    congress = cong_number,
+    rollnumber = `Voteview Vote no.`,
+    aauw_yes_or_no
   )
-votes <- read_csv("data/HSall_votes.zip",
+votes <- read_csv(
+  "data/HSall_votes.zip",
   show_col_types = FALSE,
   col_types = cols(
-    .default = col_skip(), congress = col_double(),
-    chamber = col_character(), icpsr = col_double(),
-    rollnumber = col_double(), cast_code = col_double()
+    .default = col_skip(),
+    congress = col_double(),
+    chamber = col_character(),
+    icpsr = col_double(),
+    rollnumber = col_double(),
+    cast_code = col_double()
   )
 ) |>
   filter(between(congress, 97, 101))
 member_ids <- read_csv(
   "data/voteview_congress_members.csv",
+  col_types = cols(Check = col_character()),
   show_col_types = FALSE
 ) |>
   filter(chamber == "House") |>
@@ -276,7 +360,10 @@ member_ids <- read_csv(
 upstream_results <- list()
 upstream_pooled <- list()
 vote_variants <- c(
-  "historical_votes", "paired_as_abstention", "house_only", "both_vote_fixes"
+  "historical_votes",
+  "paired_as_abstention",
+  "house_only",
+  "both_vote_fixes"
 )
 for (variant in vote_variants) {
   source_votes <- if (variant %in% c("house_only", "both_vote_fixes")) {
@@ -284,38 +371,53 @@ for (variant in vote_variants) {
   } else {
     votes
   }
-  scored <- left_join(bills, source_votes,
+  scored <- left_join(
+    bills,
+    source_votes,
     by = c("congress", "rollnumber"),
     relationship = "many-to-many"
   ) |>
-    mutate(vote = case_when(
-      cast_code %in% 1:3 ~ 1, cast_code %in% 4:6 ~ -1,
-      cast_code %in% 7:9 ~ 0, TRUE ~ NA_real_
-    ))
+    mutate(
+      vote = case_when(
+        cast_code %in% 1:3 ~ 1,
+        cast_code %in% 4:6 ~ -1,
+        cast_code %in% 7:9 ~ 0,
+        TRUE ~ NA_real_
+      )
+    )
   if (variant %in% c("paired_as_abstention", "both_vote_fixes")) {
     scored <- mutate(scored, vote = if_else(cast_code %in% c(2, 5), 0, vote))
   }
   new_scores <- scored |>
-    mutate(support = case_when(
-      aauw_yes_or_no == "yes" ~ as.numeric(vote == 1),
-      aauw_yes_or_no == "no" ~ as.numeric(vote == -1),
-      TRUE ~ NA_real_
-    )) |>
+    mutate(
+      support = case_when(
+        aauw_yes_or_no == "yes" ~ as.numeric(vote == 1),
+        aauw_yes_or_no == "no" ~ as.numeric(vote == -1),
+        TRUE ~ NA_real_
+      )
+    ) |>
     summarise(
-      new_score = round(100 * mean(support, na.rm = TRUE)) / 100,
+      new_score = round(100 * mean(support, na.rm = TRUERUE)) / 100,
       .by = c(congress, icpsr)
     ) |>
-    inner_join(member_ids,
-      by = c("congress", "icpsr"), relationship = "many-to-many"
+    inner_join(
+      member_ids,
+      by = c("congress", "icpsr"),
+      relationship = "many-to-many"
     ) |>
     select(congress, id, new_score)
-  candidate <- left_join(frozen, new_scores,
+  candidate <- left_join(
+    frozen,
+    new_scores,
     by = c("id", "congress"),
     relationship = "one-to-one"
   ) |>
     mutate(aauw_all = if_else(congress < 102, new_score, aauw_all))
   if (variant == "historical_votes") {
     stopifnot(isTRUE(all.equal(candidate$aauw_all, frozen$aauw_all)))
+  }
+  if (variant == "both_vote_fixes") {
+    stopifnot(isTRUE(all.equal(candidate$aauw_all, datasets$current$aauw_all)))
   }
   changed <- candidate$aauw_all != frozen$aauw_all
   effects <- candidate |>
@@ -331,17 +433,23 @@ for (variant in vote_variants) {
     drop_na(aauw_all, ngirls, nchildren, female, congress, id)
   model <- fixest::feols(
     aauw_all ~ ngirls + factor(nchildren) + female | congress,
-    data = analysis_data, vcov = ~id
+    data = analysis_data,
+    vcov = ~id
   )
   upstream_pooled[[variant]] <- tidy(model, conf.int = TRUE) |>
     filter(term == "ngirls") |>
     mutate(
       variant,
-      changed_scores = sum(changed, na.rm = TRUE), rows = nobs(model)
+      changed_scores = sum(changed, na.rm = TRUERUE),
+      rows = nobs(model)
     )
   cat(
-    variant, ": changed scores =", sum(changed, na.rm = TRUE),
-    "; pooled slope =", coef(model)["ngirls"], "\n"
+    variant,
+    ": changed scores =",
+    sum(changed, na.rm = TRUERUE),
+    "; pooled slope =",
+    coef(model)["ngirls"],
+    "\n"
   )
   write_csv(
     candidate |>
@@ -368,7 +476,8 @@ house_ids <- member_ids |>
 cohort_members <- frozen |>
   distinct(id, first_name, last_name) |>
   mutate(
-    historical_cohort = id %in% cohort_ids, house_cohort = id %in% house_ids
+    historical_cohort = id %in% cohort_ids,
+    house_cohort = id %in% house_ids
   )
 write_csv(
   filter(cohort_members, historical_cohort != house_cohort),
@@ -377,9 +486,13 @@ write_csv(
 cohort_models <- list()
 cohort_tests <- list()
 cohort_gaps <- list()
-for (definition in c("historical", "house_service")) {
+for (definition in c("historical", "house_service", "current")) {
   selected_ids <- if (definition == "historical") cohort_ids else house_ids
-  analysis_data <- frozen |>
+  analysis_data <- (if (definition == "current") {
+    datasets$current
+  } else {
+    frozen
+  }) |>
     drop_na(aauw_all, ngirls, nchildren, female, congress, id) |>
     mutate(
       washington_cohort = as.integer(id %in% selected_ids),
@@ -396,10 +509,12 @@ for (definition in c("historical", "house_service")) {
     mutate(definition)
   comparison <- filter(analysis_data, !between(congress, 105, 108))
   gap <- fixest::feols(
-    aauw_all ~ ngirls * washington_cohort +
+    aauw_all ~ ngirls *
+      washington_cohort +
       (factor(nchildren) + female) * washington_cohort |
       congress^washington_cohort,
-    data = comparison, vcov = ~id
+    data = comparison,
+    vcov = ~id
   )
   cohort_gaps[[definition]] <- tidy(gap, conf.int = TRUE) |>
     filter(term == "ngirls:washington_cohort") |>
@@ -408,20 +523,26 @@ for (definition in c("historical", "house_service")) {
     cohort_sample <- filter(analysis_data, washington_cohort == cohort)
     varying <- fixest::feols(
       aauw_all ~ (ngirls + factor(nchildren) + female) * factor(congress),
-      data = cohort_sample, vcov = ~id
+      data = cohort_sample,
+      vcov = ~id
     )
     linear <- fixest::feols(
       aauw_all ~ ngirls * time + factor(nchildren) + female | congress,
-      data = cohort_sample, vcov = ~id
+      data = cohort_sample,
+      vcov = ~id
     )
     cat("Cohort", cohort, definition, "unrestricted slope constancy:\n")
     joint <- fixest::wald(varying, keep = "ngirls:factor", print = FALSE)
     trend <- tidy(linear, conf.int = TRUE) |> filter(term == "ngirls:time")
     cohort_tests[[paste(definition, cohort)]] <- tibble(
-      definition, cohort,
-      f_statistic = joint$stat, p_joint = joint$p,
-      df1 = joint$df1, df2 = joint$df2,
-      annual_trend = trend$estimate, p_trend = trend$p.value
+      definition,
+      cohort,
+      f_statistic = joint$stat,
+      p_joint = joint$p,
+      df1 = joint$df1,
+      df2 = joint$df2,
+      annual_trend = trend$estimate,
+      p_trend = trend$p.value
     )
     print(cohort_tests[[paste(definition, cohort)]])
   }
@@ -433,9 +554,11 @@ write_csv(
 
 # Compare the printed per-daughter label with the fitted exposure.
 si_cohort_examples <- tibble(
-  congress = c(105, 108, 116), printed = c(.156, .094, .145)
+  congress = c(105, 108, 116),
+  printed = c(.156, .094, .145)
 ) |>
-  left_join(filter(cohort_results, washington_cohort),
+  left_join(
+    filter(cohort_results, washington_cohort),
     by = "congress",
     relationship = "one-to-many"
   ) |>
@@ -452,8 +575,61 @@ write_csv(bind_rows(cohort_gaps), file.path(output_dir, "cohort_gaps.csv"))
 
 analysis_data <- frozen |>
   drop_na(aauw_all, ngirls, nchildren, female, congress, id)
-model <- lm(aauw_all ~ ngirls + factor(nchildren) + female + factor(congress),
+model <- lm(
+  aauw_all ~ ngirls + factor(nchildren) + female + factor(congress),
   data = analysis_data
 )
 reversed_model <- update(model, data = slice(analysis_data, rev(seq_len(n()))))
 stopifnot(isTRUE(all.equal(coef(model), coef(reversed_model))))
+
+stopifnot(
+  !anyDuplicated(datasets$current[c("id", "congress")]),
+  nrow(datasets$current) == 8270,
+  sum(frozen$anygirls != datasets$current$anygirls) == 3441,
+  sum(frozen$aauw_all != datasets$current$aauw_all, na.rm = TRUERUE) == 42
+)
+cat(
+  "Current keys, daughter indicator and both vote fixes verified.\n"
+)
+
+# Check the shipped numerical tables against independently fitted models.
+annual_output <- read_csv("tabs/annual_daughters.csv", show_col_types = FALSE)
+main_output <- filter(annual_output, washington_cohort == "All")
+expected_main <- filter(by_congress, version == "current", exposure == "ngirls")
+stopifnot(
+  nrow(annual_output) == 56,
+  identical(main_output$congress, expected_main$congress),
+  isTRUE(all.equal(main_output$estimate, expected_main$estimate)),
+  all(main_output$n == expected_main$rows)
+)
+cohort_output <- filter(annual_output, washington_cohort != "All") |>
+  mutate(washington_cohort = as.integer(washington_cohort == "Washington")) |>
+  arrange(congress, washington_cohort)
+expected_cohort <- cohort_models$current |>
+  arrange(congress, washington_cohort)
+stopifnot(
+  isTRUE(all.equal(cohort_output$estimate, expected_cohort$estimate)),
+  all(cohort_output$n == expected_cohort$rows)
+)
+pooled_output <- read_csv(
+  "tabs/pooled_daughters.csv", show_col_types = FALSE
+) |>
+  filter(model == "all")
+expected_pooled <- bind_rows(results) |>
+  filter(scenario == "current", exposure == "ngirls")
+stopifnot(
+  abs(pooled_output$estimate - expected_pooled$estimate) < 1e-10,
+  abs(pooled_output$conf.low - expected_pooled$lower) < 1e-8,
+  abs(pooled_output$conf.high - expected_pooled$upper) < 1e-8,
+  pooled_output$n == expected_pooled$rows
+)
+any_output <- read_csv("tabs/pooled_supplement.csv", show_col_types = FALSE) |>
+  filter(outcome == "aauw_all", exposure == "has_daughter")
+expected_any <- bind_rows(results) |>
+  filter(scenario == "current", exposure == "anygirls")
+stopifnot(
+  abs(any_output$estimate - expected_any$estimate) < 1e-10,
+  abs(any_output$conf.low - expected_any$lower) < 1e-8,
+  abs(any_output$conf.high - expected_any$upper) < 1e-8
+)
+cat("Shipped main, cohort and pooled numerical tables verified.\n")

@@ -1,7 +1,7 @@
 ## Data Analysis
 ## Table 1: Effect of ndaughters over time
 ## Figure 1: Effect of ndaughters over time among Washington Cohort/Rest
-## Does the effect among the rest of the data (minus Washington) overlap the CI of the "original"
+
 
 ### Load libs
 library(stargazer)
@@ -14,149 +14,219 @@ library(lme4)
 set.seed(1234567)
 
 # Load data
-d <- read_csv("data/final_data_2022_01_05.csv") %>%
-  mutate(aauw_all = aauw_all/100,
-         aauw_women_all = aauw_women_all/100,
-         nominate_dim1 = -nominate_dim1,
-         prop_girls = ngirls/nchildren)
-
-### AAUW Voting (Changed the y to aauw_women_voting but same analysis as above)
-
-d %>%
-  filter(party != "I") %>%  # too few I to use geom_smooth
-  mutate(party = ifelse(party == "D", "Democratic", "Republican")) %>%
-  ggplot(aes(congress, aauw_women_voting, color = party)) +
-  geom_point(position = "jitter", alpha = 0.3, size = 0.7) + 
-  geom_smooth() +
-  scale_color_manual(values = c("Democratic" = "blue", "Republican" = "red")) +
-  theme_minimal() +
-  labs(title = "AAUW by Congress", x = "Congress", y = "AAUW", color = "") 
+d <- read_csv("data/final_data_2022_01_05.csv") |>
+  rename(
+    n_daughters = ngirls,
+    n_children = nchildren,
+    has_daughter = anygirls
+  ) |>
+  mutate(
+    aauw_all = aauw_all / 100,
+    aauw_women_all = aauw_women_all / 100,
+    nominate_dim1 = -nominate_dim1,
+    prop_daughters = n_daughters / n_children
+  )
 
 ## All MCs/Table 1
 ## AAUW All (including cosponsorships), Ngirls
 
 congress <- as.character(c(97:116))
 
-fitted_ngirls_all <- d %>% 
-  group_by(congress) %>% 
-  do(aauw_model = lm(aauw_all ~ ngirls + as.factor(nchildren) + female, data = .)) %>%
-  mutate(co_aauw = coef(aauw_model)["ngirls"],
-         se_aauw = coef(summary(aauw_model))["ngirls", "Std. Error"])
+fitted_ngirls_all <- d |>
+  nest(.by = c(congress)) |>
+  rowwise() |>
+  mutate(
+    aauw_model = list(lm(
+      aauw_all ~ n_daughters + as.factor(n_children) + female,
+      data = data
+    ))
+  ) |>
+  mutate(
+    co_aauw = coef(aauw_model)["n_daughters"],
+    se_aauw = coef(summary(aauw_model))["n_daughters", "Std. Error"]
+  )
 
-stargazer(fitted_ngirls_all$aauw_model,
-          column.labels = congress, 
-          covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "female", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          float.env = "sidewaystable",
-          font.size = "tiny",
-          out = "tabs/table_1_ngirls_aauw_by_cong.tex",
-          caption = "Estimated Average Treatment Effect Among All MCs")
+stargazer(
+  fitted_ngirls_all$aauw_model,
+  column.labels = congress,
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "female", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  float.env = "sidewaystable",
+  font.size = "tiny",
+  out = "tabs/table_1_ngirls_aauw_by_cong.tex",
+  title = "Estimated Average Treatment Effect Among All MCs"
+)
 
 ### Add party
-fitted_ngirls_all_party <- d %>% 
-  group_by(congress) %>% 
-  do(aauw_model = lm(aauw_all ~ ngirls + as.factor(nchildren) + party + female, data = .)) %>%
-  mutate(co_aauw = coef(aauw_model)["ngirls"],
-         se_aauw = coef(summary(aauw_model))["ngirls", "Std. Error"])
+fitted_ngirls_all_party <- d |>
+  nest(.by = c(congress)) |>
+  rowwise() |>
+  mutate(
+    aauw_model = list(lm(
+      aauw_all ~ n_daughters + as.factor(n_children) + party + female,
+      data = data
+    ))
+  ) |>
+  mutate(
+    co_aauw = coef(aauw_model)["n_daughters"],
+    se_aauw = coef(summary(aauw_model))["n_daughters", "Std. Error"]
+  )
 
-stargazer(fitted_ngirls_all_party$aauw_model,
-          column.labels = congress, 
-          covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "female", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          float.env = "sidewaystable",
-          font.size = "tiny",
-          out = "tabs/tab_1_pid.tex",
-          caption = "Effect of the Number of Daughters on AAUW Score Controlling  for  Indicator  Variables  for the Number  of Children, MC's gender and party")
+stargazer(
+  fitted_ngirls_all_party$aauw_model,
+  column.labels = congress,
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "female", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  float.env = "sidewaystable",
+  font.size = "tiny",
+  out = "tabs/tab_1_pid.tex",
+  title = "Effect per daughter, adjusting for family size, gender and party"
+)
 
 ### Pooled Reg
-aauw_ngirls <- lm(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female, d)
-boot_aauw_ngirls <- boottest(aauw_ngirls, clustid = "id", param = "ngirls", B = 9999)
+aauw_ngirls <- lm(
+  aauw_all ~ n_daughters + as.factor(congress) + as.factor(n_children) + female,
+  d
+)
+set.seed(1234567)
+dqrng::dqset.seed(1234567)
+boot_aauw_ngirls <- boottest(
+  aauw_ngirls,
+  clustid = "id",
+  param = "n_daughters",
+  B = 9999,
+  nthreads = 1
+)
 
-library(lme4)
-summary(lmer(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female + (1|id), data = d))
-
-# Cluster bootstrap
-library(fwb)
-library(lmtest)
-coeftest(aauw_ngirls, vcov = vcovFWB, cluster = ~id)
-# Sandwich 
-library(clubSandwich)
-vcovCL(aauw_ngirls, d$id)
-sqrt(diag(vcovCL(aauw_ngirls, d$id)))
-
-# Back of wild
-boot_aauw <- data.frame(rbind(boot_aauw_ngirls)) %>% 
-  select(point_estimate, conf_int, N) %>%
-  unnest() %>%
-  cbind(conf_int_lab = rep(c("ci min", "ci max"), 1)) %>%
-  pivot_wider(names_from = conf_int_lab, values_from = conf_int)
-
-kable(boot_aauw, digits = 3)
+boot_aauw <- broom::tidy(boot_aauw_ngirls)
 
 ### Pooled with Party
-aauw_ngirls_party <- lm(aauw_all ~ ngirls + as.factor(congress) + party + as.factor(nchildren) + female, d)
-boot_aauw_ngirls_party <- boottest(aauw_ngirls_party, clustid = "id", param = "ngirls", B = 9999)
-boot_aauw_party <- data.frame(rbind(boot_aauw_ngirls_party)) %>% 
-  select(point_estimate, conf_int, N) %>%
-  unnest() %>%
-  cbind(conf_int_lab = rep(c("ci min", "ci max"), 1)) %>%
-  pivot_wider(names_from = conf_int_lab, values_from = conf_int)
-
-kable(boot_aauw_party, digits = 3)
+aauw_ngirls_party <- lm(
+  aauw_all ~ n_daughters +
+    as.factor(congress) +
+    party +
+    as.factor(n_children) +
+    female,
+  d
+)
+set.seed(1234567)
+dqrng::dqset.seed(1234567)
+boot_aauw_ngirls_party <- boottest(
+  aauw_ngirls_party,
+  clustid = "id",
+  param = "n_daughters",
+  B = 9999,
+  nthreads = 1
+)
+boot_aauw_party <- broom::tidy(boot_aauw_ngirls_party)
 
 ### Hierarchical Model/Pooled
-aauw_ngirls_hier <- lmer(aauw_all ~ ngirls + as.factor(congress) + as.factor(nchildren) + female + (1|id), d)
+aauw_ngirls_hier <- lmer(
+  aauw_all ~ n_daughters +
+    as.factor(congress) +
+    as.factor(n_children) +
+    female +
+    (1 | id),
+  d
+)
 
-stargazer(aauw_ngirls_hier,
-          covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "female", "congress", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          out = "tabs/table_1a_ngirls_aauw_pooled_hier.tex",
-          caption = "Estimated Average Treatment Effect Among All MCs Using a Random Effects Hierarchical Model")
+stargazer(
+  aauw_ngirls_hier,
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "female", "congress", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  out = "tabs/table_1a_ngirls_aauw_pooled_hier.tex",
+  title = "Effect per daughter: hierarchical model"
+)
 
 ## EB's cohort vs. rest./Figure 1
 
-ebonya_cohort <- d %>%
-  filter(congress %in% 105:108, chamber == "House") %>%
-  distinct(id) %>%
+washington_cohort <- d |>
+  filter(congress %in% 105:108, chamber == "House") |>
+  distinct(id) |>
   pull(id)
 
-d <- d %>%
-  mutate(ebonya_cohort = ifelse(id %in% ebonya_cohort, "Washington", "Non-Washington"))
+d <- d |>
+  mutate(
+    washington_cohort = ifelse(
+      id %in% washington_cohort,
+      "Washington",
+      "Non-Washington"
+    )
+  )
 
-fitted_ngirls <- d %>% 
-  group_by(congress, ebonya_cohort) %>% 
-  do(aauw_model = lm(aauw_all ~ ngirls + as.factor(nchildren) + female, data = .)) %>%
-  mutate(co_aauw = coef(aauw_model)["ngirls"],
-         se_aauw = coef(summary(aauw_model))["ngirls", "Std. Error"])
+fitted_ngirls <- d |>
+  drop_na(aauw_all, n_daughters, n_children, female) |>
+  nest(.by = c(congress, washington_cohort)) |>
+  rowwise() |>
+  mutate(
+    aauw_model = list(lm(
+      aauw_all ~ n_daughters + as.factor(n_children) + female,
+      data = data
+    ))
+  ) |>
+  mutate(
+    co_aauw = coef(aauw_model)["n_daughters"],
+    se_aauw = coef(summary(aauw_model))["n_daughters", "Std. Error"]
+  )
 
-fitted_ngirls %>%
-  pivot_longer(cols = c(co_aauw:se_aauw), names_to = c("type", "dep_var"), names_sep = "_") %>%
-  pivot_wider(names_from = type) %>%
+fitted_ngirls |>
+  ungroup() |>
+  select(congress, washington_cohort, co_aauw, se_aauw) |>
+  pivot_longer(
+    cols = c(co_aauw:se_aauw),
+    names_to = c("type", "dep_var"),
+    names_sep = "_"
+  ) |>
+  pivot_wider(names_from = type) |>
   ggplot(aes(congress, co)) +
-  geom_rect(aes(xmin=103, xmax=108, ymin=-Inf, ymax=Inf), fill="#eeeeee") +
-  geom_rect(aes(xmin=110, xmax=114, ymin=-Inf, ymax=Inf), fill="#eeeeee") +
-  geom_text(aes(x = 106.5, y = 0.3, label = "Washington")) +
-  geom_text(aes(x = 112, y = 0.3, label = "Costa et al.")) +
-  geom_line(aes(color = (ebonya_cohort), linetype = ebonya_cohort)) +
-  scale_color_manual(values = c("#777777", "black")) + 
-  scale_linetype_manual(values = c("dashed", "solid")) + 
-  geom_pointrange(aes(ymin=co-1.96*se, ymax=co + 1.96*se, color = as.factor(ebonya_cohort)),  
-                 position=position_dodge(0.05)) + 
-  #geom_point(aes(size = se, color = as.factor(ebonya_cohort)), alpha = 0.7) +
-  labs(title = "Estimated Average Treatment Effect of Number of Daughters",
-       x = "Congress", y = "AAUW", size = "Standard Error", color = "Cohort") +
+  annotate(
+    "rect",
+    xmin = 105,
+    xmax = 108,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "#eeeeee"
+  ) +
+  annotate(
+    "rect",
+    xmin = 110,
+    xmax = 114,
+    ymin = -Inf,
+    ymax = Inf,
+    fill = "#eeeeee"
+  ) +
+  annotate("text", x = 106.5, y = 0.3, label = "Washington") +
+  annotate("text", x = 112, y = 0.3, label = "Costa et al.") +
+  geom_line(aes(color = (washington_cohort), linetype = washington_cohort)) +
+  scale_color_manual(values = c("#777777", "black")) +
+  scale_linetype_manual(values = c("dashed", "solid")) +
+  geom_pointrange(
+    aes(
+      ymin = co - 1.96 * se,
+      ymax = co + 1.96 * se,
+      color = as.factor(washington_cohort)
+    ),
+    position = position_dodge(0.05)
+  ) +
+  labs(
+    title = "Estimated Average Treatment Effect of Number of Daughters",
+    x = "Congress",
+    y = "AAUW",
+    color = "Cohort",
+    linetype = "Cohort"
+  ) +
   theme_bw() +
   theme(legend.position = "bottom", legend.box = "vertical")
 
@@ -164,103 +234,202 @@ ggsave("figs/fig_1_ebonya_cohort.pdf")
 ggsave("figs/fig_1_ebonya_cohort.eps")
 
 
-## __Ebonya__ AAUW Scores on Proportion of Daughters
+## Washington cohort: effect per daughter
 
-stargazer(fitted_ngirls[fitted_ngirls$ebonya_cohort == "Washington", ]$aauw_model,
-          column.labels = congress,covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "female", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          float.env = "sidewaystable",
-          label = "Estimated Average Treatment Effect Among Washington Cohort")
+washington_models <- filter(fitted_ngirls, washington_cohort == "Washington")
+stargazer(
+  washington_models$aauw_model,
+  column.labels = as.character(washington_models$congress),
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "female", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  float.env = "sidewaystable",
+  out = "tabs/si_washington_cohort.tex",
+  title = "Effect per daughter among the Washington cohort"
+)
 
-## __Non-Ebonya__ AAUW Scores on Proportion of Daughters
+## Other legislators: effect per daughter
 
-stargazer(fitted_ngirls[fitted_ngirls$ebonya_cohort == "Non-Washington", ]$aauw_model,
-          column.labels = congress,covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "female", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          caption = "Estimated Average Treatment Effect Among Non-Washington Cohort")
+other_models <- filter(fitted_ngirls, washington_cohort == "Non-Washington")
+stargazer(
+  other_models$aauw_model,
+  column.labels = as.character(other_models$congress),
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "female", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  out = "tabs/si_other_cohort.tex",
+  title = "Effect per daughter among other legislators"
+)
 
-## Does the effect among the rest of the data (minus Washington) overlap the CI of the "original" --- YES
+## Pooled models by period
 
-ebonya_cong   <- d$congress %in% c(105:108)
+washington_period <- d$congress %in% c(105:108)
 
-d <- d %>%
-  mutate(ebonya_cong = ifelse(congress %in% c(105:108), "Washington Congress", "Non-Washington Congress"))
+d <- d |>
+  mutate(
+    washington_period = ifelse(
+      congress %in% c(105:108),
+      "Washington Congress",
+      "Non-Washington Congress"
+    )
+  )
 
-nw_cong  <- lm(aauw_all ~ ngirls + as.factor(nchildren) + female + as.factor(congress), data = d[d$ebonya_cong == "Non-Washington Congress", ])
-w_cong   <- lm(aauw_all ~ ngirls + as.factor(nchildren) + female + as.factor(congress), data = d[d$ebonya_cong == "Washington Congress", ])
+nw_cong <- lm(
+  aauw_all ~ n_daughters + as.factor(n_children) + female + as.factor(congress),
+  data = d[d$washington_period == "Non-Washington Congress", ]
+)
+w_cong <- lm(
+  aauw_all ~ n_daughters + as.factor(n_children) + female + as.factor(congress),
+  data = d[d$washington_period == "Washington Congress", ]
+)
 
-boot_nw_cong  <- boottest(nw_cong, clustid = "id", param = "ngirls", B = 9999)
-boot_w_cong   <- boottest(w_cong, clustid = "id", param = "ngirls", B = 9999)
+set.seed(1234567)
 
-boot_aauw <- data.frame(rbind(boot_nw_cong, boot_w_cong)) %>% 
-  mutate(model = rownames(rbind(boot_nw_cong, boot_w_cong))) %>%
-  select(model, point_estimate, conf_int, t_stat) %>%
-  unnest() %>%
-  cbind(conf_int_lab = rep(c("ci min", "ci max"), 2)) %>%
-  pivot_wider(names_from = conf_int_lab, values_from = conf_int)
+dqrng::dqset.seed(1234567)
+
+boot_nw_cong <- boottest(
+  nw_cong,
+  clustid = "id",
+  param = "n_daughters",
+  B = 9999,
+  nthreads = 1
+)
+set.seed(1234567)
+dqrng::dqset.seed(1234567)
+boot_w_cong <- boottest(
+  w_cong,
+  clustid = "id",
+  param = "n_daughters",
+  B = 9999,
+  nthreads = 1
+)
 
 ## See the effect of including non-biological children
 
 non_bio <- read.csv("data/children_with_non_biological_washington_cohort.csv")
 non_bio <- non_bio[!duplicated(non_bio), ]
 non_bio <- non_bio[non_bio$id != "", ]
-# sanity check before nuking dupes: non_bio %>% group_by_at(vars(icpsr)) %>% filter(n()>1)
+
 non_bio <- non_bio[!duplicated(non_bio$icpsr), ]
 
 # Merge with washington
 ew_cong <- d[d$congress %in% c(105:108), ]
 
-ew_cong_m <- ew_cong %>% 
-  left_join(non_bio[, c("icpsr", "ngirls_total", "nchildren_total")])
+ew_cong_m <- ew_cong |>
+  left_join(
+    non_bio[, c("icpsr", "ngirls_total", "nchildren_total")],
+    by = "icpsr",
+    relationship = "many-to-one"
+  )
 
-w_cong_bio   <- lm(aauw_all ~ ngirls + as.factor(nchildren) + female + as.factor(congress), data = ew_cong_m)
-boot_w_cong_bio   <- boottest(w_cong_bio, clustid = "id", param = "ngirls", B = 9999)
+w_cong_bio <- lm(
+  aauw_all ~ n_daughters + as.factor(n_children) + female + as.factor(congress),
+  data = ew_cong_m
+)
+set.seed(1234567)
+dqrng::dqset.seed(1234567)
+boot_w_cong_bio <- boottest(
+  w_cong_bio,
+  clustid = "id",
+  param = "n_daughters",
+  B = 9999,
+  nthreads = 1
+)
 
-w_cong_non_bio   <- lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female + as.factor(congress), data = ew_cong_m)
-boot_w_cong_non_bio   <- boottest(w_cong_non_bio, clustid = "id", param = "ngirls_total", B = 9999)
+w_cong_non_bio <- lm(
+  aauw_all ~ ngirls_total +
+    as.factor(nchildren_total) +
+    female +
+    as.factor(congress),
+  data = ew_cong_m
+)
+set.seed(1234567)
+dqrng::dqset.seed(1234567)
+boot_w_cong_non_bio <- boottest(
+  w_cong_non_bio,
+  clustid = "id",
+  param = "ngirls_total",
+  B = 9999,
+  nthreads = 1
+)
 
-fitted_ngirls_all_bio <- d[d$congress %in% c(105:108), ] %>% 
-  group_by(congress) %>% 
-  do(aauw_model = lm(aauw_all ~ ngirls + as.factor(nchildren) + female, data = .)) %>%
-  mutate(co_aauw = coef(aauw_model)["ngirls"],
-         se_aauw = coef(summary(aauw_model))["ngirls", "Std. Error"])
+# Models including non-biological children
+non_bio_105 <- lm(
+  aauw_all ~ ngirls_total + as.factor(nchildren_total) + female,
+  data = ew_cong_m[ew_cong_m$congress %in% 105, ]
+)
+non_bio_106 <- lm(
+  aauw_all ~ ngirls_total + as.factor(nchildren_total) + female,
+  data = ew_cong_m[ew_cong_m$congress %in% 106, ]
+)
+non_bio_107 <- lm(
+  aauw_all ~ ngirls_total + as.factor(nchildren_total) + female,
+  data = ew_cong_m[ew_cong_m$congress %in% 107, ]
+)
+non_bio_108 <- lm(
+  aauw_all ~ ngirls_total + as.factor(nchildren_total) + female,
+  data = ew_cong_m[ew_cong_m$congress %in% 108, ]
+)
 
-fitted_ngirls_all_nonbio <- ew_cong_m %>% 
-  group_by(congress) %>% 
-  do(aauw_model = lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female, data = .)) %>%
-  mutate(co_aauw = coef(aauw_model)["ngirls_total"],
-         se_aauw = coef(summary(aauw_model))["ngirls_total", "Std. Error"])
+nonbiological_models <- list(
+  non_bio_105, non_bio_106, non_bio_107, non_bio_108, w_cong_non_bio
+)
+stargazer(
+  nonbiological_models,
+  column.labels = c(105:108, "Pooled"),
+  covariate.labels = "N. Daughters",
+  dep.var.labels = "AAUW",
+  omit = c("n_children", "congress", "female", "Constant"),
+  header = FALSE,
+  type = "latex",
+  omit.stat = c("LL", "ser", "f", "rsq"),
+  font.size = "small",
+  out = "tabs/table_si_nonbio_ngirls_aauw_by_cong_washington.tex",
+  title = "Effect per daughter including non-biological children"
+)
 
-# Stargazer is being finicky so let's get around it
-non_bio_105 <- lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female, data = ew_cong_m[ew_cong_m$congress %in% 105, ])
-non_bio_106 <- lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female, data = ew_cong_m[ew_cong_m$congress %in% 106, ])
-non_bio_107 <- lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female, data = ew_cong_m[ew_cong_m$congress %in% 107, ])
-non_bio_108 <- lm(aauw_all ~ ngirls_total + as.factor(nchildren_total) + female, data = ew_cong_m[ew_cong_m$congress %in% 108, ])
+pooled_bootstraps <- list(
+  all = boot_aauw_ngirls,
+  party_adjusted = boot_aauw_ngirls_party,
+  outside_washington_period = boot_nw_cong,
+  washington_period = boot_w_cong,
+  biological = boot_w_cong_bio,
+  including_nonbiological = boot_w_cong_non_bio
+)
+pooled_results <- imap_dfr(
+  pooled_bootstraps,
+  ~ broom::tidy(.x) |>
+    mutate(model = .y, n = nobs(.x))
+) |>
+  select(model, everything())
+write_csv(pooled_results, "tabs/pooled_daughters.csv")
+knitr::kable(
+  pooled_results,
+  format = "latex",
+  booktabs = TRUE,
+  digits = 4,
+  caption = "Pooled daughter-count models: legislator-clustered wild bootstrap"
+) |>
+  writeLines("tabs/pooled_daughters.tex")
 
-stargazer(non_bio_105, non_bio_106, non_bio_107, non_bio_108, w_cong_non_bio,
-          column.labels = c(105:108, "Pooled"),
-          covariate.labels = "N. Daughters",
-          dep.var.labels = "AAUW",
-          omit = c("nchildren", "congress", "female", "Constant"),
-          header = FALSE,
-          type = "latex",
-          omit.stat=c("LL","ser","f", "rsq"), 
-          font.size = "small",
-          out = "tabs/table_si_nonbio_ngirls_aauw_by_cong_washington.tex",
-          caption = "Estimated Average Treatment Effect Among All MCs Including Non-Biological Children")
-
-data.frame(rbind(boot_w_cong_bio, boot_w_cong_non_bio)) %>% 
-  mutate(model = rownames(rbind(boot_w_cong_bio, boot_w_cong_non_bio))) %>%
-  select(model, point_estimate, conf_int, t_stat) %>%
-  unnest() %>%
-  cbind(conf_int_lab = rep(c("ci min", "ci max"), 2)) %>%
-  pivot_wider(names_from = conf_int_lab, values_from = conf_int)
-
+annual_results <- bind_rows(
+  mutate(fitted_ngirls_all, washington_cohort = "All"),
+  fitted_ngirls
+) |>
+  rowwise() |>
+  mutate(n = nobs(aauw_model)) |>
+  ungroup() |>
+  select(
+    congress, washington_cohort, estimate = co_aauw, std_error = se_aauw, n
+  )
+write_csv(annual_results, "tabs/annual_daughters.csv")
+stopifnot(
+  all(is.finite(pooled_results$conf.low)),
+  all(is.finite(pooled_results$conf.high))
+)

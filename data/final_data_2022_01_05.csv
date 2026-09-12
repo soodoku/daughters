@@ -14,7 +14,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,PA,25,R,A000329,Atkinson,Eugene,Vincent,NA,94602,1927,2016,0.069,-0.186,0,1,1,2,1,56,56,0,0,1
 97,House,OR,1,D,A000337,Aucoin,Les,NA,NA,14201,1942,NA,-0.231,-0.418,0,2,0,2,0,100,89,100,100,1
 97,House,CA,40,R,B000024,Badham,Robert,Edward,NA,14403,1929,2005,0.541,0.084,0,3,2,5,0,22,22,0,0,1
-97,House,FL,10,R,B000029,Bafalis,Louis,Arthur,Skip,14003,1929,NA,0.303,0.078,0,1,2,3,0,33,33,0,0,1
+97,House,FL,10,R,B000029,Bafalis,Louis,Arthur,Skip,14003,1929,NA,0.303,0.078,0,1,2,3,0,38,33,0,0,1
 97,House,PA,21,D,B000037,Bailey,Donald,Allen,NA,14603,1945,NA,-0.347,0.573,0,0,1,1,1,67,67,50,50,0
 97,House,MO,8,R,B000047,Bailey,R.,Wendell,NA,14800,1940,NA,0.47,-0.221,0,1,2,3,0,25,22,0,0,1
 97,House,MD,8,D,B000160,Barnes,Michael,Darr,NA,14604,1943,NA,-0.343,-0.513,0,2,0,2,0,100,100,100,100,1
@@ -30,7 +30,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,NY,22,D,B000472,Bingham,Jonathan,Brewster,NA,10705,1914,1986,-0.509,-0.488,0,3,1,4,0,100,100,100,100,1
 97,House,VA,3,R,B000556,Bliley,Thomas,Jerome,NA,14802,1932,NA,0.382,-0.13,0,1,1,2,0,33,33,0,0,1
 97,House,LA,2,D,B000592,Boggs,Corinne,Claiborne,Lindy,14067,1916,2013,-0.359,0.501,1,2,1,3,0,78,78,50,50,1
-97,House,MA,2,D,B000600,Boland,Edward,Patrick,NA,830,1911,2001,-0.306,-0.104,0,2,2,4,0,89,89,50,50,1
+97,House,MA,2,D,B000600,Boland,Edward,Patrick,NA,830,1911,2001,-0.306,-0.104,0,2,2,4,0,88,78,50,50,1
 97,House,MO,5,D,B000605,Bolling,Richard,Walker,NA,835,1916,1991,-0.504,0.171,0,1,0,1,0,100,78,100,50,1
 97,House,MI,12,D,B000619,Bonior,David,Edward,NA,14407,1945,NA,-0.547,-0.006,0,1,2,3,0,89,89,50,50,1
 97,House,WA,3,D,B000620,Bonker,Don,Leroy,NA,14208,1937,NA,-0.336,-0.059,0,0,3,3,0,100,89,100,100,0
@@ -58,7 +58,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,PA,23,R,C000523,Clinger,William,Floyd,NA,14612,1929,NA,0.176,-0.221,0,2,2,4,1,67,67,50,50,1
 97,House,MO,6,R,C000618,Coleman,Earl,Thomas,NA,14410,1943,NA,0.262,-0.265,0,2,1,3,0,33,33,0,0,1
 97,House,TX,3,R,C000638,Collins,James,Mitchell,NA,11066,1916,1989,0.679,0.122,0,1,0,1,1,11,11,0,0,1
-97,House,IL,7,D,C000634,Collins,Cardiss,NA,NA,14068,1931,2013,-0.552,-0.218,1,0,1,1,1,100,100,100,100,0
+97,House,IL,7,D,C000634,Collins,Cardiss,NA,NA,14068,1931,2013,-0.552,-0.218,1,0,1,1,1,100,89,100,100,0
 97,House,NY,35,R,C000666,Conable,Barber,Benjamin,NA,10712,1922,2003,0.371,-0.658,0,3,1,4,1,25,22,0,0,1
 97,House,MA,1,R,C000709,Conte,Silvio,Ottavio,NA,2009,1921,1991,-0.023,-0.683,0,2,2,4,1,67,67,0,0,1
 97,House,MI,1,D,C000714,Conyers,John,NA,NA,10713,1929,NA,-0.658,-0.512,0,0,2,2,1,89,89,100,100,0
@@ -76,7 +76,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,MI,11,R,D000131,Davis,Robert,William,NA,14618,1932,2009,0.098,-0.146,0,3,2,5,1,33,33,0,0,1
 97,House,TX,15,D,D000203,De La Garza,Eligio,NA,Kika,10716,1927,NA,-0.255,0.757,0,1,2,3,1,78,78,50,50,1
 97,House,IN,8,R,D000183,Deckard,Huey,Joel,NA,14619,1942,2016,0.222,-0.493,0,1,0,1,1,29,22,0,0,1
-97,House,CA,8,D,D000222,Dellums,Ronald,V.,NA,13011,1935,NA,-0.644,-0.646,0,2,2,4,1,89,89,100,100,1
+97,House,CA,8,D,D000222,Dellums,Ronald,V.,NA,13011,1935,NA,-0.644,-0.646,0,2,2,4,1,88,78,100,100,1
 97,House,CT,3,R,D000231,Denardis,Lawrence,Joseph,NA,14811,1938,NA,0.001,-0.672,0,1,2,3,1,67,67,0,0,1
 97,House,SC,3,D,D000267,Derrick,Butler,Carson,NA,14212,1936,2014,-0.215,0.258,0,2,2,4,1,78,78,50,50,1
 97,House,IL,4,R,D000269,Derwinski,Edward,Joseph,NA,2525,1926,2012,0.342,-0.361,0,1,1,2,1,38,33,0,0,1
@@ -112,11 +112,11 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,CA,21,R,F000102,Fiedler,Bobbi,NA,NA,14821,1937,NA,0.343,-0.258,1,1,1,2,1,67,67,50,50,1
 97,House,TX,8,R,F000111,Fields,Jack,Milton,NA,14822,1952,NA,0.541,-0.128,0,2,0,2,0,12,11,0,0,1
 97,House,IL,20,R,F000123,Findley,Paul,NA,NA,10517,1921,NA,0.246,-0.525,0,1,1,2,1,78,78,50,50,1
-97,House,NY,25,R,F000141,Fish,Hamilton,NA,NA,12013,1926,1996,0.07,-0.423,0,1,2,3,1,67,67,0,0,1
+97,House,NY,25,R,F000141,Fish,Hamilton,NA,NA,12013,1926,1996,0.07,-0.423,0,1,2,3,1,62,56,0,0,1
 97,House,IN,2,D,F000161,Fithian,Floyd,James,NA,14222,1928,2003,-0.165,-0.061,0,2,1,3,1,78,78,50,50,1
 97,House,AL,5,D,F000208,Flippo,Ronnie,Gene,NA,14419,1937,NA,-0.175,0.834,0,2,4,6,0,62,56,50,50,1
 97,House,MI,15,D,F000270,Ford,William,David,NA,10727,1927,2004,-0.516,0.098,0,1,2,3,1,89,89,100,100,1
-97,House,TN,8,D,F000261,Ford,Harold,Eugene,NA,14224,1945,NA,-0.438,-0.064,0,1,1,2,0,100,100,100,100,1
+97,House,TN,8,D,F000261,Ford,Harold,Eugene,NA,14224,1945,NA,-0.438,-0.064,0,1,1,2,0,100,89,100,100,1
 97,House,NJ,6,R,F000286,Forsythe,Edwin,Bell,NA,12046,1916,1984,0.326,-0.945,0,1,0,1,1,67,67,50,50,1
 97,House,NC,2,D,F000319,Fountain,Lawrence,H.,NA,3321,1913,2002,-0.041,0.73,0,1,0,1,1,67,67,50,50,1
 97,House,GA,5,D,F000329,Fowler,Wyche,NA,NA,14467,1940,NA,-0.237,0.196,0,1,1,2,0,88,78,100,100,1
@@ -130,7 +130,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,GA,6,R,G000225,Gingrich,Newton,Leroy,NA,14627,1943,NA,0.377,-0.257,0,2,0,2,0,62,56,0,0,1
 97,House,GA,1,D,G000226,Ginn,Ronald,Bryan,Bo,14016,1934,2005,-0.217,0.849,0,2,0,2,1,67,67,50,50,1
 97,House,KS,4,D,G000240,Glickman,Daniel,Robert,NA,14422,1944,NA,-0.133,-0.149,0,1,1,2,1,89,89,50,50,1
-97,House,CA,20,R,G000268,Goldwater,Barry,Morris,NA,12037,1938,NA,0.355,-0.025,0,2,0,2,0,50,33,0,0,1
+97,House,CA,20,R,G000268,Goldwater,Barry,Morris,NA,12037,1938,NA,0.355,-0.025,0,2,0,2,0,60,33,0,0,1
 97,House,TX,20,D,G000272,Gonzalez,Henry,B.,NA,10520,1916,2000,-0.538,0.558,0,4,4,8,1,78,78,100,100,1
 97,House,PA,19,R,G000291,Goodling,William,Franklin,NA,14288,1927,NA,0.336,-0.494,0,1,1,2,1,25,22,0,0,1
 97,House,TN,4,D,G000321,Gore,Albert,Arnold,NA,14423,1948,NA,-0.316,0.155,0,3,1,4,0,89,89,50,50,1
@@ -155,13 +155,13 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,GA,2,D,H000340,Hatcher,Charles,Floyd,NA,14831,1939,NA,-0.202,0.722,0,1,1,2,0,62,56,50,50,1
 97,House,CA,29,D,H000367,Hawkins,Augustus,Freeman,Gus,10595,1907,2007,-0.517,-0.369,0,2,1,3,1,100,100,100,100,1
 97,House,MA,10,R,H000440,Heckler,Margaret,M.,NA,11021,1931,NA,-0.007,-0.682,1,2,1,3,1,67,67,0,0,1
-97,House,NC,8,D,H000448,Hefner,Willie,Gathrel,Bill,14233,1930,2009,-0.264,0.609,0,2,0,2,1,67,67,50,50,1
+97,House,NC,8,D,H000448,Hefner,Willie,Gathrel,Bill,14233,1930,2009,-0.264,0.609,0,2,0,2,1,75,67,50,50,1
 97,House,HI,1,D,H000449,Heftel,Cecil,Landau,NA,14425,1924,2010,-0.269,0.243,0,4,3,7,1,100,100,100,100,1
 97,House,NC,11,R,H000490,Hendon,William,Martin,NA,14832,1944,NA,0.335,-0.122,0,2,0,2,1,33,33,0,0,1
 97,House,TX,13,D,H000582,Hightower,Jack,English,NA,14234,1926,2013,-0.115,0.711,0,3,0,3,1,44,44,0,0,1
 97,House,IN,5,R,H000624,Hillis,Elwood,Haynes,NA,13018,1926,NA,0.173,-0.106,0,0,3,3,0,44,44,0,0,0
 97,House,SC,5,D,H000719,Holland,Kenneth,Lamar,NA,14235,1934,NA,-0.246,0.523,0,2,1,3,1,71,56,50,50,1
-97,House,MD,4,R,H000747,Holt,Marjorie,Sewell,NA,14021,1920,NA,0.368,0.061,1,2,1,3,1,22,22,0,0,1
+97,House,MD,4,R,H000747,Holt,Marjorie,Sewell,NA,14021,1920,NA,0.368,0.061,1,2,1,3,1,25,22,0,0,1
 97,House,KY,6,R,H000776,Hopkins,Larry,Jones,NA,14635,1933,NA,0.347,-0.242,0,0,1,1,0,44,44,0,0,0
 97,House,NY,34,R,H000797,Horton,Frank,Jefferson,NA,10596,1919,2004,-0.004,-0.359,0,0,4,4,1,62,56,50,50,0
 97,House,NJ,3,D,H000840,Howard,James,John,NA,10739,1927,1988,-0.431,-0.018,0,3,0,3,1,100,100,100,100,1
@@ -176,16 +176,16 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,IN,11,D,J000033,Jacobs,Andrew,NA,NA,10742,1932,2013,-0.07,-0.846,0,0,2,2,1,78,78,50,50,0
 97,House,VT,1,R,J000072,Jeffords,James,Merrill,NA,14240,1934,2014,0.014,-0.687,0,1,1,2,1,78,78,50,50,1
 97,House,GA,9,D,J000083,Jenkins,Edgar,Lanier,Ed,14429,1933,2012,-0.116,0.678,0,2,0,2,1,62,56,50,50,1
-97,House,NC,6,R,J000200,Johnston,Walter,Eugene,NA,14836,1936,NA,0.723,-0.69,0,0,1,1,1,25,22,0,0,0
-97,House,NC,1,D,J000256,Jones,Walter,Beaman,NA,10788,1913,1992,-0.259,0.941,0,1,0,1,1,62,56,50,50,1
+97,House,NC,6,R,J000200,Johnston,Walter,Eugene,NA,14836,1936,NA,0.723,-0.69,0,0,1,1,1,29,22,0,0,0
+97,House,NC,1,D,J000256,Jones,Walter,Beaman,NA,10788,1913,1992,-0.259,0.941,0,1,0,1,1,67,44,50,50,1
 97,House,OK,1,D,J000232,Jones,James,Robert,NA,14026,1939,NA,-0.095,0.444,0,0,2,2,0,44,44,0,0,0
-97,House,TN,7,D,J000216,Jones,Ed,NA,NA,12038,1912,1999,-0.245,0.827,0,1,0,1,1,67,67,0,0,1
+97,House,TN,7,D,J000216,Jones,Ed,NA,NA,12038,1912,1999,-0.245,0.827,0,1,0,1,1,75,67,0,0,1
 97,House,WI,2,D,K000020,Kastenmeier,Robert,William,NA,5101,1924,2015,-0.514,-0.452,0,0,3,3,1,89,89,100,100,0
 97,House,TX,23,D,K000025,Kazen,Abraham,NA,NA,11023,1919,1987,-0.219,0.747,0,4,1,5,1,67,67,50,50,1
 97,House,NY,38,R,K000086,Kemp,Jack,French,NA,13020,1935,2009,0.3,-0.133,0,1,3,4,1,43,33,0,0,1
 97,House,CT,1,D,K000118,Kennelly,Barbara,Bailey,NA,14877,1936,NA,-0.346,-0.13,1,3,1,4,0,NA,NA,NA,NA,1
 97,House,MI,7,D,K000172,Kildee,Dale,Edward,NA,14430,1929,NA,-0.385,0.011,0,1,2,3,0,89,89,50,50,1
-97,House,OH,8,R,K000190,Kindness,Thomas,Norman,NA,14245,1929,2004,0.419,-0.051,0,1,3,4,1,33,33,0,0,1
+97,House,OH,8,R,K000190,Kindness,Thomas,Norman,NA,14245,1929,2004,0.419,-0.051,0,1,3,4,1,38,33,0,0,1
 97,House,CO,3,D,K000304,Kogovsek,Raymond,Peter,NA,14638,1941,NA,-0.33,0.033,0,2,0,2,1,89,89,100,100,1
 97,House,NY,36,D,L000556,Lafalce,John,Joseph,NA,14248,1939,NA,-0.357,0.112,0,0,1,1,0,89,89,100,100,0
 97,House,CA,19,R,L000020,Lagomarsino,Robert,John,NA,14071,1926,NA,0.378,-0.267,0,1,0,1,1,44,44,0,0,1
@@ -209,7 +209,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,NM,1,R,L000506,Lujan,Manuel,NA,NA,12022,1928,NA,0.272,-0.059,0,2,1,3,1,44,44,0,0,1
 97,House,OH,2,D,L000508,Luken,Thomas,Andrew,NA,14070,1925,NA,-0.163,-0.077,0,5,3,8,1,78,78,0,0,1
 97,House,NY,39,D,L000516,Lundine,Stanley,Nelson,NA,14289,1939,NA,-0.31,-0.273,0,0,2,2,0,100,89,100,100,0
-97,House,CA,34,R,L000517,Lungren,Daniel,Edward,NA,14647,1946,NA,0.497,-0.054,0,2,1,3,0,22,22,0,0,1
+97,House,CA,34,R,L000517,Lungren,Daniel,Edward,NA,14647,1946,NA,0.497,-0.054,0,2,1,3,0,25,22,0,0,1
 97,House,IL,21,R,M000041,Madigan,Edward,Rell,NA,14033,1936,1994,0.247,-0.396,0,3,0,3,1,38,33,0,0,1
 97,House,PA,24,R,M000136,Marks,Marc,Lincoln,NA,14436,1927,NA,-0.011,-0.399,0,3,0,3,1,75,67,50,50,1
 97,House,MT,2,R,M000139,Marlenee,Ronald,Charles,NA,14437,1935,NA,0.393,-0.212,0,2,3,5,1,38,33,0,0,1
@@ -249,17 +249,17 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,IN,7,R,M001130,Myers,John,Thomas,NA,11036,1927,2015,0.236,0.254,0,2,0,2,1,33,33,0,0,1
 97,House,KY,2,D,N000009,Natcher,William,Huston,NA,6845,1909,1994,-0.288,0.575,0,2,0,2,1,56,56,0,0,1
 97,House,NC,5,D,N000016,Neal,Stephen,Lybrook,NA,14262,1934,NA,-0.145,0.112,0,0,1,1,0,78,78,50,50,0
-97,House,FL,9,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,56,56,0,0,1
+97,House,FL,9,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,62,56,0,0,1
 97,House,AL,3,D,N000095,Nichols,William,Flynt,NA,11037,1918,1988,-0.042,0.872,0,2,1,3,1,33,33,0,0,1
 97,House,NY,37,D,N000163,Nowak,Henry,James,NA,14264,1935,NA,-0.332,-0.123,0,1,1,2,0,88,78,50,50,1
-97,House,IL,17,R,O000010,O'Brien,George,Miller,NA,14041,1917,1986,0.169,-0.132,0,1,1,2,1,44,44,0,0,1
+97,House,IL,17,R,O000010,O'Brien,George,Miller,NA,14041,1917,1986,0.169,-0.132,0,1,1,2,1,50,44,0,0,1
 97,House,MA,8,D,O000098,O'Neill,Thomas,Philip,Tip,7081,1912,1994,-0.402,0.058,0,1,3,4,1,100,100,NA,NA,1
 97,House,MN,8,D,O000006,Oberstar,James,Louis,NA,14265,1934,2014,-0.553,0.304,0,4,2,6,1,89,89,50,50,1
 97,House,WI,7,D,O000007,Obey,David,Ross,NA,12036,1938,NA,-0.45,-0.063,0,0,2,2,0,89,89,100,100,0
 97,House,NY,24,D,O000134,Ottinger,Richard,Lawrence,NA,10760,1929,NA,-0.391,-0.771,0,1,3,4,0,100,100,100,100,1
 97,House,OH,4,R,O000163,Oxley,Michael,Garver,NA,14875,1944,2016,0.382,-0.093,0,0,1,1,1,80,80,NA,NA,0
 97,House,CA,16,D,P000047,Panetta,Leon,Edward,NA,14444,1938,NA,-0.258,-0.186,0,0,3,3,0,89,89,100,100,0
-97,House,VA,8,R,P000080,Parris,Stanford,E.,NA,14043,1929,2010,0.287,-0.179,0,2,1,3,1,33,33,0,0,1
+97,House,VA,8,R,P000080,Parris,Stanford,E.,NA,14043,1929,2010,0.287,-0.179,0,2,1,3,1,25,22,0,0,1
 97,House,TX,14,D,P000104,Patman,William,Neff,NA,14850,1927,2008,-0.03,0.923,0,1,0,1,1,75,67,100,50,1
 97,House,CA,38,D,P000121,Patterson,Jerry,Mumford,NA,14266,1934,NA,-0.367,0.007,0,2,2,4,0,89,89,50,50,1
 97,House,TX,22,R,P000583,Paul,Ronald,Ernest,NA,14290,1935,NA,0.863,-0.505,0,3,3,6,0,25,22,50,50,1
@@ -271,29 +271,29 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,IL,10,R,P000444,Porter,John,Edward,NA,14677,1935,NA,0.217,-0.604,0,3,2,5,0,56,56,0,0,1
 97,House,IL,23,D,P000522,Price,Charles,Melvin,NA,7610,1905,1988,-0.429,0.346,0,0,1,1,1,89,89,100,100,0
 97,House,WA,1,R,P000546,Pritchard,Joel,McFee,NA,14044,1925,1997,0.109,-0.587,0,3,1,4,1,67,67,50,50,1
-97,House,MI,2,R,P000574,Pursell,Carl,Duane,NA,14446,1932,2009,0.12,-0.557,0,1,2,3,1,78,78,50,50,1
+97,House,MI,2,R,P000574,Pursell,Carl,Duane,NA,14446,1932,2009,0.12,-0.557,0,1,2,3,1,75,67,50,50,1
 97,House,WV,4,D,R000011,Rahall,Nick,Joe,NA,14448,1949,NA,-0.306,0.45,0,2,1,3,0,88,78,100,50,1
 97,House,IL,19,R,R000012,Railsback,Thomas,Fisher,NA,11041,1932,NA,0.103,-0.446,0,4,0,4,1,75,67,50,50,1
-97,House,NY,19,D,R000053,Rangel,Charles,B.,NA,13035,1930,NA,-0.514,-0.341,0,1,1,2,0,100,89,100,100,1
+97,House,NY,19,D,R000053,Rangel,Charles,B.,NA,13035,1930,NA,-0.514,-0.341,0,1,1,2,0,100,78,100,100,1
 97,House,CT,5,D,R000067,Ratchford,William,Richard,NA,14653,1934,2011,-0.355,-0.267,0,0,3,3,1,100,89,100,100,0
 97,House,OH,16,R,R000141,Regula,Ralph,Straus,NA,14045,1924,NA,0.221,-0.223,0,1,2,3,1,44,44,0,0,1
 97,House,WI,5,D,R000165,Reuss,Henry,Schoellkopf,NA,7824,1912,2002,-0.481,-0.278,0,1,2,3,1,100,100,100,100,1
 97,House,AZ,1,R,R000188,Rhodes,John,Jacob,NA,7845,1916,2003,0.225,-0.033,0,2,2,4,1,50,44,0,0,1
-97,House,NY,14,D,R000232,Richmond,Frederick,William,NA,14269,1923,NA,-0.564,-0.556,0,0,1,1,1,100,89,100,100,0
+97,House,NY,14,D,R000232,Richmond,Frederick,William,NA,14269,1923,NA,-0.564,-0.556,0,0,1,1,1,100,78,100,100,0
 97,House,PA,15,R,R000277,Ritter,Donald,Lawrence,NA,14654,1940,NA,0.268,-0.154,0,1,1,2,0,44,44,0,0,1
 97,House,KS,1,R,R000307,Roberts,Charles,Patrick,Pat,14852,1936,NA,0.413,-0.09,0,2,1,3,0,38,33,0,0,1
 97,House,SD,2,R,R000308,Roberts,Clint,Ronald,NA,14851,1935,NA,0.416,0.043,0,0,1,1,1,22,22,0,0,0
 97,House,VA,7,R,R000337,Robinson,James,Kenneth,NA,13036,1916,1990,0.333,0.377,0,3,3,6,1,22,22,0,0,1
 97,House,NJ,10,D,R000374,Rodino,Peter,Wallace,NA,8010,1909,2005,-0.435,-0.224,0,1,1,2,1,89,89,100,100,1
 97,House,KY,5,R,R000395,Rogers,Harold,Dallas,Hal,14854,1937,NA,0.337,0.113,0,1,2,3,0,44,44,0,0,1
-97,House,NC,7,D,R000436,Rose,Charles,Grandison,NA,14048,1939,2012,-0.319,0.573,0,2,2,4,1,71,56,50,50,1
+97,House,NC,7,D,R000436,Rose,Charles,Grandison,NA,14048,1939,2012,-0.319,0.573,0,2,2,4,1,83,56,50,50,1
 97,House,NY,8,D,R000442,Rosenthal,Benjamin,Stanley,NA,10551,1923,1983,-0.562,-0.491,0,1,1,2,1,100,56,100,50,1
 97,House,IL,8,D,R000458,Rostenkowski,Daniel,David,NA,8080,1928,2010,-0.39,0.246,0,3,0,3,1,78,78,50,50,1
 97,House,NJ,7,R,R000465,Roukema,Margaret,Scafati,NA,14855,1929,2014,0.162,-0.701,1,1,1,2,1,78,78,50,50,1
-97,House,CA,26,R,R000469,Rousselot,John,Harbin,NA,10553,1927,2003,0.601,0.164,0,2,1,3,1,11,11,0,0,1
+97,House,CA,26,R,R000469,Rousselot,John,Harbin,NA,10553,1927,2003,0.601,0.164,0,2,1,3,1,12,11,0,0,1
 97,House,CA,25,D,R000485,Roybal,Edward,R.,NA,10621,1916,2005,-0.61,-0.141,0,2,1,3,1,89,89,100,100,1
 97,House,AZ,4,R,R000495,Rudd,Eldon,Dean,NA,14449,1920,2002,0.422,0.611,0,2,0,2,1,22,22,0,0,1
-97,House,IL,3,D,R000543,Russo,Martin,Anthony,NA,14271,1944,NA,-0.192,-0.209,0,1,1,2,0,78,78,50,50,1
+97,House,IL,3,D,R000543,Russo,Martin,Anthony,NA,14271,1944,NA,-0.192,-0.209,0,1,1,2,0,88,78,50,50,1
 97,House,MN,5,D,S000005,Sabo,Martin,Olav,NA,14656,1938,2016,-0.516,-0.317,0,2,0,2,1,100,100,100,100,1
 97,House,NV,1,D,S000058,Santini,James,David,NA,14272,1937,2015,-0.074,0.132,0,3,3,6,1,44,44,0,0,1
 97,House,IL,2,D,S000081,Savage,Gus,NA,NA,14856,1925,2015,-0.671,-0.39,0,1,1,2,1,86,67,100,100,1
@@ -308,7 +308,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,AL,7,D,S000320,Shelby,Richard,C.,NA,14659,1934,NA,0.013,0.658,0,0,2,2,0,22,22,0,0,0
 97,House,CA,14,R,S000393,Shumway,Norman,David,NA,14660,1934,NA,0.556,0.39,0,3,3,6,0,22,22,0,0,1
 97,House,PA,9,R,S000394,Shuster,E.,G.,Bud,14052,1932,NA,0.416,0.144,0,3,2,5,0,33,33,0,0,1
-97,House,MI,4,R,S000409,Siljander,Mark,Deli,NA,14872,1951,NA,0.406,-0.102,0,3,1,4,0,44,44,0,0,1
+97,House,MI,4,R,S000409,Siljander,Mark,Deli,NA,14872,1951,NA,0.406,-0.102,0,3,1,4,0,50,44,0,0,1
 97,House,IL,24,D,S000423,Simon,Paul,Martin,NA,14275,1928,2003,-0.397,-0.224,0,1,1,2,1,86,67,50,50,1
 97,House,NM,2,R,S000463,Skeen,Joseph,Richard,NA,14861,1927,2003,0.301,0.034,0,1,1,2,1,44,44,0,0,1
 97,House,MO,4,D,S000465,Skelton,Isaac,Newton,Ike,14451,1931,2013,-0.172,0.724,0,1,2,3,1,56,56,0,0,1
@@ -323,8 +323,8 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,RI,1,D,S000762,St. Germain,Fernand,Joseph,NA,10561,1928,2014,-0.355,-0.091,0,2,0,2,1,100,67,NA,0,1
 97,House,MN,7,R,S000795,Stangeland,Arlan,Ingehart,NA,14466,1930,2013,0.346,-0.18,0,2,5,7,1,44,44,0,0,1
 97,House,OH,11,R,S000804,Stanton,John,William,NA,10773,1924,2002,0.135,-0.31,0,1,0,1,1,44,44,0,0,1
-97,House,CA,9,D,S000810,Stark,Fortney,Hillman,Pete,14053,1931,NA,-0.631,-0.605,0,4,3,7,1,100,100,100,100,1
-97,House,WV,3,R,S000818,Staton,David,Michael,NA,14865,1940,2014,0.33,0.034,0,3,1,4,1,33,33,0,0,1
+97,House,CA,9,D,S000810,Stark,Fortney,Hillman,Pete,14053,1931,NA,-0.631,-0.605,0,4,3,7,1,100,89,100,50,1
+97,House,WV,3,R,S000818,Staton,David,Michael,NA,14865,1940,2014,0.33,0.034,0,3,1,4,1,38,33,0,0,1
 97,House,TX,17,D,S000851,Stenholm,Charles,Walter,NA,14664,1938,NA,0.019,1,0,1,2,3,0,44,44,0,0,1
 97,House,MI,4,R,S000935,Stockman,David,Alan,NA,14453,1946,NA,0.401,-0.488,0,2,0,2,0,NA,NA,NA,NA,1
 97,House,OH,21,D,S000948,Stokes,Louis,NA,NA,12030,1925,2015,-0.578,-0.312,0,3,1,4,1,100,100,100,100,1
@@ -352,9 +352,9 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,KS,5,R,W000426,Whittaker,Robert,Russell,NA,14670,1939,NA,0.346,-0.318,0,1,3,4,0,33,33,0,0,1
 97,House,MS,1,D,W000428,Whitten,Jamie,Lloyd,NA,10075,1910,1995,-0.161,0.987,0,1,1,2,1,44,44,0,0,1
 97,House,MT,1,D,W000520,Williams,John,Patrick,NA,14672,1937,NA,-0.315,-0.138,0,1,1,2,0,89,89,100,100,1
-97,House,OH,19,R,W000528,Williams,Lyle,NA,NA,14671,1942,2008,0.037,-0.139,0,3,1,4,1,43,33,0,0,1
+97,House,OH,19,R,W000528,Williams,Lyle,NA,NA,14671,1942,2008,0.037,-0.139,0,3,1,4,1,33,22,0,0,1
 97,House,KS,3,R,W000636,Winn,Edward,Lawrence,Larry,11057,1919,NA,0.247,-0.033,0,2,3,5,1,44,44,0,0,1
-97,House,CO,2,D,W000647,Wirth,Timothy,E.,NA,14282,1939,NA,-0.293,-0.315,0,1,1,2,0,100,100,100,100,1
+97,House,CO,2,D,W000647,Wirth,Timothy,E.,NA,14282,1939,NA,-0.293,-0.315,0,1,1,2,0,100,89,100,100,1
 97,House,VA,10,R,W000672,Wolf,Frank,Rudolph,NA,14869,1939,NA,0.284,-0.213,0,4,1,5,0,44,44,0,0,1
 97,House,MI,3,D,W000682,Wolpe,Howard,Eliot,NA,14673,1939,2011,-0.374,-0.466,0,3,2,5,1,100,100,100,100,1
 97,House,NY,32,R,W000752,Wortley,George,Cornelius,NA,14870,1926,2014,0.207,-0.094,0,2,1,3,1,56,56,0,0,1
@@ -364,7 +364,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 97,House,IL,9,D,Y000013,Yates,Sidney,Richard,NA,10421,1909,2000,-0.494,-0.494,0,0,1,1,1,100,100,100,100,0
 97,House,PA,6,D,Y000014,Yatron,Gus,NA,NA,12035,1927,2003,-0.174,0.094,0,1,1,2,1,62,56,0,0,1
 97,House,MO,2,D,Y000051,Young,Robert,Anton,NA,14465,1923,2007,-0.3,0.458,0,2,1,3,1,62,56,0,0,1
-97,House,AK,1,R,Y000033,Young,Donald,Edwin,NA,14066,1933,NA,0.284,0.021,0,2,0,2,0,50,44,0,0,1
+97,House,AK,1,R,Y000033,Young,Donald,Edwin,NA,14066,1933,NA,0.284,0.021,0,2,0,2,0,57,44,0,0,1
 97,House,FL,6,R,Y000031,Young,Charles,William,Bill,13047,1930,2013,0.325,-0.112,0,0,3,3,1,25,22,0,0,0
 97,House,WI,4,D,Z000001,Zablocki,Clement,John,NA,10463,1912,1983,-0.355,0.293,0,1,1,2,1,78,78,50,50,1
 97,House,NY,15,D,Z000002,Zeferetti,Leo,C.,NA,14283,1927,NA,-0.305,0.285,0,2,0,2,1,78,78,50,50,1
@@ -405,7 +405,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,CA,6,D,B000711,Boxer,Barbara,NA,NA,15011,1940,NA,-0.45,-0.423,1,1,1,2,0,100,100,100,100,1
 98,House,LA,7,D,B000780,Breaux,John,Berlinger,NA,13056,1944,NA,-0.123,0.702,0,2,2,4,0,45,45,67,67,1
 98,House,NC,6,D,B000845,Britt,Charles,Robin,NA,15012,1942,NA,-0.178,0.123,0,1,2,3,0,91,91,100,100,1
-98,House,TX,9,D,B000880,Brooks,Jack,Bascom,NA,1077,1922,2012,-0.407,0.725,0,2,1,3,0,91,91,100,100,1
+98,House,TX,9,D,B000880,Brooks,Jack,Bascom,NA,1077,1922,2012,-0.407,0.725,0,2,1,3,0,90,82,100,100,1
 98,House,MI,18,R,B000890,Broomfield,William,S.,NA,1087,1922,NA,0.227,-0.309,0,2,0,2,1,27,27,33,33,1
 98,House,CA,36,D,B000918,Brown,George,Edward,NA,10573,1920,1999,-0.506,-0.028,0,1,1,2,1,100,100,100,100,1
 98,House,CO,4,R,B000919,Brown,George,Hanks,Hank,14803,1940,NA,0.511,-0.762,0,2,1,3,0,55,55,100,100,1
@@ -453,18 +453,18 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,TN,2,R,D000534,Duncan,John,James,NA,10719,1919,1988,0.194,0.21,0,1,2,3,1,36,36,33,33,1
 98,House,IL,20,D,D000563,Durbin,Richard,Joseph,NA,15021,1944,NA,-0.348,-0.307,0,2,1,3,0,91,91,67,67,1
 98,House,NJ,6,D,D000586,Dwyer,Bernard,James,NA,14815,1921,1998,-0.373,0.048,0,1,0,1,1,100,100,100,100,1
-98,House,CA,31,D,D000592,Dymally,Mervyn,Malcolm,NA,14816,1926,2012,-0.685,-0.039,0,0,1,1,1,100,82,100,100,0
+98,House,CA,31,D,D000592,Dymally,Mervyn,Malcolm,NA,14816,1926,2012,-0.685,-0.039,0,0,1,1,1,100,73,100,67,0
 98,House,MA,3,D,E000013,Early,Joseph,Daniel,NA,14216,1933,2012,-0.254,-0.409,0,4,4,8,1,90,82,67,67,1
 98,House,OH,11,D,E000031,Eckart,Dennis,Edward,NA,14818,1950,NA,-0.242,-0.258,0,0,1,1,0,100,91,100,67,0
 98,House,PA,7,D,E000043,Edgar,Robert,William,NA,14217,1943,2013,-0.334,-0.718,0,0,2,2,1,100,91,100,67,0
 98,House,CA,10,D,E000064,Edwards,William,Donlon,Don,10583,1915,2015,-0.599,-0.419,0,0,4,4,1,100,100,100,100,0
-98,House,OK,5,R,E000077,Edwards,Marvin,Henry,Mickey,14415,1937,NA,0.394,-0.05,0,2,1,3,0,18,18,0,0,1
+98,House,OK,5,R,E000077,Edwards,Marvin,Henry,Mickey,14415,1937,NA,0.394,-0.05,0,2,1,3,0,20,18,0,0,1
 98,House,AL,1,R,E000084,Edwards,William,Jackson,Jack,10721,1928,NA,0.177,0.161,0,1,1,2,1,30,27,33,33,1
 98,House,MO,8,R,E000174,Emerson,Norvell,William,Bill,14819,1938,1996,0.332,-0.125,0,4,0,4,1,36,36,33,33,1
 98,House,OK,6,D,E000184,English,Glenn,Lee,NA,14219,1940,NA,-0.027,0.603,0,0,2,2,0,55,55,67,67,0
 98,House,AL,6,D,E000201,Erdreich,Ben,NA,NA,15022,1938,NA,-0.06,0.372,0,1,1,2,0,64,64,67,67,1
 98,House,IL,13,R,E000204,Erlenborn,John,Neal,NA,10722,1927,2005,0.315,-0.438,0,1,2,3,1,10,9,0,0,1
-98,House,IA,3,R,E000259,Evans,Thomas,Cooper,NA,14820,1924,2005,0.247,-0.969,0,0,1,1,1,73,73,67,67,0
+98,House,IA,3,R,E000259,Evans,Thomas,Cooper,NA,14820,1924,2005,0.247,-0.969,0,0,1,1,1,70,64,67,67,0
 98,House,FL,19,D,F000041,Fascell,Dante,Bruno,NA,3078,1917,1998,-0.4,0.229,0,2,1,3,1,100,100,100,100,1
 98,House,CA,4,D,F000053,Fazio,Victor,Herbert,NA,14624,1942,NA,-0.455,0.36,0,3,1,4,0,91,91,100,100,1
 98,House,OH,19,D,F000059,Feighan,Edward,Farrell,NA,15024,1947,NA,-0.304,-0.267,0,2,2,4,0,100,100,100,100,1
@@ -478,7 +478,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,NJ,13,R,F000286,Forsythe,Edwin,Bell,NA,12046,1916,1984,0.326,-0.945,0,1,0,1,1,44,36,50,33,1
 98,House,GA,5,D,F000329,Fowler,Wyche,NA,NA,14467,1940,NA,-0.237,0.196,0,1,1,2,0,100,100,100,100,1
 98,House,MN,3,R,F000380,Frenzel,William,Eldridge,NA,13015,1928,2014,0.353,-0.815,0,3,0,3,1,36,36,67,67,1
-98,House,NY,18,D,G000047,Garcia,Robert,NA,NA,14470,1933,NA,-0.559,-0.349,0,1,2,3,1,91,91,100,100,1
+98,House,NY,18,D,G000047,Garcia,Robert,NA,NA,14470,1933,NA,-0.559,-0.349,0,1,2,3,1,90,82,100,67,1
 98,House,PA,20,D,G000105,Gaydos,Joseph,Matthew,NA,11067,1926,2015,-0.278,0.398,0,0,1,1,1,56,45,33,33,0
 98,House,CT,2,D,G000120,Gejdenson,Samuel,NA,NA,14825,1948,NA,-0.416,-0.486,0,1,1,2,0,100,100,100,100,1
 98,House,MO,3,D,G000132,Gephardt,Richard,Andrew,NA,14421,1941,NA,-0.416,0.245,0,2,1,3,0,91,91,67,67,1
@@ -490,8 +490,8 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,PA,19,R,G000291,Goodling,William,Franklin,NA,14288,1927,NA,0.336,-0.494,0,1,1,2,1,64,64,67,67,1
 98,House,TN,6,D,G000321,Gore,Albert,Arnold,NA,14423,1948,NA,-0.316,0.155,0,3,1,4,0,80,73,67,67,1
 98,House,OH,2,R,G000349,Gradison,Willis,David,NA,14225,1928,NA,0.233,-0.338,0,5,0,5,0,45,45,33,33,1
-98,House,TX,6,R,G000365,Gramm,William,Philip,Phil,14628,1942,NA,0.551,-0.108,0,0,2,2,0,20,18,0,0,0
-98,House,PA,2,D,G000402,Gray,William,Herbert,NA,14629,1941,2013,-0.511,-0.219,0,0,3,3,1,100,100,100,100,0
+98,House,TX,6,R,G000365,Gramm,William,Philip,Phil,14628,1942,NA,0.551,-0.108,0,0,2,2,0,22,18,0,0,0
+98,House,PA,2,D,G000402,Gray,William,Herbert,NA,14629,1941,2013,-0.511,-0.219,0,0,3,3,1,100,91,100,67,0
 98,House,NY,15,R,G000417,Green,Sedgwick,William,Bill,14471,1929,2002,-0.044,-0.733,0,1,2,3,1,82,82,100,100,1
 98,House,NH,2,R,G000445,Gregg,Judd,Alan,NA,14826,1947,NA,0.429,-0.737,0,2,1,3,0,36,36,67,67,1
 98,House,IN,1,D,H000058,Hall,Katie,Beatrice,NA,14880,1938,2012,-0.529,0.095,1,2,0,2,1,100,100,100,100,1
@@ -500,16 +500,16 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,OH,3,D,H000074,Hall,Tony,Patrick,NA,14632,1942,NA,-0.28,0.155,0,1,0,1,0,91,91,67,67,1
 98,House,IN,9,D,H000114,Hamilton,Lee,Herbert,NA,10732,1931,NA,-0.171,-0.053,0,2,1,3,0,82,82,67,67,1
 98,House,AR,3,R,H000124,Hammerschmidt,John,Paul,NA,11020,1922,2015,0.253,0.239,0,0,1,1,1,36,36,33,33,0
-98,House,TX,19,D,H000144,Hance,Kent,Ronald,NA,14633,1942,NA,-0.042,0.747,0,1,1,2,0,43,27,100,67,1
+98,House,TX,19,D,H000144,Hance,Kent,Ronald,NA,14633,1942,NA,-0.042,0.747,0,1,1,2,0,33,18,100,33,1
 98,House,UT,1,R,H000172,Hansen,James,Vear,NA,14829,1932,NA,0.496,0.143,0,2,3,5,1,11,9,0,0,1
 98,House,ID,2,R,H000171,Hansen,George,Vernon,NA,10734,1930,2014,0.621,0.339,0,2,3,5,1,0,0,0,0,1
 98,House,IA,5,D,H000206,Harkin,Thomas,Richard,Tom,14230,1939,NA,-0.351,-0.546,0,2,0,2,0,100,100,100,100,1
 98,House,GA,2,D,H000340,Hatcher,Charles,Floyd,NA,14831,1939,NA,-0.202,0.722,0,1,1,2,0,70,64,100,100,1
 98,House,CA,29,D,H000367,Hawkins,Augustus,Freeman,Gus,10595,1907,2007,-0.517,-0.369,0,2,1,3,1,100,100,100,100,1
-98,House,IL,1,D,H000388,Hayes,Charles,Arthur,NA,15079,1918,1997,-0.656,-0.395,0,2,0,2,1,100,100,100,100,1
+98,House,IL,1,D,H000388,Hayes,Charles,Arthur,NA,15079,1918,1997,-0.656,-0.395,0,2,0,2,1,100,80,100,50,1
 98,House,NC,8,D,H000448,Hefner,Willie,Gathrel,Bill,14233,1930,2009,-0.264,0.609,0,2,0,2,1,70,64,100,100,1
 98,House,HI,1,D,H000449,Heftel,Cecil,Landau,NA,14425,1924,2010,-0.269,0.243,0,4,3,7,1,75,55,100,67,1
-98,House,TX,13,D,H000582,Hightower,Jack,English,NA,14234,1926,2013,-0.115,0.711,0,3,0,3,1,45,45,33,33,1
+98,House,TX,13,D,H000582,Hightower,Jack,English,NA,14234,1926,2013,-0.115,0.711,0,3,0,3,1,50,45,50,33,1
 98,House,IN,5,R,H000624,Hillis,Elwood,Haynes,NA,13018,1926,NA,0.173,-0.106,0,0,3,3,0,40,36,50,33,0
 98,House,MD,4,R,H000747,Holt,Marjorie,Sewell,NA,14021,1920,NA,0.368,0.061,1,2,1,3,1,30,27,50,33,1
 98,House,KY,6,R,H000776,Hopkins,Larry,Jones,NA,14635,1933,NA,0.347,-0.242,0,0,1,1,0,36,36,67,67,0
@@ -558,14 +558,14 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,TX,21,R,L000396,Loeffler,Thomas,Gilbert,NA,14645,1946,NA,0.425,0.229,0,1,2,3,0,18,18,0,0,1
 98,House,MD,2,D,L000413,Long,Clarence,Dickinson,NA,10601,1908,1994,-0.274,0.098,0,1,1,2,1,100,82,100,100,1
 98,House,LA,8,D,L000417,Long,Gillis,William,NA,10602,1923,1985,-0.368,0.604,0,1,1,2,1,90,82,50,33,1
-98,House,MS,5,R,L000447,Lott,Chester,Trent,NA,14031,1941,NA,0.39,0.194,0,0,2,2,0,30,27,33,33,0
+98,House,MS,5,R,L000447,Lott,Chester,Trent,NA,14031,1941,NA,0.39,0.194,0,0,2,2,0,33,27,50,33,0
 98,House,CA,41,R,L000479,Lowery,William,David,NA,14839,1947,NA,0.33,-0.254,0,2,1,3,0,22,18,0,0,1
 98,House,WA,7,D,L000486,Lowry,Michael,Edward,NA,14646,1939,NA,-0.401,-0.563,0,1,0,1,1,100,82,100,67,1
-98,House,NM,1,R,L000506,Lujan,Manuel,NA,NA,12022,1928,NA,0.272,-0.059,0,2,1,3,1,36,36,67,67,1
+98,House,NM,1,R,L000506,Lujan,Manuel,NA,NA,12022,1928,NA,0.272,-0.059,0,2,1,3,1,40,36,100,67,1
 98,House,OH,1,D,L000508,Luken,Thomas,Andrew,NA,14070,1925,NA,-0.163,-0.077,0,5,3,8,1,82,82,33,33,1
 98,House,NY,34,D,L000516,Lundine,Stanley,Nelson,NA,14289,1939,NA,-0.31,-0.273,0,0,2,2,0,91,91,100,100,0
 98,House,CA,42,R,L000517,Lungren,Daniel,Edward,NA,14647,1946,NA,0.497,-0.054,0,2,1,3,0,27,27,33,33,1
-98,House,FL,6,D,M000023,MacKay,Kenneth,Hood,Buddy,15038,1933,NA,-0.13,-0.117,0,0,4,4,0,90,82,100,100,0
+98,House,FL,6,D,M000023,MacKay,Kenneth,Hood,Buddy,15038,1933,NA,-0.13,-0.117,0,0,4,4,0,89,73,100,100,0
 98,House,FL,13,R,M000019,Mack,Connie,NA,NA,15037,1940,NA,0.466,-0.321,0,0,1,1,0,27,27,33,33,0
 98,House,IL,15,R,M000041,Madigan,Edward,Rell,NA,14033,1936,1994,0.247,-0.396,0,3,0,3,1,36,36,33,33,1
 98,House,MT,2,R,M000139,Marlenee,Ronald,Charles,NA,14437,1935,NA,0.393,-0.212,0,2,3,5,1,20,18,33,33,1
@@ -583,8 +583,8 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,FL,5,R,M000350,McCollum,Ira,William,Bill,14842,1944,NA,0.377,-0.101,0,0,3,3,0,27,27,33,33,0
 98,House,OK,4,D,M000398,McCurdy,David,Keith,NA,14843,1950,NA,-0.112,0.299,0,2,1,3,0,73,73,100,100,1
 98,House,PA,10,R,M000399,McDade,Joseph,Michael,NA,10607,1931,NA,0.093,-0.355,0,2,3,5,1,40,36,33,33,1
-98,House,GA,7,D,M000413,McDonald,Lawrence,Patton,NA,14252,1935,1983,0.884,0.343,0,1,1,2,1,17,17,0,0,1
-98,House,OH,6,R,M000432,McEwen,Bob,NA,NA,14844,1950,NA,0.359,0.089,0,2,2,4,0,27,27,33,33,1
+98,House,GA,7,D,M000413,McDonald,Lawrence,Patton,NA,14252,1935,1983,0.884,0.343,0,1,1,2,1,20,17,NA,0,1
+98,House,OH,6,R,M000432,McEwen,Bob,NA,NA,14844,1950,NA,0.359,0.089,0,2,2,4,0,30,27,33,33,1
 98,House,NY,28,D,M000473,McHugh,Matthew,Francis,NA,14253,1938,NA,-0.353,-0.227,0,2,1,3,0,91,91,67,67,1
 98,House,ME,1,R,M000512,McKernan,John,Rettie,NA,15042,1948,NA,0.137,-0.708,0,0,1,1,0,64,64,100,100,0
 98,House,CT,4,R,M000527,McKinney,Stewart,Brett,NA,13029,1931,1987,-0.006,-0.609,0,3,2,5,1,82,82,100,100,1
@@ -605,7 +605,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,PA,12,D,M001120,Murtha,John,Patrick,NA,14072,1932,2010,-0.265,0.569,0,1,2,3,1,60,55,33,33,1
 98,House,IN,7,R,M001130,Myers,John,Thomas,NA,11036,1927,2015,0.236,0.254,0,2,0,2,1,36,36,33,33,1
 98,House,KY,2,D,N000009,Natcher,William,Huston,NA,6845,1909,1994,-0.288,0.575,0,2,0,2,1,73,73,67,67,1
-98,House,NC,5,D,N000016,Neal,Stephen,Lybrook,NA,14262,1934,NA,-0.145,0.112,0,0,1,1,0,88,64,100,67,0
+98,House,NC,5,D,N000016,Neal,Stephen,Lybrook,NA,14262,1934,NA,-0.145,0.112,0,0,1,1,0,86,55,100,67,0
 98,House,FL,11,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,70,64,67,67,1
 98,House,AL,3,D,N000095,Nichols,William,Flynt,NA,11037,1918,1988,-0.042,0.872,0,2,1,3,1,45,45,33,33,1
 98,House,UT,3,R,N000106,Nielson,Howard,Curtis,NA,15047,1924,NA,0.505,0.119,0,4,3,7,1,18,18,0,0,1
@@ -624,7 +624,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,VA,8,R,P000080,Parris,Stanford,E.,NA,14043,1929,2010,0.287,-0.179,0,2,1,3,1,36,36,67,67,1
 98,House,TX,14,D,P000104,Patman,William,Neff,NA,14850,1927,2008,-0.03,0.923,0,1,0,1,1,64,64,67,67,1
 98,House,CA,38,D,P000121,Patterson,Jerry,Mumford,NA,14266,1934,NA,-0.367,0.007,0,2,2,4,0,100,100,100,100,1
-98,House,TX,22,R,P000583,Paul,Ronald,Ernest,NA,14290,1935,NA,0.863,-0.505,0,3,3,6,0,22,18,0,0,1
+98,House,TX,22,R,P000583,Paul,Ronald,Ernest,NA,14290,1935,NA,0.863,-0.505,0,3,3,6,0,25,18,0,0,1
 98,House,OH,13,D,P000170,Pease,Donald,James,NA,14445,1931,2002,-0.308,-0.329,0,1,0,1,1,100,100,100,100,1
 98,House,MN,1,D,P000215,Penny,Timothy,Joseph,NA,15052,1951,NA,-0.051,-0.502,0,2,2,4,0,82,82,67,67,1
 98,House,KY,7,D,P000230,Perkins,Carl,Dewey,NA,7343,1912,1984,-0.343,0.332,0,0,1,1,1,91,91,67,67,0
@@ -672,7 +672,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,PA,9,R,S000394,Shuster,E.,G.,Bud,14052,1932,NA,0.416,0.144,0,3,2,5,0,18,18,0,0,1
 98,House,MN,6,D,S000407,Sikorski,Gerald,Edward,NA,15059,1948,NA,-0.217,-0.976,0,1,0,1,0,91,91,67,67,1
 98,House,MI,4,R,S000409,Siljander,Mark,Deli,NA,14872,1951,NA,0.406,-0.102,0,3,1,4,0,18,18,0,0,1
-98,House,IL,22,D,S000423,Simon,Paul,Martin,NA,14275,1928,2003,-0.397,-0.224,0,1,1,2,1,100,91,100,67,1
+98,House,IL,22,D,S000423,Simon,Paul,Martin,NA,14275,1928,2003,-0.397,-0.224,0,1,1,2,1,100,82,100,67,1
 98,House,VA,4,D,S000453,Sisisky,Norman,NA,NA,15060,1927,2001,-0.122,0.453,0,0,4,4,1,89,73,100,100,0
 98,House,NM,2,R,S000463,Skeen,Joseph,Richard,NA,14861,1927,2003,0.301,0.034,0,1,1,2,1,27,27,33,33,1
 98,House,MO,4,D,S000465,Skelton,Isaac,Newton,Ike,14451,1931,2013,-0.172,0.724,0,1,2,3,1,55,55,33,33,1
@@ -706,7 +706,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,NA,NA,NA,NA,T000367,Trible,Paul,Seward,NA,NA,NA,NA,NA,NA,0,1,1,2,0,NA,NA,NA,NA,1
 98,House,AZ,2,D,U000001,Udall,Morris,King,NA,10566,1922,1998,-0.387,0.008,0,3,3,6,1,89,73,100,67,1
 98,House,NC,2,D,V000006,Valentine,Itimous,Thaddeus,Tim,15073,1926,2015,-0.084,0.465,0,1,3,4,1,64,64,67,67,1
-98,House,MI,9,R,V000027,Vander Jagt,Guy,Adrian,NA,10794,1931,2007,0.247,-0.226,0,1,0,1,1,27,27,33,33,1
+98,House,MI,9,R,V000027,Vander Jagt,Guy,Adrian,NA,10794,1931,2007,0.247,-0.226,0,1,0,1,1,30,27,33,33,1
 98,House,TX,26,D,V000026,Vandergriff,Tommy,Joe,Tom,15074,1926,2010,0.029,0.38,0,2,1,3,1,45,45,67,67,1
 98,House,MN,4,D,V000087,Vento,Bruce,Frank,NA,14458,1940,2000,-0.472,-0.376,0,0,3,3,1,91,91,67,67,0
 98,House,MO,9,D,V000112,Volkmer,Harold,Lee,NA,14459,1931,2011,-0.196,0.329,0,1,2,3,1,82,82,67,67,1
@@ -721,9 +721,9 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,KS,5,R,W000426,Whittaker,Robert,Russell,NA,14670,1939,NA,0.346,-0.318,0,1,3,4,0,45,45,67,67,1
 98,House,MS,1,D,W000428,Whitten,Jamie,Lloyd,NA,10075,1910,1995,-0.161,0.987,0,1,1,2,1,73,73,67,67,1
 98,House,MT,1,D,W000520,Williams,John,Patrick,NA,14672,1937,NA,-0.315,-0.138,0,1,1,2,0,100,100,100,100,1
-98,House,OH,17,R,W000528,Williams,Lyle,NA,NA,14671,1942,2008,0.037,-0.139,0,3,1,4,1,73,73,67,67,1
+98,House,OH,17,R,W000528,Williams,Lyle,NA,NA,14671,1942,2008,0.037,-0.139,0,3,1,4,1,80,73,67,67,1
 98,House,KS,3,R,W000636,Winn,Edward,Lawrence,Larry,11057,1919,NA,0.247,-0.033,0,2,3,5,1,40,36,33,33,1
-98,House,CO,2,D,W000647,Wirth,Timothy,E.,NA,14282,1939,NA,-0.293,-0.315,0,1,1,2,0,100,91,100,100,1
+98,House,CO,2,D,W000647,Wirth,Timothy,E.,NA,14282,1939,NA,-0.293,-0.315,0,1,1,2,0,100,82,100,67,1
 98,House,WV,3,D,W000654,Wise,Robert,Ellsworth,NA,15077,1948,NA,-0.32,0.253,0,1,1,2,0,100,100,100,100,1
 98,House,VA,10,R,W000672,Wolf,Frank,Rudolph,NA,14869,1939,NA,0.284,-0.213,0,4,1,5,0,36,36,33,33,1
 98,House,MI,3,D,W000682,Wolpe,Howard,Eliot,NA,14673,1939,2011,-0.374,-0.466,0,3,2,5,1,100,100,100,100,1
@@ -739,7 +739,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 98,House,CA,12,R,Z000014,Zschau,Edwin,Van Wyck,NA,15078,1940,NA,0.345,-0.745,0,2,1,3,0,45,45,67,67,1
 99,House,NY,7,D,A000022,Ackerman,Gary,Leonard,NA,15000,1942,NA,-0.429,-0.165,0,1,2,3,0,100,100,100,100,1
 99,House,NY,6,D,A000052,Addabbo,Joseph,Patrick,NA,10500,1925,1986,-0.402,-0.084,0,2,0,2,1,100,67,100,75,1
-99,House,HI,2,D,A000069,Akaka,Daniel,Kahikina,NA,14400,1924,NA,-0.419,0.273,0,1,4,5,1,83,83,100,100,1
+99,House,HI,2,D,A000069,Akaka,Daniel,Kahikina,NA,14400,1924,NA,-0.419,0.273,0,1,4,5,1,82,75,100,75,1
 99,House,AR,1,D,A000103,Alexander,William,Vollie,Bill,12000,1934,NA,-0.41,0.819,0,1,1,2,0,92,92,100,100,1
 99,House,CA,32,D,A000189,Anderson,Glenn,Malcolm,NA,12001,1913,1994,-0.269,-0.052,0,0,2,2,1,92,92,100,100,0
 99,House,IL,11,D,A000212,Annunzio,Frank,NA,NA,10703,1915,2001,-0.398,0.351,0,3,0,3,1,75,75,25,25,1
@@ -774,7 +774,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,TX,13,R,B000666,Boulter,Eldon,Beau,NA,15087,1942,NA,0.483,0.005,0,2,1,3,0,0,0,0,0,1
 99,House,CA,6,D,B000711,Boxer,Barbara,NA,NA,15011,1940,NA,-0.45,-0.423,1,1,1,2,0,100,100,100,100,1
 99,House,LA,7,D,B000780,Breaux,John,Berlinger,NA,13056,1944,NA,-0.123,0.702,0,2,2,4,0,33,33,25,25,1
-99,House,TX,9,D,B000880,Brooks,Jack,Bascom,NA,1077,1922,2012,-0.407,0.725,0,2,1,3,0,82,75,100,100,1
+99,House,TX,9,D,B000880,Brooks,Jack,Bascom,NA,1077,1922,2012,-0.407,0.725,0,2,1,3,0,80,67,100,100,1
 99,House,MI,18,R,B000890,Broomfield,William,S.,NA,1087,1922,NA,0.227,-0.309,0,2,0,2,1,18,17,0,0,1
 99,House,CA,36,D,B000918,Brown,George,Edward,NA,10573,1920,1999,-0.506,-0.028,0,1,1,2,1,100,92,100,75,1
 99,House,CO,4,R,B000919,Brown,George,Hanks,Hank,14803,1940,NA,0.511,-0.762,0,2,1,3,0,42,42,75,75,1
@@ -785,7 +785,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,MD,6,D,B001220,Byron,Beverly,Barton Butcher,NA,14608,1932,NA,-0.024,0.516,1,1,2,3,0,33,33,0,0,1
 99,House,AL,1,R,C000052,Callahan,Herbert,Leon,Sonny,15090,1932,NA,0.373,0.202,0,3,2,5,1,17,17,0,0,1
 99,House,SC,4,R,C000079,Campbell,Carroll,Ashmore,NA,14609,1940,2005,0.306,0.115,0,0,2,2,1,17,17,0,0,0
-99,House,NY,1,R,C000165,Carney,William,NA,NA,14610,1942,NA,0.326,-0.173,0,1,0,1,1,33,33,0,0,1
+99,House,NY,1,R,C000165,Carney,William,NA,NA,14610,1942,NA,0.326,-0.173,0,1,0,1,1,40,33,0,0,1
 99,House,DE,1,D,C000174,Carper,Thomas,Richard,NA,15015,1947,NA,-0.176,-0.222,0,0,2,2,0,92,92,100,100,0
 99,House,MI,6,D,C000178,Carr,Milton,Robert,Bob,14210,1943,NA,-0.254,-0.342,0,1,0,1,0,82,75,100,100,1
 99,House,FL,4,D,C000321,Chappell,William,Venroe,NA,12007,1922,1989,-0.098,0.916,0,2,2,4,1,64,58,67,50,1
@@ -797,12 +797,12 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,MO,6,R,C000618,Coleman,Earl,Thomas,NA,14410,1943,NA,0.262,-0.265,0,2,1,3,0,33,33,25,25,1
 99,House,IL,7,D,C000634,Collins,Cardiss,NA,NA,14068,1931,2013,-0.552,-0.218,1,0,1,1,1,100,100,100,100,0
 99,House,TX,19,R,C000653,Combest,Larry,Ed,NA,15093,1945,NA,0.458,0.555,0,1,1,2,0,0,0,0,0,1
-99,House,MA,1,R,C000709,Conte,Silvio,Ottavio,NA,2009,1921,1991,-0.023,-0.683,0,2,2,4,1,83,83,50,50,1
+99,House,MA,1,R,C000709,Conte,Silvio,Ottavio,NA,2009,1921,1991,-0.023,-0.683,0,2,2,4,1,82,75,50,50,1
 99,House,MI,1,D,C000714,Conyers,John,NA,NA,10713,1929,NA,-0.658,-0.512,0,0,2,2,1,80,67,100,75,0
 99,House,TN,4,D,C000754,Cooper,James,Hayes Shofner,NA,15019,1954,NA,-0.163,-0.031,0,1,2,3,0,67,67,75,75,1
 99,House,PA,13,R,C000807,Coughlin,Robert,Lawrence,NA,12010,1929,2001,0.204,-0.844,0,4,1,5,1,75,75,75,75,1
 99,House,IL,12,R,C000873,Crane,Philip,Miller,NA,12041,1930,2014,0.739,0.023,0,5,1,6,1,8,8,0,0,1
-99,House,MI,13,D,C000919,Crockett,George,William,NA,14681,1909,1997,-0.651,-0.414,0,1,2,3,1,92,92,100,100,1
+99,House,MI,13,D,C000919,Crockett,George,William,NA,14681,1909,1997,-0.651,-0.414,0,1,2,3,1,91,83,100,100,1
 99,House,VA,5,D,D000038,Daniel,Wilbur,Clarence,Dan,12011,1914,1988,0.161,0.775,0,0,1,1,1,36,33,0,0,0
 99,House,CA,39,R,D000044,Dannemeyer,William,Edwin,NA,14616,1929,NA,0.691,-0.24,0,2,1,3,1,0,0,0,0,1
 99,House,SD,1,D,D000064,Daschle,Thomas,Andrew,NA,14617,1947,NA,-0.303,0.114,0,2,1,3,0,91,83,100,100,1
@@ -817,21 +817,21 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,WA,6,D,D000327,Dicks,Norman,DeValois,NA,14413,1940,NA,-0.312,0.11,0,0,2,2,0,75,75,100,100,0
 99,House,MI,16,D,D000355,Dingell,John,David,NA,2605,1926,NA,-0.448,0.313,0,2,2,4,1,83,83,100,100,1
 99,House,NY,20,R,D000359,Dioguardi,Joseph,J.,NA,15095,1940,NA,0.218,-0.489,0,1,0,1,0,50,50,25,25,1
-99,House,CA,28,D,D000373,Dixon,Julian,Carey,NA,14620,1934,2000,-0.458,-0.076,0,0,1,1,1,100,92,100,100,0
+99,House,CA,28,D,D000373,Dixon,Julian,Carey,NA,14620,1934,2000,-0.458,-0.076,0,0,1,1,1,100,83,100,100,0
 99,House,ND,1,D,D000432,Dorgan,Byron,Leslie,NA,14812,1942,NA,-0.267,0.09,0,1,2,3,0,92,92,75,75,1
 99,House,CA,38,R,D000435,Dornan,Robert,Kenneth,NA,14414,1933,NA,0.49,-0.111,0,1,1,2,0,18,17,0,0,1
 99,House,MS,4,D,D000466,Dowdy,Charles,Wayne,NA,14874,1943,NA,-0.259,0.724,0,1,2,3,0,45,42,33,25,1
 99,House,TN,2,R,D000534,Duncan,John,James,NA,10719,1919,1988,0.194,0.21,0,1,2,3,1,33,33,0,0,1
 99,House,IL,20,D,D000563,Durbin,Richard,Joseph,NA,15021,1944,NA,-0.348,-0.307,0,2,1,3,0,83,83,75,75,1
 99,House,NJ,6,D,D000586,Dwyer,Bernard,James,NA,14815,1921,1998,-0.373,0.048,0,1,0,1,1,100,100,100,100,1
-99,House,CA,31,D,D000592,Dymally,Mervyn,Malcolm,NA,14816,1926,2012,-0.685,-0.039,0,0,1,1,1,83,83,100,100,0
+99,House,CA,31,D,D000592,Dymally,Mervyn,Malcolm,NA,14816,1926,2012,-0.685,-0.039,0,0,1,1,1,91,83,100,100,0
 99,House,MA,3,D,E000013,Early,Joseph,Daniel,NA,14216,1933,2012,-0.254,-0.409,0,4,4,8,1,73,67,0,0,1
 99,House,OH,11,D,E000031,Eckart,Dennis,Edward,NA,14818,1950,NA,-0.242,-0.258,0,0,1,1,0,83,83,100,100,0
 99,House,NY,30,R,E000033,Eckert,Fred,J.,NA,15097,1941,NA,0.409,0.201,0,1,0,1,0,17,17,0,0,1
 99,House,PA,7,D,E000043,Edgar,Robert,William,NA,14217,1943,2013,-0.334,-0.718,0,0,2,2,1,100,92,100,100,0
 99,House,CA,10,D,E000064,Edwards,William,Donlon,Don,10583,1915,2015,-0.599,-0.419,0,0,4,4,1,100,100,100,100,0
 99,House,OK,5,R,E000077,Edwards,Marvin,Henry,Mickey,14415,1937,NA,0.394,-0.05,0,2,1,3,0,0,0,0,0,1
-99,House,MO,8,R,E000174,Emerson,Norvell,William,Bill,14819,1938,1996,0.332,-0.125,0,4,0,4,1,25,25,0,0,1
+99,House,MO,8,R,E000174,Emerson,Norvell,William,Bill,14819,1938,1996,0.332,-0.125,0,4,0,4,1,27,25,0,0,1
 99,House,OK,6,D,E000184,English,Glenn,Lee,NA,14219,1940,NA,-0.027,0.603,0,0,2,2,0,8,8,0,0,0
 99,House,AL,6,D,E000201,Erdreich,Ben,NA,NA,15022,1938,NA,-0.06,0.372,0,1,1,2,0,83,83,100,100,1
 99,House,IA,3,R,E000259,Evans,Thomas,Cooper,NA,14820,1924,2005,0.247,-0.969,0,0,1,1,1,67,67,75,75,0
@@ -863,7 +863,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,OH,2,R,G000349,Gradison,Willis,David,NA,14225,1928,NA,0.233,-0.338,0,5,0,5,0,33,33,0,0,1
 99,NA,NA,NA,NA,G000365,Gramm,William,Philip,Phil,NA,NA,NA,NA,NA,0,0,2,2,0,NA,NA,NA,NA,0
 99,House,PA,2,D,G000402,Gray,William,Herbert,NA,14629,1941,2013,-0.511,-0.219,0,0,3,3,1,100,100,100,100,0
-99,House,NY,15,R,G000417,Green,Sedgwick,William,Bill,14471,1929,2002,-0.044,-0.733,0,1,2,3,1,83,83,100,100,1
+99,House,NY,15,R,G000417,Green,Sedgwick,William,Bill,14471,1929,2002,-0.044,-0.733,0,1,2,3,1,82,75,100,75,1
 99,House,NH,2,R,G000445,Gregg,Judd,Alan,NA,14826,1947,NA,0.429,-0.737,0,2,1,3,0,42,42,50,50,1
 99,House,IL,14,R,G000499,Grotberg,John,NA,NA,15102,1925,1986,0.416,-0.225,0,2,1,3,1,42,42,25,25,1
 99,House,TX,1,D,H000070,Hall,Sam,Blakeley,NA,14291,1924,1994,0.054,0.936,0,3,0,3,1,0,0,NA,NA,1
@@ -905,7 +905,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,WI,2,D,K000020,Kastenmeier,Robert,William,NA,5101,1924,2015,-0.514,-0.452,0,0,3,3,1,100,100,100,100,0
 99,House,NY,31,R,K000086,Kemp,Jack,French,NA,13020,1935,2009,0.3,-0.133,0,1,3,4,1,33,33,0,0,1
 99,House,CT,1,D,K000118,Kennelly,Barbara,Bailey,NA,14877,1936,NA,-0.346,-0.13,1,3,1,4,0,100,100,100,100,1
-99,House,MI,7,D,K000172,Kildee,Dale,Edward,NA,14430,1929,NA,-0.385,0.011,0,1,2,3,0,75,75,50,50,1
+99,House,MI,7,D,K000172,Kildee,Dale,Edward,NA,14430,1929,NA,-0.385,0.011,0,1,2,3,0,73,67,33,25,1
 99,House,OH,8,R,K000190,Kindness,Thomas,Norman,NA,14245,1929,2004,0.419,-0.051,0,1,3,4,1,17,17,25,25,1
 99,House,PA,4,D,K000307,Kolter,Joseph,Paul,NA,15031,1926,NA,-0.28,0.388,0,1,3,4,1,67,67,25,25,1
 99,House,NY,32,D,L000556,Lafalce,John,Joseph,NA,14248,1939,NA,-0.357,0.112,0,0,1,1,0,73,67,25,25,0
@@ -967,7 +967,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,NY,14,R,M000842,Molinari,Guy,Victor,NA,14846,1928,NA,0.255,-0.465,0,1,2,3,1,42,42,25,25,1
 99,House,WV,1,D,M000844,Mollohan,Alan,Bowlby,NA,15083,1943,NA,-0.292,0.657,0,1,4,5,0,50,50,25,25,1
 99,House,UT,2,R,M000860,Monson,David,Smith,NA,15111,1945,NA,0.588,-0.299,0,3,2,5,0,8,8,0,0,1
-99,House,WI,5,D,M000881,Moody,Jim,NA,NA,15044,1935,NA,-0.347,-0.566,0,1,1,2,1,100,100,100,100,1
+99,House,WI,5,D,M000881,Moody,Jim,NA,NA,15044,1935,NA,-0.347,-0.566,0,1,1,2,1,100,92,100,75,1
 99,House,LA,6,R,M000923,Moore,William,Henson,NA,14259,1939,NA,0.24,0.144,0,2,1,3,0,17,17,0,0,1
 99,House,CA,22,R,M000926,Moorhead,Carlos,John,NA,14040,1922,2011,0.465,-0.119,0,2,0,2,0,8,8,0,0,1
 99,House,WA,4,R,M000999,Morrison,Sidney,Wallace,NA,14847,1933,NA,0.153,-0.158,0,3,1,4,0,58,58,100,100,1
@@ -977,7 +977,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,IN,7,R,M001130,Myers,John,Thomas,NA,11036,1927,2015,0.236,0.254,0,2,0,2,1,42,42,25,25,1
 99,House,KY,2,D,N000009,Natcher,William,Huston,NA,6845,1909,1994,-0.288,0.575,0,2,0,2,1,58,58,25,25,1
 99,House,NC,5,D,N000016,Neal,Stephen,Lybrook,NA,14262,1934,NA,-0.145,0.112,0,0,1,1,0,75,75,100,100,0
-99,House,FL,11,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,50,50,25,25,1
+99,House,FL,11,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,50,42,25,25,1
 99,House,AL,3,D,N000095,Nichols,William,Flynt,NA,11037,1918,1988,-0.042,0.872,0,2,1,3,1,33,33,0,0,1
 99,House,UT,3,R,N000106,Nielson,Howard,Curtis,NA,15047,1924,NA,0.505,0.119,0,4,3,7,1,0,0,0,0,1
 99,House,NY,33,D,N000163,Nowak,Henry,James,NA,14264,1935,NA,-0.332,-0.123,0,1,1,2,0,83,83,50,50,1
@@ -1000,7 +1000,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,IL,21,D,P000522,Price,Charles,Melvin,NA,7610,1905,1988,-0.429,0.346,0,0,1,1,1,38,25,25,25,0
 99,House,MI,2,R,P000574,Pursell,Carl,Duane,NA,14446,1932,2009,0.12,-0.557,0,1,2,3,1,67,67,100,100,1
 99,House,WV,4,D,R000011,Rahall,Nick,Joe,NA,14448,1949,NA,-0.306,0.45,0,2,1,3,0,83,83,50,50,1
-99,House,NY,16,D,R000053,Rangel,Charles,B.,NA,13035,1930,NA,-0.514,-0.341,0,1,1,2,0,100,100,100,100,1
+99,House,NY,16,D,R000053,Rangel,Charles,B.,NA,13035,1930,NA,-0.514,-0.341,0,1,1,2,0,100,92,100,75,1
 99,House,GA,3,D,R000080,Ray,Richard,Belmont,NA,15053,1927,1999,0.035,0.56,0,2,1,3,1,42,42,50,50,1
 99,House,OH,16,R,R000141,Regula,Ralph,Straus,NA,14045,1924,NA,0.221,-0.223,0,1,2,3,1,50,50,25,25,1
 99,House,NV,1,D,R000146,Reid,Harry,NA,NA,15054,1939,NA,-0.276,0.258,0,1,4,5,0,50,50,0,0,1
@@ -1071,7 +1071,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 99,House,MO,7,R,T000075,Taylor,Gene,NA,NA,14057,1928,1998,0.328,0.442,0,1,2,3,1,17,17,0,0,1
 99,House,CA,20,R,T000188,Thomas,William,Marshall,NA,14669,1941,NA,0.371,-0.277,0,1,1,2,0,25,25,50,50,1
 99,House,CA,34,D,T000316,Torres,Esteban,Edward,NA,15070,1930,NA,-0.487,0.012,0,4,1,5,0,92,92,100,100,1
-99,House,NY,11,D,T000326,Towns,Edolphus,NA,NA,15072,1934,NA,-0.519,-0.132,0,1,1,2,0,100,100,100,100,1
+99,House,NY,11,D,T000326,Towns,Edolphus,NA,NA,15072,1934,NA,-0.519,-0.132,0,1,1,2,0,100,92,100,75,1
 99,House,OH,17,D,T000350,Traficant,James,A.,NA,15121,1941,2014,-0.082,0.071,0,2,0,2,1,92,92,100,100,1
 99,House,MI,8,D,T000356,Traxler,Jerome,Bob,NA,14075,1931,NA,-0.33,0.126,0,1,0,1,1,75,75,25,25,1
 99,NA,NA,NA,NA,T000367,Trible,Paul,Seward,NA,NA,NA,NA,NA,NA,0,1,1,2,0,NA,NA,NA,NA,1
@@ -1250,7 +1250,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 100,House,GA,2,D,H000340,Hatcher,Charles,Floyd,NA,14831,1939,NA,-0.202,0.722,0,1,1,2,0,50,50,100,100,1
 100,House,CA,29,D,H000367,Hawkins,Augustus,Freeman,Gus,10595,1907,2007,-0.517,-0.369,0,2,1,3,1,100,100,100,100,1
 100,House,LA,7,D,H000390,Hayes,James,Allison,NA,15418,1946,NA,-0.057,0.755,0,2,2,4,0,75,75,100,100,1
-100,House,IL,1,D,H000388,Hayes,Charles,Arthur,NA,15079,1918,1997,-0.656,-0.395,0,2,0,2,1,100,100,100,100,1
+100,House,IL,1,D,H000388,Hayes,Charles,Arthur,NA,15079,1918,1997,-0.656,-0.395,0,2,0,2,1,100,75,100,100,1
 100,House,CO,5,R,H000444,Hefley,Joel,M.,NA,15419,1935,NA,0.591,0.13,0,3,0,3,0,0,0,0,0,1
 100,House,NC,8,D,H000448,Hefner,Willie,Gathrel,Bill,14233,1930,2009,-0.264,0.609,0,2,0,2,1,100,100,100,100,1
 100,House,MI,5,R,H000514,Henry,Paul,B.,NA,15103,1942,1993,0.264,-0.773,0,2,1,3,1,75,75,0,0,1
@@ -1528,7 +1528,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,IL,19,D,B000971,Bruce,Terry,Lee,NA,15088,1944,NA,-0.268,-0.032,0,2,0,2,0,57,57,0,0,1
 101,House,MO,2,R,B001036,Buechner,John,William,Jack,15405,1940,NA,0.33,-0.561,0,1,1,2,1,14,14,0,0,1
 101,House,KY,4,R,B001066,Bunning,James,Paul David,NA,15406,1931,NA,0.521,-0.049,0,5,3,8,1,14,14,0,0,1
-101,House,IN,6,R,B001149,Burton,Danny,Lee,NA,15014,1938,NA,0.585,-0.026,0,2,1,3,0,14,14,0,0,1
+101,House,IN,6,R,B001149,Burton,Danny,Lee,NA,15014,1938,NA,0.585,-0.026,0,2,1,3,0,17,14,0,0,1
 101,House,MD,6,D,B001220,Byron,Beverly,Barton Butcher,NA,14608,1932,NA,-0.024,0.516,1,1,2,3,0,14,14,0,0,1
 101,House,AL,1,R,C000052,Callahan,Herbert,Leon,Sonny,15090,1932,NA,0.373,0.202,0,3,2,5,1,14,14,0,0,1
 101,House,CO,3,D,C000077,Campbell,Ben,Nighthorse,NA,15407,1933,NA,-0.141,0.07,0,1,1,2,0,71,71,100,100,1
@@ -1639,7 +1639,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,NJ,2,D,H000930,Hughes,William,John,NA,14238,1932,NA,-0.153,-0.204,0,3,1,4,1,86,86,100,100,1
 101,House,CA,45,R,H000981,Hunter,Duncan,Lee,NA,14835,1948,NA,0.47,0.02,0,0,2,2,0,14,14,0,0,0
 101,House,FL,1,D,H001018,Hutto,Earl,Dewitt,NA,14636,1926,NA,-0.007,0.732,0,2,0,2,1,14,14,0,0,1
-101,House,IL,6,R,H001022,Hyde,Henry,John,NA,14239,1924,2007,0.312,-0.18,0,1,3,4,1,29,29,0,0,1
+101,House,IL,6,R,H001022,Hyde,Henry,John,NA,14239,1924,2007,0.312,-0.18,0,1,3,4,1,33,29,0,0,1
 101,House,OK,1,R,I000024,Inhofe,James,Mountain,NA,15424,1934,NA,0.553,0.042,0,2,2,4,0,14,14,0,0,1
 101,House,FL,10,R,I000029,Ireland,Andrew,Poysell,Andy,14428,1930,NA,0.42,-0.312,0,3,4,7,0,14,14,0,0,1
 101,House,IN,10,D,J000033,Jacobs,Andrew,NA,NA,10742,1932,2013,-0.07,-0.846,0,0,2,2,1,71,71,67,67,0
@@ -1671,7 +1671,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,MI,17,D,L000263,Levin,Sander,Martin,NA,15033,1931,NA,-0.379,-0.091,0,2,2,4,0,100,100,100,100,1
 101,House,CA,27,D,L000264,Levine,Meldon,Edises,NA,15034,1943,NA,-0.436,-0.24,0,1,2,3,0,100,86,100,67,1
 101,House,FL,12,R,L000295,Lewis,Thomas,F.,NA,15035,1924,2003,0.387,-0.324,0,1,2,3,1,14,14,0,0,1
-101,House,CA,35,R,L000274,Lewis,Charles,Jeremy,Jerry,14644,1934,NA,0.348,-0.101,0,2,5,7,1,14,14,0,0,1
+101,House,CA,35,R,L000274,Lewis,Charles,Jeremy,Jerry,14644,1934,NA,0.348,-0.101,0,2,5,7,1,17,14,0,0,1
 101,House,GA,5,D,L000287,Lewis,John,R.,NA,15431,1940,NA,-0.589,-0.221,0,0,1,1,1,100,100,100,100,0
 101,House,IA,5,R,L000305,Lightfoot,James,Ross,NA,15106,1938,NA,0.391,-0.211,0,2,2,4,0,14,14,0,0,1
 101,House,IL,5,D,L000342,Lipinski,William,Oliver,NA,15036,1937,NA,-0.176,0.3,0,1,1,2,0,57,57,33,33,1
@@ -1680,7 +1680,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,NA,NA,NA,NA,L000447,Lott,Chester,Trent,NA,NA,NA,NA,NA,NA,0,0,2,2,0,NA,NA,NA,NA,0
 101,House,CA,41,R,L000479,Lowery,William,David,NA,14839,1947,NA,0.33,-0.254,0,2,1,3,0,14,14,0,0,1
 101,House,NY,20,D,L000480,Lowey,Nita,M.,NA,15612,1937,NA,-0.389,-0.152,1,2,1,3,0,100,100,100,100,1
-101,House,OH,1,D,L000508,Luken,Thomas,Andrew,NA,14070,1925,NA,-0.163,-0.077,0,5,3,8,1,43,43,0,0,1
+101,House,OH,1,D,L000508,Luken,Thomas,Andrew,NA,14070,1925,NA,-0.163,-0.077,0,5,3,8,1,33,29,0,0,1
 101,NA,NA,NA,NA,M000019,Mack,Connie,NA,NA,NA,NA,NA,NA,NA,0,0,1,1,0,NA,NA,NA,NA,0
 101,House,IL,15,R,M000041,Madigan,Edward,Rell,NA,14033,1936,1994,0.247,-0.396,0,3,0,3,1,17,14,0,0,1
 101,House,NY,9,D,M000117,Manton,Thomas,J.,NA,15107,1932,2006,-0.361,0.382,0,2,2,4,1,43,43,0,0,1
@@ -1725,7 +1725,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,KY,2,D,N000009,Natcher,William,Huston,NA,6845,1909,1994,-0.288,0.575,0,2,0,2,1,57,57,33,33,1
 101,House,MA,2,D,N000015,Neal,Richard,Edmund,NA,15616,1949,NA,-0.417,-0.111,0,1,3,4,0,83,71,67,67,1
 101,House,NC,5,D,N000016,Neal,Stephen,Lybrook,NA,14262,1934,NA,-0.145,0.112,0,0,1,1,0,71,71,100,100,0
-101,House,FL,11,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,86,86,67,67,1
+101,House,FL,11,D,N000032,Nelson,Clarence,William,Bill,14651,1942,NA,-0.193,0.337,0,1,1,2,0,100,71,100,67,1
 101,House,UT,3,R,N000106,Nielson,Howard,Curtis,NA,15047,1924,NA,0.505,0.119,0,4,3,7,1,14,14,0,0,1
 101,House,NY,33,D,N000163,Nowak,Henry,James,NA,14264,1935,NA,-0.332,-0.123,0,1,1,2,0,43,43,0,0,1
 101,House,MN,8,D,O000006,Oberstar,James,Louis,NA,14265,1934,2014,-0.553,0.304,0,4,2,6,1,43,43,0,0,1
@@ -1743,7 +1743,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,SC,4,D,P000112,Patterson,Elizabeth,J.,NA,15171,1939,NA,-0.055,0.229,0,1,2,3,1,57,57,100,100,1
 101,House,NY,31,R,P000148,Paxon,L.,William,NA,15618,1954,NA,0.472,-0.167,0,1,0,1,0,14,14,0,0,1
 101,House,VA,5,D,P000152,Payne,Lewis,Franklin,NA,15452,1945,NA,-0.148,0.418,0,3,1,4,0,57,57,100,100,1
-101,House,NJ,10,D,P000149,Payne,Donald,Milford,NA,15619,1934,2012,-0.592,-0.547,0,2,1,3,1,100,100,100,100,1
+101,House,NJ,10,D,P000149,Payne,Donald,Milford,NA,15619,1934,2012,-0.592,-0.547,0,2,1,3,1,100,86,100,67,1
 101,House,OH,13,D,P000170,Pease,Donald,James,NA,14445,1931,2002,-0.308,-0.329,0,1,0,1,1,100,100,100,100,1
 101,House,CA,5,D,P000197,Pelosi,Nancy,NA,NA,15448,1940,NA,-0.49,-0.206,1,4,1,5,0,100,100,100,100,1
 101,House,MN,1,D,P000215,Penny,Timothy,Joseph,NA,15052,1951,NA,-0.051,-0.502,0,2,2,4,0,29,29,33,33,1
@@ -1806,7 +1806,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,MO,4,D,S000465,Skelton,Isaac,Newton,Ike,14451,1931,2013,-0.172,0.724,0,1,2,3,1,29,29,0,0,1
 101,House,KS,2,D,S000477,Slattery,James,Charles,NA,15061,1948,NA,-0.099,-0.04,0,0,2,2,0,29,29,0,0,0
 101,House,VA,7,R,S000479,Slaughter,Daniel,French,NA,15115,1925,1998,0.38,-0.18,0,1,1,2,1,14,14,0,0,1
-101,House,NY,30,D,S000480,Slaughter,Louise,McIntosh,NA,15444,1929,2018,-0.465,-0.104,1,3,0,3,1,100,100,100,100,1
+101,House,NY,30,D,S000480,Slaughter,Louise,McIntosh,NA,15444,1929,2018,-0.465,-0.104,1,3,0,3,1,100,86,100,67,1
 101,House,OR,5,R,S000527,Smith,Dennis,Alan,Denny,14864,1938,NA,0.603,-0.182,0,2,2,4,0,25,14,0,0,1
 101,House,NH,1,R,S000606,Smith,Robert,C.,NA,15116,1941,NA,0.623,-0.468,0,1,2,3,0,14,14,0,0,1
 101,House,IA,4,D,S000596,Smith,Neal,Edward,NA,8672,1920,NA,-0.313,0.174,0,1,1,2,0,100,100,100,100,1
@@ -1850,7 +1850,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 101,House,NY,27,R,W000099,Walsh,James,T.,NA,15630,1947,NA,0.208,-0.19,0,1,2,3,0,43,43,33,33,1
 101,House,TX,18,D,W000177,Washington,Craig,Anthony,NA,29145,1941,NA,-0.766,-0.439,0,2,3,5,0,100,100,NA,NA,1
 101,House,OK,3,D,W000194,Watkins,Wesley,Wade,NA,14462,1938,NA,-0.126,0.741,0,2,1,3,0,67,57,67,67,1
-101,House,CA,24,D,W000215,Waxman,Henry,Arnold,NA,14280,1939,NA,-0.473,-0.343,0,1,1,2,0,100,100,100,100,1
+101,House,CA,24,D,W000215,Waxman,Henry,Arnold,NA,14280,1939,NA,-0.473,-0.343,0,1,1,2,0,100,86,100,100,1
 101,House,MN,2,R,W000237,Weber,John,Vincent,Vin,14868,1952,NA,0.381,-0.544,0,1,1,2,0,0,0,0,0,1
 101,House,NY,17,D,W000258,Weiss,Theodore,S.,NA,14463,1927,1992,-0.564,-0.71,0,0,2,2,1,100,100,100,100,0
 101,House,PA,7,R,W000268,Weldon,Wayne,Curtis,Curt,15447,1947,NA,0.232,-0.324,0,3,2,5,0,29,29,0,0,1

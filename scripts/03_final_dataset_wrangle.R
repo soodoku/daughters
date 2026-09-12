@@ -38,9 +38,9 @@ pre_102_votes <- aauw_bills %>%
   # join with votes
   left_join(votes, by = c("congress", "voteview_rollnumber" = "rollnumber")) %>%
   # recode votes
-  mutate(vote = ifelse(cast_code %in% c(1:3), 1, 
-                       ifelse(cast_code %in% c(4:6), -1, 
-                              ifelse(cast_code %in% c(7:9), 0, NA))),
+  mutate(vote = ifelse(cast_code %in% c(1, 3), 1,
+                       ifelse(cast_code %in% c(4, 6), -1,
+                              ifelse(cast_code %in% c(2, 5, 7:9), 0, NA))),
     aauw_score = ifelse(aauw_yes_or_no == "yes", vote, 
                        ifelse(aauw_yes_or_no == "no", vote * -1, NA)),
     aauw_score = ifelse(aauw_score == 1, "R",

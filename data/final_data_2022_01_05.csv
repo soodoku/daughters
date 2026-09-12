@@ -1488,7 +1488,7 @@ congress,chamber,state,district,party,id,last_name,first_name,middle_name,nick_n
 100,House,AK,1,R,Y000033,Young,Donald,Edwin,NA,14066,1933,NA,0.284,0.021,0,2,0,2,0,75,75,100,100,1
 100,House,FL,8,R,Y000031,Young,Charles,William,Bill,13047,1930,2013,0.325,-0.112,0,0,3,3,1,50,50,0,0,0
 101,House,NY,7,D,A000022,Ackerman,Gary,Leonard,NA,15000,1942,NA,-0.429,-0.165,0,1,2,3,0,100,86,100,100,1
-101,House,HI,2,D,A000069,Akaka,Daniel,Kahikina,NA,14400,1924,NA,-0.419,0.273,0,1,4,5,1,89,89,100,100,1
+101,House,HI,2,D,A000069,Akaka,Daniel,Kahikina,NA,14400,1924,NA,-0.419,0.273,0,1,4,5,1,100,100,100,100,1
 101,House,AR,1,D,A000103,Alexander,William,Vollie,Bill,12000,1934,NA,-0.41,0.819,0,1,1,2,0,83,71,100,100,1
 101,House,CA,32,D,A000189,Anderson,Glenn,Malcolm,NA,12001,1913,1994,-0.269,-0.052,0,0,2,2,1,100,100,100,100,0
 101,NA,NA,NA,NA,A000210,Andrews,Robert,Ernest,NA,NA,NA,NA,NA,NA,0,2,0,2,0,NA,NA,NA,NA,1

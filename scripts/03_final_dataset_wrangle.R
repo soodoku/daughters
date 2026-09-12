@@ -21,7 +21,7 @@ aauw_bills <- read_csv("data/aauw_votes_97-116.csv") %>%
 states <- data.frame(state.name, state.abb)
 
 # voteview info
-votes <- read_csv("data/HSall_votes.zip") %>% filter(congress > 96) # voteview records of individual votes
+votes <- read_csv("data/HSall_votes.zip") %>% filter(congress > 96, chamber == "House") # House roll calls
 
 member_info <- read_csv("data/voteview_congress_members.csv")
 

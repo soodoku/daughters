@@ -17,21 +17,14 @@ set.seed(1234567)
 
 # Load dat
 
-nominate_scores <- read_csv("data/voteview_congress_members.csv") %>%
-  filter(chamber == "House") %>%
-  select(id = bioguide_id, congress, nokken_poole_dim1) 
-
 # AAUW Scores have been divided by 100 for comparability. AAUW ranges from 0 to 1.
 # Nominate Scores have been reversed for comparability also, so **-1 = Conservative** and **1 = Liberal** and then rescaled to 0 to 1
 
 d <- read_csv("data/final_data_2022_01_05.csv") %>%
-  left_join(nominate_scores, by = c("id", "congress")) %>%
   mutate(aauw_all = aauw_all/100,
          aauw_women_all = aauw_women_all/100,
          nom_reverse = - nominate_dim1,
          nominate_dim1 = (nom_reverse - min(nom_reverse, na.rm = T))/(max(nom_reverse, na.rm = T) - min(nom_reverse, na.rm = T)),
-         nok_reverse = - nokken_poole_dim1,
-         nokken_poole_dim1 = (nok_reverse - min(nok_reverse, na.rm = T))/(max(nok_reverse, na.rm = T) - min(nok_reverse, na.rm = T)),
          prop_girls = ngirls/nchildren)
 
 ## SI 7
@@ -51,7 +44,6 @@ ggsave("figs/si_aauw_over_time.pdf")
 
 ## Correlation between AAUW & DW Nom
 
-cor(d$aauw_all, d$nokken_poole_dim1, use = "na.or.complete")
 cor(d$aauw_all, d$nominate_dim1, use = "na.or.complete")
 
 ## Pooled regression w/ Wild Cluster Bootstrap

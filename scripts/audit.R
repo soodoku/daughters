@@ -56,9 +56,7 @@ write_csv(
 
 scenarios <- list(
   historical = historical, join_removed = frozen,
-  current = left_join(datasets$current, voteview,
-    by = c("id", "congress"), relationship = "many-to-many"
-  )
+  current = datasets$current
 )
 results <- list()
 for (scenario in names(scenarios)) {

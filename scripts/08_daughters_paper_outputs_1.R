@@ -14,16 +14,10 @@ library(lme4)
 set.seed(1234567)
 
 # Load data
-nominate_scores <- read_csv("data/voteview_congress_members.csv") %>%
-  filter(chamber == "House") %>%
-  select(id = bioguide_id, congress, nokken_poole_dim1) 
-
 d <- read_csv("data/final_data_2022_01_05.csv") %>%
-  left_join(nominate_scores, by = c("id", "congress")) %>%
   mutate(aauw_all = aauw_all/100,
          aauw_women_all = aauw_women_all/100,
          nominate_dim1 = -nominate_dim1,
-         nokken_poole_dim1 = - nokken_poole_dim1,
          prop_girls = ngirls/nchildren)
 
 ### AAUW Voting (Changed the y to aauw_women_voting but same analysis as above)

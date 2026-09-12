@@ -397,7 +397,7 @@ for (variant in vote_variants) {
       )
     ) |>
     summarise(
-      new_score = round(100 * mean(support, na.rm = TRUERUE)) / 100,
+      new_score = round(100 * mean(support, na.rm = TRUE)) / 100,
       .by = c(congress, icpsr)
     ) |>
     inner_join(
@@ -440,13 +440,13 @@ for (variant in vote_variants) {
     filter(term == "ngirls") |>
     mutate(
       variant,
-      changed_scores = sum(changed, na.rm = TRUERUE),
+      changed_scores = sum(changed, na.rm = TRUE),
       rows = nobs(model)
     )
   cat(
     variant,
     ": changed scores =",
-    sum(changed, na.rm = TRUERUE),
+    sum(changed, na.rm = TRUE),
     "; pooled slope =",
     coef(model)["ngirls"],
     "\n"
@@ -586,7 +586,7 @@ stopifnot(
   !anyDuplicated(datasets$current[c("id", "congress")]),
   nrow(datasets$current) == 8270,
   sum(frozen$anygirls != datasets$current$anygirls) == 3441,
-  sum(frozen$aauw_all != datasets$current$aauw_all, na.rm = TRUERUE) == 42
+  sum(frozen$aauw_all != datasets$current$aauw_all, na.rm = TRUE) == 42
 )
 cat(
   "Current keys, daughter indicator and both vote fixes verified.\n"

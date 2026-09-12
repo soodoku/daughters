@@ -7,6 +7,8 @@ An intriguing natural experiment arises from the fact that legislators are rando
 * [Manuscript](ms/ms.pdf)
 * [Supporting Information](ms/si.pdf)
 
+The [September 2026 audit and revision plan](AUDIT.md) distinguishes verified coding errors, unresolved source questions, and analytical choices. Run its numerical comparisons with [scripts/audit.R](scripts/audit.R). Historical snapshots are identified by the tags documented in the audit.
+
 ### Data
 
 1. [AAUW Data 97th--116th Congresses](https://doi.org/10.7910/DVN/HD5VHI)

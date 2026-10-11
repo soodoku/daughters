@@ -13,6 +13,8 @@ An intriguing natural experiment arises from the fact that legislators are rando
 
 ### Data
 
+Archived replication data: [Harvard Dataverse](https://doi.org/10.7910/DVN/XVT1W2).
+
 1. [AAUW Data 97th--116th Congresses](https://doi.org/10.7910/DVN/HD5VHI)
 2. [Costa et al. (2019) Replication Archive](data/costa_et_al/)
 3. [Washington (2008) Replication Archive](data/washington)
